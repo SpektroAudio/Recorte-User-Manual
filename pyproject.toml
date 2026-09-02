@@ -1,0 +1,10 @@
+[project]
+name = "sa-editor-manual"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11.11"
+dependencies = [
+    "mkdocs-git-revision-date-plugin>=0.3.2",
+    "mkdocs-material[imaging]>=9.7.6",
+    "mkdocs-print-site-plugin>=2.8",
+]

@@ -1,0 +1,96 @@
+site_name: Recorte User Manual
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.keys
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.blocks.caption
+  - toc:
+      toc_depth: 3
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+          custom_icons:
+            - overrides/.icons
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+
+nav:
+  - Home: 'index.md'
+  - Usage:
+    - Files: 'files.md'
+    - Regions: 'regions.md'
+    - Effects: 'effects.md'
+    - Actions: 'actions.md'
+    - Action Palette: 'actionpalette.md'
+    - Audio Playback: 'audioplayback.md'
+    - MIDI: 'midi.md'
+  - Tools:
+    - About Tools: 'tools.md'
+    - Audio Recorder: 'tools/audiorecorder.md'
+    - Lua Scripting / Editor: 'tools/luaeditor.md'
+    - Sample Chain: 'tools/samplechain.md'
+    - Batch Editor: 'tools/batcheditor.md'
+  - User Interface: 'userinterface.md'
+  - Setup:
+    - How to Install: 'howtoinstall.md'
+    - File Locations: 'filelocations.md'
+    - Keyboard Shortcuts: 'shortcuts.md'
+    - Settings: 'settings.md'
+
+extra:
+  social:
+    - icon: fontawesome/brands/tiktok
+      link: https://tiktok.com/@spektroaudio
+      name: Spektro Audio on Twitter
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/spektroaudio
+      name: Spektro Audio on Instagram
+  analytics:
+    provider: google
+    property: G-348677531
+
+extra_css:
+  - assets/css/custom.css
+
+plugins:
+    - search
+    # - with-pdf
+    - git-revision-date
+    - print-site:
+        toc_title: 'Table of Contents'
+        toc_depth: 1
+        include_css: false
+        enumerate_headings: true
+        enumerate_figures: true
+        add_cover_page: true
+        # cover_page_template: "docs/assets/cover_page.tpl"

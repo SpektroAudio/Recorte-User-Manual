@@ -1,0 +1,4047 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Print Site - My Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-348677531"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-348677531",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-348677531",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+  
+        <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            remove_material_navigation();remove_mkdocs_theme_navigation();generate_toc();
+        })
+        </script>
+        </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#index" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="My Docs" class="md-header__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Print Site
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    My Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Usage
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Usage
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../files/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Files
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../regions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../effects/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Effects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../actions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Actions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../actionpallete/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Action Pallete
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../audioplayback/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Audio Playback
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../midi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MIDI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tools
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tools
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/audiorecorder/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Audio Recorder
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/luaeditor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lua Scripting / Editor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/samplechain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sample Chain
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/batcheditor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Batch Editor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../userinterface/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Interface
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Setup
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Setup
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../shortcuts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Keyboard Shortcuts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#index" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1 Home
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2 Usage
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2 Usage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Files
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 Effects
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#actionpallete" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5 Action Pallete
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#audioplayback" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.6 Audio Playback
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#midi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.7 MIDI
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3 Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3 Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 About Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools-audiorecorder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Audio Recorder
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools-luaeditor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Lua Scripting / Editor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools-samplechain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4 Sample Chain
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools-batcheditor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.5 Batch Editor
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#userinterface" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4 User Interface
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5 Setup
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5 Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#shortcuts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Keyboard Shortcuts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Settings
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<div id="print-site-page" class="print-site-enumerate-headings print-site-enumerate-figures">
+        <section id="print-site-cover-page">
+            
+<div>
+
+    
+        <h1>My Docs</h1>
+    
+
+</div>
+
+
+<table>
+
+    
+
+    
+
+    
+
+    
+
+</table>
+
+
+
+
+
+        </section>
+        
+        <section class="print-page">
+            <div id="print-page-toc" data-toc-depth="1">
+                <nav role='navigation' class='print-page-toc-nav'>
+                <h1 class='print-page-toc-title'>Table of Contents</h1>
+                </nav>
+            </div>
+        </section>
+        <section class="print-page" id="index" heading-number="1"><!-- --- -->
+<!-- # Workspace Diagram -->
+<!-- ``` mermaid -->
+<!-- graph LR -->
+<!--     classDef transparent fill:none,stroke:#666,stroke-width:1px,color:#333; -->
+<!--     subgraph Workspace -->
+<!--         direction LR -->
+<!--         subgraph f1["File 1"] -->
+<!--             direction LR -->
+<!--             subgraph fi["File Info"] -->
+<!--                 direction LR -->
+<!--                 i1["Export Settings"] -->
+<!--                 i2["Path (Folder)"] -->
+<!--                 i3["View Settings"] -->
+<!--                 i4["Undo History"] -->
+<!--                 i5["Status"] -->
+<!--             end -->
+<!--             subgraph Buffer -->
+<!--                 direction TD -->
+<!--                 b1["Samples"] -->
+<!--                 subgraph b4["Buffer Info"] -->
+<!--                     direction LR -->
+<!--                     info1["Sample Rate"] -->
+<!--                     info2["Bit Depth"] -->
+<!--                     info3["BPM"] -->
+<!--                     info4["Bars"] -->
+<!--                 end -->
+<!--                 subgraph Regions -->
+<!--                     direction LR -->
+<!--                     r1["Region 1"] -->
+<!--                     r2["Region 2"] -->
+<!--                     r3["Region 3"] -->
+<!--                     r4["..."] -->
+<!--                 end -->
+<!--                 b2["Global Effects"] -->
+<!--                 b3["Transients"] -->
+<!--             end -->
+<!--         end -->
+<!--         f2["File 2"] -->
+<!--         f3["File 3"] -->
+<!--     end -->
+<!--     class Workspace,f1,Buffer,Regions,fi,b4 transparent; -->
+<!-- ``` -->
+<!--                     info4["Bars"] -->
+<!--                 end -->
+<!--                 subgraph Regions -->
+<!--                     direction LR -->
+<!--                     r1["Region 1"] -->
+<!--                     r2["Region 2"] -->
+<!--                     r3["Region 3"] -->
+<!--                     r4["..."] -->
+<!--                 end -->
+<!--                 b2["Global Effects"] -->
+<!--                 b3["Transients"] -->
+<!--             end -->
+<!--         end -->
+<!--         f2["File 2"] -->
+<!--         f3["File 3"] -->
+<!--     end -->
+<!--     class Workspace,f1,Buffer,Regions,fi,b4 transparent; -->
+<!-- ``` -->
+<!---->
+<!--                     info4["Bars"] -->
+<!--                 end -->
+<!--                 subgraph Regions -->
+<!--                     direction LR -->
+<!--                     r1["Region 1"] -->
+<!--                     r2["Region 2"] -->
+<!--                     r3["Region 3"] -->
+<!--                     r4["..."] -->
+<!--                 end -->
+<!--                 b2["Global Effects"] -->
+<!--                 b3["Transients"] -->
+<!--             end -->
+<!--         end -->
+<!--         f2["File 2"] -->
+<!--         f3["File 3"] -->
+<!--     end -->
+<!--     class Workspace,f1,Buffer,Regions,fi,b4 transparent; -->
+<!-- ``` --></section>
+                    <section class='print-page md-section' id='section-2' heading-number='2'>
+                        <h1>Usage<a class='headerlink' href='#section-2' title='Permanent link'></a>
+                        </h1>
+                    <section class="print-page" id="files" heading-number="2.1"><h1 id="files-file">File</h1>
+<hr />
+<h2 id="files-supported-formats-import-export">Supported Formats (Import / Export)</h2>
+<p>SA_EDITOR currently supports the following formats:</p>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>Import</th>
+<th>Export</th>
+<th>Limitations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>WAV</td>
+<td>✓</td>
+<td>✓</td>
+<td>16 or 24 bits</td>
+</tr>
+<tr>
+<td>AIFF</td>
+<td>✓</td>
+<td>✓</td>
+<td>16 or 24 bits</td>
+</tr>
+<tr>
+<td>FLAC</td>
+<td>✓</td>
+<td>x</td>
+<td>-</td>
+</tr>
+<tr>
+<td>MP3</td>
+<td>✓</td>
+<td>x</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="files-file-structure">File Structure</h2>
+<p>Each files open in SA_EDITOR includes information such as:</p>
+<ul>
+<li>
+<p><strong>File Name</strong></p>
+</li>
+<li>
+<p><strong>Audio Buffer</strong></p>
+<ul>
+<li>
+<p>Samples <em>(Multi-channel audio samples)</em></p>
+</li>
+<li>
+<p>Info <em>(Sample rate, bit-depth, bpm, number of bars)</em></p>
+</li>
+<li>
+<p><a href="#regions">Regions</a></p>
+</li>
+<li>
+<p><a href="#effects">Effects</a></p>
+</li>
+<li>
+<p>Transients</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Path</strong></p>
+</li>
+<li>
+<p><strong>Export Settings</strong></p>
+</li>
+<li>
+<p><strong>Undo History</strong></p>
+</li>
+</ul>
+<hr />
+<h2 id="files-export-settings">Export Settings</h2>
+<p>The export settings of each file define the file format (WAV / AIF), sample rate, bit-depth, and filename suffix combinations that will be used when exporting the file and it's regions.</p>
+<p>When opening an existing file, SA_EDITOR automatically includes an export setting that matches the source file.</p>
+<hr />
+<h2 id="files-workspace">Workspace</h2>
+<p>The Workspace in SA_EDITOR is defined by the group of currently open files.</p>
+<p>The contents of the current workspace can be saved and recalled via the <code>Save Workspace</code> and <code>Load Workspace</code> actions.</p></section><section class="print-page" id="regions" heading-number="2.2"><h1 id="regions-regions">Regions</h1>
+<hr />
+<p>Regions are sections of a file that can be processed and exported independently, and defined by a name, start / end sample positions, and a list of (local) effects.</p>
+<p>Local effects are applied only to the specific region they belong to and do not affect other regions or the global project settings. Each region can be processed with its own set of parameters, allowing for targeted audio manipulation within the file.</p>
+<h2 id="regions-creating-regions">Creating Regions</h2>
+<p>Regions can be created in different ways:</p>
+<ul>
+<li>
+<p><strong>Mouse Selection</strong>: Click and drag on the file waveform to create a selection, then click on the selection to create a new region.</p>
+</li>
+<li>
+<p><strong><code>Detect Regions</code></strong>: Automatically identifies regions based on audio gain levels.</p>
+</li>
+<li>
+<p><strong><code>Detect Transients</code> + <code>Create Regions from Transients</code></strong>: Identifies transients within the file and generates regions between them.</p>
+</li>
+<li>
+<p><strong><code>Slice</code></strong>: Divides the file into a specified number of regions of equal length.</p>
+</li>
+<li>
+<p><strong><code>Lua Scripting</code></strong>: Enables the creation of regions via custom scripts using the integrated Lua Editor.</p>
+</li>
+</ul>
+<h2 id="regions-editing-regions">Editing Regions</h2>
+<p>The start and end points of a region can be adjusted by clicking and dragging on either end of the region in the waveform or via the start and end numbers in the Regions list.</p>
+<p>Regions can also be resized using the <em>Resize Region</em> function, which lets you adjust the region length based on samples, bars, beats, time (ms), size (kB) or factor.</p>
+<h2 id="regions-renaming-regions">Renaming Regions</h2>
+<p>Regions can be renamed individually by clicking on the region name in the Region list or in batch using the <em>Rename Region</em> function (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M112,40a8,8,0,0,0-8,8V64H24A16,16,0,0,0,8,80v96a16,16,0,0,0,16,16h80v16a8,8,0,0,0,16,0V48A8,8,0,0,0,112,40ZM24,176V80h80v96ZM248,80v96a16,16,0,0,1-16,16H144a8,8,0,0,1,0-16h88V80H144a8,8,0,0,1,0-16h88A16,16,0,0,1,248,80ZM88,112a8,8,0,0,1-8,8H72v24a8,8,0,0,1-16,0V120H48a8,8,0,0,1,0-16H80A8,8,0,0,1,88,112Z"/></svg></span>).</p>
+<p>The <em>Rename Region</em> feature lets you rename all regions in a file based on a naming template and any of the different variables available (such as the region number, length, sample count, sample rate, etc).</p>
+<p>Variables used in the Name Template are automatically converted to their appropriate values during renaming.</p>
+<h3 id="regions-renaming-variables">Renaming Variables</h3>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>{name}</code></td>
+<td>File Name</td>
+</tr>
+<tr>
+<td><code>{region}</code></td>
+<td>Current Region Name</td>
+</tr>
+<tr>
+<td><code>{#}</code></td>
+<td>Region Number</td>
+</tr>
+<tr>
+<td><code>##</code></td>
+<td>Region Number (01..)</td>
+</tr>
+<tr>
+<td><code>###</code></td>
+<td>Region Number (001..)</td>
+</tr>
+<tr>
+<td><code>####</code></td>
+<td>Region Number (0001..)</td>
+</tr>
+<tr>
+<td><code>{samples}</code></td>
+<td>Region Sample Count</td>
+</tr>
+<tr>
+<td><code>{len}</code></td>
+<td>Region Length (ms)</td>
+</tr>
+<tr>
+<td><code>{pitch}</code></td>
+<td>Region Pitch (Detected)</td>
+</tr>
+<tr>
+<td><code>{freq}</code></td>
+<td>File BPM (Detected)</td>
+</tr>
+<tr>
+<td><code>{sr}</code></td>
+<td>Sample Rate</td>
+</tr>
+<tr>
+<td><code>{bit}</code></td>
+<td>Bit Depth</td>
+</tr>
+<tr>
+<td><code>{ch}</code></td>
+<td>Channels Count</td>
+</tr>
+</tbody>
+</table>
+<h2 id="regions-sorting-regions">Sorting Regions</h2>
+<p>Sort regions by name, length, start, or end point using the Sort button (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,128a8,8,0,0,1-8,8H48a8,8,0,0,1,0-16h72A8,8,0,0,1,128,128ZM48,72H184a8,8,0,0,0,0-16H48a8,8,0,0,0,0,16Zm56,112H48a8,8,0,0,0,0,16h56a8,8,0,0,0,0-16Zm125.66-21.66a8,8,0,0,0-11.32,0L192,188.69V112a8,8,0,0,0-16,0v76.69l-26.34-26.35a8,8,0,0,0-11.32,11.32l40,40a8,8,0,0,0,11.32,0l40-40A8,8,0,0,0,229.66,162.34Z"/></svg></span>) in the Region list header.</p>
+<h2 id="regions-exporting-regions">Exporting Regions</h2>
+<p>Regions can be exported as new files within SA_EDITOR or as audio files to your computer.</p>
+<p>To export an individual region, click on the Export icon (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,112v96a16,16,0,0,1-16,16H56a16,16,0,0,1-16-16V112A16,16,0,0,1,56,96H80a8,8,0,0,1,0,16H56v96H200V112H176a8,8,0,0,1,0-16h24A16,16,0,0,1,216,112ZM93.66,69.66,120,43.31V136a8,8,0,0,0,16,0V43.31l26.34,26.35a8,8,0,0,0,11.32-11.32l-40-40a8,8,0,0,0-11.32,0l-40,40A8,8,0,0,0,93.66,69.66Z"/></svg></span>) in the region and select one of the option available.</p>
+<p>To export all regions in a file as new files, use the <code>New Files from Regions</code> function available in the File sub-menu.</p>
+<p>To export all regions in a file as audio files, use the <code>Export All Regions</code> available in the Export button or in File / Export sub-menu.</p>
+<h3 id="regions-removing-regions">Removing Regions</h3>
+<p>To remove selected regions, click on the list icon (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"/></svg></span>) on the region's header and select the <code>Remove Region</code> option.</p>
+<p>To remove selected or all regions, click on the Trash icon in the Regions list to open the drop-down menu and select one of the available options.</p>
+<hr />
+<p>Regions can be exported as new files within SA_EDITOR or as audio files to your computer.</p></section><section class="print-page" id="effects" heading-number="2.3"><h1 id="effects-effects">Effects</h1>
+<hr />
+<p>SA_EDITOR features 30+ audio effects which can be applied to the entire file, all regions, specific regions, or the waveform selection destructively (via the <code>Apply</code> actions) or non-desctructively (via the <a href="#userinterface-effect-chain">Effect Chain panel in the Editor</a>).</p>
+<hr />
+<h2 id="effects-effect-chains">Effect Chains</h2>
+<p>The effect chains in SA_EDITOR lets the user add effects to the active file non-destructively via a serial (sequential) chain of effects, which are used when playing or creating files and regions (as new <a href="#files">files</a> in SA_EDITOR or exported audio files).</p>
+<p>Effects can be added to the list (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"/></svg></span>) button, reordered by dragging and dropping on the effect title, disabled (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"/></svg></span>), or removed (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/></svg></span>).</p>
+<p>Each <a href="#files">file</a> contains two effect chain types:</p>
+<ol>
+<li><strong>Global</strong>: A single global chain in the file that gets applied to the file (including all regions).</li>
+<li><strong>Region</strong>: List of effects that can be added to each region (individual chain per region).</li>
+</ol>
+<h3 id="effects-applying-effect-chains">Applying Effect Chains</h3>
+<p>Effect chains can also be applied destructively to the file or regions via the <code>Apply Effects to Selected Regions</code> <a href="#actions">action</a>.</p>
+<h3 id="effects-effect-chain-presets">Effect Chain Presets</h3>
+<p>Effect chains can be saved and loaded as presets by clicking on the list (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"/></svg></span>) icon in the Effect's section header.</p>
+<p>It's also possible to replace the default effects by overwriting the <code>default.json</code> preset file or by selecting the <em>Save as Default</em> option.</p>
+<p>Presets are stored as JSON files and can be used in any file.</p>
+<hr />
+<h2 id="effects-available-effects">Available Effects</h2>
+<h3 id="effects-gain">Gain</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Parameters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Gain</strong></td>
+<td>Applies a linear gain multiplier to the audio signal.</td>
+<td><code>Gain</code> — Multiplier in x (0–10)</td>
+</tr>
+<tr>
+<td><strong>Drive</strong></td>
+<td>Adds saturation/distortion using a tanh curve for warm overdrive.</td>
+<td><code>Gain</code> — Drive intensity in x (0–10)</td>
+</tr>
+<tr>
+<td><strong>Normalize</strong></td>
+<td>Scales the signal so its peak reaches a target maximum level.</td>
+<td><code>Ceiling</code> — Target peak level in dB (-24 to 0)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="effects-fade">Fade</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Parameters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Fade In</strong></td>
+<td>Gradually increases volume from silence at the start of the selection.</td>
+<td><code>Duration</code> — Fade length (ms, samples, or %)</td>
+</tr>
+<tr>
+<td><strong>Fade Out</strong></td>
+<td>Gradually decreases volume to silence at the end of the selection.</td>
+<td><code>Duration</code> — Fade length (ms, samples, or %)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="effects-filter">Filter</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Parameters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>DC Filter</strong></td>
+<td>Removes DC offset using a high-pass filter.</td>
+<td><code>Frequency</code> — Cutoff frequency in Hz (5–30)</td>
+</tr>
+<tr>
+<td><strong>DJ EQ</strong></td>
+<td>Three-band equalizer with low shelf, mid bell, and high shelf.</td>
+<td><code>Low Gain</code>, <code>Mid Gain</code>, <code>High Gain</code> — Boost/cut per band in dB (-12 to 12)</td>
+</tr>
+<tr>
+<td><strong>Tone EQ</strong></td>
+<td>Pultec-style tilt EQ that boosts/cuts bass and treble symmetrically around a center frequency.</td>
+<td><code>Tone</code> — Tilt amount (-1.0 = bass boost, 1.0 = treble boost)<br><code>Center</code> — Pivot frequency in Hz (200–10 k)</td>
+</tr>
+<tr>
+<td><strong>Spectral Gate</strong></td>
+<td>Attenuates spectral bins below a threshold using FFT-based processing.</td>
+<td><code>Threshold</code> — Fraction of frame peak (0–1)<br><code>Depth</code> — Attenuation amount (0 = none, 1 = full mute)<br><code>Fft Size</code> — FFT window size (512, 1024, 2048, 4096)<br><code>Sliding Window</code> — Enable streaming mode</td>
+</tr>
+</tbody>
+</table>
+<h3 id="effects-resample">Resample</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Parameters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Resample</strong></td>
+<td>Changes the sample rate using sinc interpolation (Blackman-Harris window).</td>
+<td><code>Sample Rate</code> — Destination rate in Hz (100–192 k)<br><code>Keep size</code> — If true, resamples then stretches back to original length</td>
+</tr>
+</tbody>
+</table>
+<h3 id="effects-channels">Channels</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Parameters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>To Mono (from Left)</strong></td>
+<td>Converts stereo to mono using only the left channel.</td>
+<td><code>Dual Mono</code> — If true, copies left to right and keeps both channels</td>
+</tr>
+<tr>
+<td><strong>To Mono (from Right)</strong></td>
+<td>Converts stereo to mono using only the right channel.</td>
+<td><code>Dual Mono</code> — If true, copies right to left and keeps both channels</td>
+</tr>
+<tr>
+<td><strong>To Mono (Mixed)</strong></td>
+<td>Mixes both channels together by averaging them.</td>
+<td><code>Dual Mono</code> — If true, keeps both channels after mixing</td>
+</tr>
+<tr>
+<td><strong>Mono to Stereo</strong></td>
+<td>Duplicates the mono channel to create a stereo signal.</td>
+<td><em>(none)</em></td>
+</tr>
+</tbody>
+</table>
+<h3 id="effects-pitch-speed">Pitch / Speed</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Parameters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Pitch Shift</strong></td>
+<td>Changes pitch without affecting duration using FFT-based processing.</td>
+<td><code>Amount</code> — Pitch shift in semitones (-64 to 64)<br><code>Window Size</code> — FFT window size (10–100)</td>
+</tr>
+<tr>
+<td><strong>Rate</strong></td>
+<td>Changes playback speed; optionally preserves pitch with anti-aliasing resampling.</td>
+<td><code>Rate</code> — Playback speed in % (6.25–1600)<br><code>Semitones</code> — Pitch offset in semitones (-48 to 48)<br><code>Anti Aliasing</code> — If true, uses sinc resampling to preserve pitch</td>
+</tr>
+<tr>
+<td><strong>Stretch to BPM</strong></td>
+<td>Resamples the audio so it fits a target tempo over a given number of bars.</td>
+<td><code>BPM</code> — Target tempo (20–300)<br><code>Bars</code> — Number of bars to fill (1–32)</td>
+</tr>
+<tr>
+<td><strong>Integer Speed Up</strong></td>
+<td>Speeds up playback by skipping samples (integer factor, pitch changes).</td>
+<td><code>factor</code> — Speed multiplier (integer &gt; 0)</td>
+</tr>
+<tr>
+<td><strong>Integer Stretch</strong></td>
+<td>Stretches audio by duplicating samples (integer factor, pitch changes).</td>
+<td><code>factor</code> — Stretch multiplier (integer &gt; 0)</td>
+</tr>
+<tr>
+<td><strong>Time Stretch</strong></td>
+<td>Granular time-stretching using a custom phase-vocoder algorithm.</td>
+<td><code>grain_size</code> — Grain size (0–10)<br><code>factor</code> — Time-stretch ratio (0–10, logarithmic)<br><code>Resample</code> — If true, compensates pitch changes via resampling<br><code>c</code> — Grain overlap coefficient (0–1)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="effects-extra">Extra</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Parameters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Reverse</strong></td>
+<td>Reverses the audio waveform.</td>
+<td><code>value</code> — If true, reverses the buffer</td>
+</tr>
+<tr>
+<td><strong>Repeat</strong></td>
+<td>Repeats the entire selection N times.</td>
+<td>Slider value (1–10) — Number of repetitions</td>
+</tr>
+<tr>
+<td><strong>Cluster</strong></td>
+<td>Creates randomized echoes/delays and mixes them back into the signal.</td>
+<td><code>Max Repeats</code> — Number of echo repeats (2–50)<br><code>Max Delay</code> — Maximum delay in ms (0–1000)<br><code>Mix</code> — Wet/dry mix in % (0–100)</td>
+</tr>
+<tr>
+<td><strong>Granular</strong></td>
+<td>Applies a granular effect by scanning through the audio with a modulated window.</td>
+<td><code>Window Size (ms)</code> — Grain size in ms (1–128)<br><code>Frequency</code> — Scan rate in Hz (1–100)<br><code>Factor</code> — Playback speed factor (0.01–10, logarithmic)<br><code>Window Shape</code> — Window type (None, Hanning, Blackman, Tukey, Tukey Wide)</td>
+</tr>
+<tr>
+<td><strong>Pad</strong></td>
+<td>Adds silence to the beginning and/or end of the buffer.</td>
+<td><code>Start</code> — Silence added at the beginning (ms, samples, or %)<br><code>End</code> — Silence added at the end (ms, samples, or %)</td>
+</tr>
+<tr>
+<td><strong>Transient Shaper</strong></td>
+<td>Enhances or reduces transients (attack) and sustain (release).</td>
+<td><code>Attack</code> — Transient control (-1 to 1)<br><code>Release</code> — Sustain control (-1 to 1)</td>
+</tr>
+<tr>
+<td><strong>Frequency Shifter</strong></td>
+<td>Shifts all frequency components by a fixed amount (changes pitch).</td>
+<td><code>Frequency</code> — Shift amount in Hz (-1000 to 1000)<br><code>Mix</code> — Dry/wet mix (0–1)</td>
+</tr>
+<tr>
+<td><strong>Comb Filter</strong></td>
+<td>Creates resonant peaks or notches using a delay line (phaser / flanger effect).</td>
+<td><code>Delay Time</code> — Delay in ms (0.1–20)<br><code>Gain</code> — Feedback gain (-0.99 to 0.99)<br><code>Mix</code> — Dry/wet mix (0–1)<br><code>mode</code> — Feed Frwd (notches) or Feedback (peaks)</td>
+</tr>
+<tr>
+<td><strong>Time Stretcher</strong></td>
+<td>Advanced grain-based time-stretching with formant preservation and stereo spread.</td>
+<td><code>mode</code> — BPM (<code>From BPM</code>, <code>To BPM</code>) or Ratio (<code>Multiplier</code>)<br><code>Grain Size</code> — Grain size in ms (10–200)<br><code>Overlap</code> — Grain overlap in % (0–100)<br><code>Window Type</code> — Window function (Hanning, Hamming, Blackman, Bartlett, Welch, Rectangular)<br><code>Formant</code> — If true, preserves vocal formants<br><code>Reverse</code> — If true, reverses every 4th grain<br><code>Grain Spread</code> — Stereo spread in ms (0–100)</td>
+</tr>
+</tbody>
+</table></section><section class="print-page" id="actions" heading-number="2.4"><h1 id="actions-actions">Actions</h1>
+<hr />
+<h2 id="actions-about">About</h2>
+<p>Many of SA_EDITOR's features can be controlled via actions, which can be triggered via <a href="#shortcuts">keyboard shortcuts</a> or the <a href="#actionpallete">Action Pallete</a>.</p>
+<hr />
+<h2 id="actions-file">File</h2>
+<h3 id="actions-auto-trim-file">Auto Trim File</h3>
+<p>Shrinks the file by detecting regions and trimming to the first region found.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Threshold</td>
+<td>Threshold in dB</td>
+</tr>
+</tbody>
+</table>
+<h3 id="actions-close-active-file">Close Active File</h3>
+<p>Close the actile file in the workspace.</p>
+<h3 id="actions-close-all-files">Close All Files</h3>
+<p>Close all files in the workspace.</p>
+<h3 id="actions-duplicate-file">Duplicate File</h3>
+<p>Duplicate the active file.</p>
+<h3 id="actions-new-file-from-selection">New File From Selection</h3>
+<p>Create a new file from the current selection in the active file . </p>
+<h3 id="actions-new-files-from-all-regions">New Files From All Regions</h3>
+<p>Create new files from each region available in the active file.</p>
+<h3 id="actions-slice-file">Slice File</h3>
+<p>Split the file into equal slices / Regions.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Slices</td>
+<td>Number of slices / regions</td>
+</tr>
+</tbody>
+</table>
+<h3 id="actions-trim-file-to-selected-regions">Trim File to Selected Regions</h3>
+<p>Trims the active file based on the selected regions' start and end.</p>
+<hr />
+<h2 id="actions-playback">Playback</h2>
+<h3 id="actions-play">Play</h3>
+<p>Start playback with custom settings.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>settings</td>
+<td>PlaySettings (playback configuration)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="actions-play-midi">Play MIDI</h3>
+<p>Starts playback using MIDI.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Note</td>
+<td>Note number / pitch (0-127)</td>
+</tr>
+<tr>
+<td>Velocity</td>
+<td>Note velocity (0-127)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="actions-stop-playback">Stop Playback</h3>
+<p>Immediatly stop any ongoing playback.</p>
+<h3 id="actions-toggle-playback-loop">Toggle Playback Loop</h3>
+<p>Enable or disable loop playback.</p>
+<hr />
+<h2 id="actions-editing">Editing</h2>
+<h3 id="actions-cut-selection">Cut Selection</h3>
+<p>Cut the current selection from the active file and store it in the clipboard.</p>
+<h3 id="actions-copy-selection">Copy Selection</h3>
+<p>Copy the current selection from the active file and store it in the clipboard.</p>
+<h3 id="actions-paste">Paste</h3>
+<p>Paste the content of the clipboard into the active file based on a specified position and mode.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Position</td>
+<td><code>Prepend</code>: Paste to the beggining of the file. <br> <code>Append</code>: Paste to the end of the file. <br><code>Position</code>: Paste at a specific position (%).</td>
+</tr>
+<tr>
+<td>Mode</td>
+<td><code>Insert</code>: Inserts the new clipboard content at position.<br><code>Replace</code>: Replace existing audio with the clipboard content. <br> <code>Mix</code>: Mixes existing audio with clipboard content. <br> <code>Add</code>: Overlay existing audio with clipboard content.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="actions-region-actions">Region Actions</h2>
+<h3 id="actions-auto-trim-selected-regions">Auto Trim Selected Regions</h3>
+<p>Shrinks the selected regions' start and end based on the audio loudness.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Threshold</td>
+<td>Threshold in dB</td>
+</tr>
+</tbody>
+</table>
+<h3 id="actions-auto-trim-all-regions">Auto Trim All Regions</h3>
+<p>Shrinks all regions' start and end based on the audio loudness.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Threshold</td>
+<td>Threshold in dB</td>
+</tr>
+</tbody>
+</table>
+<h3 id="actions-zero-cross-selected-region">Zero-Cross Selected Region</h3>
+<p>Snap selected region to nearest zero-crossing point.</p>
+<h3 id="actions-zero-cross-transients">Zero-Cross Transients</h3>
+<p>Snap all transients to nearest zero-crossing points.</p>
+<h3 id="actions-create-region-from-selection">Create Region From Selection</h3>
+<p>Create a new region from the current selection.</p>
+<h3 id="actions-create-region-from-transients">Create Region From Transients</h3>
+<p>Create regions at each detected transient.</p>
+<h3 id="actions-remove-selected-region">Remove Selected Region</h3>
+<p>Delete the currently selected region.</p>
+<h3 id="actions-duplicate-selected-region">Duplicate Selected Region</h3>
+<p>Make a copy of the selected region.</p>
+<h3 id="actions-extend-all-selected-region-start">Extend (All / Selected) Region Start</h3>
+<p>Extend the start of a all / selcted regions backwards until the previous region or transient.</p>
+<h3 id="actions-extend-all-selected-region-end">Extend (All / Selected) Region End</h3>
+<p>Extend the end of a all / selcted regions forwards until the next region or transient.</p>
+<h3 id="actions-join-all-regions">Join All Regions</h3>
+<p>Consolidates the audio from all regions in the active file to a new file.
+It's also possible to add some separation and crossfading between regions.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Separation</td>
+<td>Gap between segments in ms</td>
+</tr>
+<tr>
+<td>Crossfade</td>
+<td>Crossfade duration in ms</td>
+</tr>
+</tbody>
+</table>
+<h3 id="actions-join-selected-regions">Join Selected Regions</h3>
+<p>Consolidates the audio from the selected regions in the active file to a new file.
+It's also possible to add some separation and crossfading between regions.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Separation</td>
+<td>Gap between segments in ms</td>
+</tr>
+<tr>
+<td>Crossfade</td>
+<td>Crossfade duration in ms</td>
+</tr>
+</tbody>
+</table>
+<h3 id="actions-slice-selected-region">Slice Selected Region</h3>
+<p>Split the selected region into equal regions.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Slices</td>
+<td>Number of slices / Regions</td>
+</tr>
+</tbody>
+</table>
+<h3 id="actions-resize-region">Resize Region</h3>
+<p>Open dialog to resize the current region.</p>
+<h3 id="actions-resize-region-by">Resize Region By</h3>
+<p>Resize region by a specific size preset.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>size</td>
+<td>RegionSize (preset size option)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="actions-sort-regions">Sort Regions</h3>
+<p>Sort all regions in the active file based on Name, Position, Start, End, or Length.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sorting Mode</td>
+<td><code>Name</code><br><code>Position</code><br><code>Start</code><br><code>End</code><br><code>Length</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="actions-move-selected-regions">Move Selected Regions</h3>
+<p>Shift selected regions by a time period.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Period</td>
+<td>Samples / Time (ms) / Percentage</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="actions-export">Export</h2>
+<h3 id="actions-export-file">Export File</h3>
+<p>Export the active file to it's path (overwrite if already exists).</p>
+<h3 id="actions-export-all-regions">Export All Regions</h3>
+<p>Export all regions in the active file as separate audio files to the file path using the Export settings. </p>
+<h3 id="actions-export-selected-regions">Export Selected Regions</h3>
+<p>Export the selected regions in the active file as separate audio files to the file path using the Export settings. </p>
+<h3 id="actions-export-all-files">Export All Files</h3>
+<p>Export all files in the workspace.</p>
+<hr />
+<h2 id="actions-transients-detection">Transients &amp; Detection</h2>
+<h3 id="actions-clear-transients">Clear Transients</h3>
+<p>Remove all detected transients.</p>
+<h3 id="actions-detect-transients">Detect Transients</h3>
+<p>Analyze and mark transients in the current file.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Threshold</td>
+<td>Detection Threshold</td>
+</tr>
+</tbody>
+</table>
+<h3 id="actions-detect-pitch-for-all-regions">Detect Pitch for All Regions</h3>
+<p>Run pitch detection on every region.</p>
+<hr />
+<h2 id="actions-recording">Recording</h2>
+<h3 id="actions-start-recording">Start Recording</h3>
+<p>Begin audio recording using the settings defined in the <a href="#tools-audiorecorder">Audio Recorder</a>.</p>
+<h3 id="actions-stop-recording">Stop Recording</h3>
+<p>Stop the active recording and create new a file in the workspace from the recording.</p>
+<h3 id="actions-set-recording-length">Set Recording Length</h3>
+<p>Configure the recording duration in seconds</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Seconds</td>
+<td>Length in seconds</td>
+</tr>
+</tbody>
+</table>
+<h3 id="actions-load-audio-recorder-preset">Load Audio Recorder Preset</h3>
+<p>Load a saved recorder configuration.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Preset</td>
+<td>Preset file path (.json)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="actions-save-audio-recorder-preset">Save Audio Recorder Preset</h3>
+<p>Exports the current recorder settings as a JSON file.</p>
+<hr />
+<h2 id="actions-effects-processing">Effects &amp; Processing</h2>
+<h3 id="actions-process">Process</h3>
+<p>Apply an audio effect to the buffer</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Apply To</td>
+<td>File / All Regions / Selected Regions / Selection</td>
+</tr>
+<tr>
+<td>Effect</td>
+<td>Effect to Apply</td>
+</tr>
+</tbody>
+</table>
+<h3 id="actions-load-effect-preset">Load Effect Preset</h3>
+<p>Load a saved effect preset</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>preset</td>
+<td>preset file path</td>
+</tr>
+</tbody>
+</table>
+<h3 id="actions-copy-effect-chain">Copy Effect Chain</h3>
+<p>Copy the current effect chain to clipboard</p>
+<h3 id="actions-paste-effect-chain">Paste Effect Chain</h3>
+<p>Paste an effect chain from clipboard</p>
+<h3 id="actions-clear-effect-chain">Clear Effect Chain</h3>
+<p>Remove all effects from the chain</p>
+<h3 id="actions-save-effect-preset">Save Effect Preset</h3>
+<p>Save the current modifier chain as a preset</p>
+<h3 id="actions-save-effects-as-default">Save Effects as Default</h3>
+<p>Set current modifiers as the default</p>
+<h3 id="actions-reveal-effect-preset-folder">Reveal Effect Preset Folder</h3>
+<p>Open the effect preset folder in Finder</p>
+<h3 id="actions-send-to-sampler">Send to Sampler</h3>
+<p>Send audio to a sampler with custom parameters</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>params</td>
+<td>SendtoSamplerParameters (sampler configuration)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="actions-apply-effects-to-selected-regions">Apply Effects To Selected Regions</h3>
+<p>Apply effects to selected regions</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>notify</td>
+<td>whether to show a notification</td>
+</tr>
+</tbody>
+</table>
+<h3 id="actions-apply-effects-to-regions">Apply Effects To Regions</h3>
+<p>Apply effects to specific regions</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>regions</td>
+<td>list of region indices</td>
+</tr>
+<tr>
+<td>notify</td>
+<td>whether to show a notification</td>
+</tr>
+</tbody>
+</table>
+<h2 id="actions-batch-processor">Batch Processor</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Parameters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Load Batch Editor Preset</td>
+<td>Load a batch processor preset</td>
+<td><code>preset</code>: preset name</td>
+</tr>
+<tr>
+<td>Save Batch Editor Preset</td>
+<td>Save the current batch processor settings</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<h3 id="actions-load-batch-editor-preset">Load Batch Editor Preset</h3>
+<p>Load a batch processor preset</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>preset</td>
+<td>preset name</td>
+</tr>
+</tbody>
+</table>
+<h3 id="actions-save-batch-editor-preset">Save Batch Editor Preset</h3>
+<p>Save the current batch processor settings</p>
+<hr />
+<h2 id="actions-ui-navigation">UI &amp; Navigation</h2>
+<h3 id="actions-activate-file">Activate File</h3>
+<p>Activates the file at a specified index</p>
+<h3 id="actions-select-next-file">Select Next File</h3>
+<p>Activates the next file in the workspace.</p>
+<h3 id="actions-select-previous-file">Select Previous File</h3>
+<p>Activates the previous file in the workspace.</p>
+<h3 id="actions-select-next-region">Select Next Region</h3>
+<p>Move selection to the next region.</p>
+<h3 id="actions-select-previous-region">Select Previous Region</h3>
+<p>Move selection to the previous region.</p>
+<h3 id="actions-zoom-all">Zoom All</h3>
+<p>Fit the entire file in view</p>
+<h3 id="actions-zoom-region">Zoom Region</h3>
+<p>Zoom to the current region</p>
+<h3 id="actions-zoom-selection">Zoom Selection</h3>
+<p>Zoom to the current selection</p>
+<h3 id="actions-zoom">Zoom</h3>
+<p>Zoom using a destination mode</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>destination</td>
+<td>Destination (Auto/File/AllRegions/Selection)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="actions-center-to-region">Center to Region</h3>
+<p>Pan view to center on a specific region</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>region</td>
+<td>region index</td>
+</tr>
+</tbody>
+</table>
+<h3 id="actions-center-to-selected-region">Center to Selected Region</h3>
+<p>Pan view to center on the selected region</p>
+<h3 id="actions-toggle-waveform-mode">Toggle Waveform Mode</h3>
+<p>Switch between waveform display modes</p>
+<hr />
+<h2 id="actions-selection">Selection</h2>
+<h3 id="actions-set-selection-to-playback-position">Set Selection to Playback Position</h3>
+<p>Mark the current playback position as a region start</p>
+<h3 id="actions-clear-selection">Clear Selection</h3>
+<p>Deselect everything</p>
+<h3 id="actions-extend-selection-to-region">Extend Selection to Region</h3>
+<p>Expand selection to the next region boundary</p>
+<h3 id="actions-extend-selection-to-transient">Extend Selection to Transient</h3>
+<p>Expand selection to the next transient</p>
+<h2 id="actions-workspace">Workspace</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Parameters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Save Workspace</td>
+<td>Save the current workspace layout and state</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Open Workspace</td>
+<td>Load a saved workspace</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Export Theme</td>
+<td>Export the current UI theme</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<h3 id="actions-save-workspace">Save Workspace</h3>
+<p>Save the current workspace layout and state</p>
+<h3 id="actions-open-workspace">Open Workspace</h3>
+<p>Load a saved workspace</p>
+<h3 id="actions-export-theme">Export Theme</h3>
+<p>Export the current UI theme</p>
+<hr />
+<h2 id="actions-lua-scripting">Lua Scripting</h2>
+<h3 id="actions-run-lua-script">Run Lua Script</h3>
+<p>Execute a Lua script file</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>script</td>
+<td>script file path</td>
+</tr>
+</tbody>
+</table>
+<h3 id="actions-run-lua-editor-script">Run Lua Editor Script</h3>
+<p>Run the script in the Lua editor panel</p>
+<hr />
+<h2 id="actions-tools-windows">Tools &amp; Windows</h2>
+<h3 id="actions-open-action-pallete">Open Action Pallete</h3>
+<p>Open the Action Pallete modal</p>
+<h3 id="actions-open-audio-recorder">Open Audio Recorder</h3>
+<p>Open the audio recorder modal</p>
+<h3 id="actions-open-lua-editor">Open Lua Editor</h3>
+<p>Open the Lua scripting editor</p>
+<h3 id="actions-open-export-settings">Open Export Settings</h3>
+<p>Open the export settings dialog</p>
+<h3 id="actions-open-keyboard-shortcuts">Open Keyboard Shortcuts</h3>
+<p>Open the keyboard shortcuts configuration</p>
+<h3 id="actions-open-settings">Open Settings</h3>
+<p>Open the application settings</p>
+<hr /></section><section class="print-page" id="actionpallete" heading-number="2.5"><h1 id="actionpallete-action-pallete">Action Pallete</h1>
+<hr />
+<p>The Action Palette provides a keyboard-centric workflow for triggering <a href="#actions">Actions</a> within SA_EDITOR using slash commands (e.g., <code>/ats</code>).</p>
+<p>To open the Action Palette, press the <code>c</code> key or run the <code>Open Action Pallete</code> action.</p>
+<p>You may choose to type the slash command directly or to search for it based on Action name. The Action List updates automatically to display based on the current input.</p>
+<h3 id="actionpallete-ui-components">UI Components</h3>
+<ul>
+<li><strong>Input Field</strong>: Used to enter a slash command or action name.</li>
+<li><strong>Selected Action</strong>: Displays the matched action when a slash command is recognized.</li>
+<li><strong>Action List</strong>: Displays similar actions and commands. Use the up and down arrow keys to navigate the list and press <code>Enter</code> to select an item. Selecting an item updates the input field with the corresponding slash command.</li>
+</ul></section><section class="print-page" id="audioplayback" heading-number="2.6"><h1 id="audioplayback-audio-playback">Audio Playback</h1>
+<hr />
+<h2 id="audioplayback-audio-processing-in-sa_editor">Audio Processing in SA_EDITOR</h2>
+<p>SA_EDITOR uses a custom background and offline audio engine for playback, meaning files and regions are processed in the background (in a separate CPU thread) and cached to reduce CPU usage and latency.</p>
+<h2 id="audioplayback-outputs">Outputs</h2>
+<h3 id="audioplayback-main-output">Main Output</h3>
+<p>The Main output serves as the primary audio playback channel.</p>
+<p>You can configure the output device, channel, sample rate, and buffer size via the <a href="#settings-audio">Audio tab in Settings</a>.</p>
+<h3 id="audioplayback-sample-output">Sample Output</h3>
+<p>The Sampler output lets the user select a dedicated channel (in the same output device as Main) to use with <a href="#actions"><code>Send to Sampler</code> action</a> and it's designed to speed up the process of sending / playing files and regions to external hardware samplers.</p>
+<h2 id="audioplayback-audio-controls-sidebar">Audio Controls (Sidebar)</h2>
+<p>The Audio section in the Sidebar contains different parameters that can be used to control the audio playback in SA_EDITOR, including:</p>
+<ul>
+<li>Drop-down menu for Main output channel</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Zm88-29.84q.06-2.16,0-4.32l14.92-18.64a8,8,0,0,0,1.48-7.06,107.21,107.21,0,0,0-10.88-26.25,8,8,0,0,0-6-3.93l-23.72-2.64q-1.48-1.56-3-3L186,40.54a8,8,0,0,0-3.94-6,107.71,107.71,0,0,0-26.25-10.87,8,8,0,0,0-7.06,1.49L130.16,40Q128,40,125.84,40L107.2,25.11a8,8,0,0,0-7.06-1.48A107.6,107.6,0,0,0,73.89,34.51a8,8,0,0,0-3.93,6L67.32,64.27q-1.56,1.49-3,3L40.54,70a8,8,0,0,0-6,3.94,107.71,107.71,0,0,0-10.87,26.25,8,8,0,0,0,1.49,7.06L40,125.84Q40,128,40,130.16L25.11,148.8a8,8,0,0,0-1.48,7.06,107.21,107.21,0,0,0,10.88,26.25,8,8,0,0,0,6,3.93l23.72,2.64q1.49,1.56,3,3L70,215.46a8,8,0,0,0,3.94,6,107.71,107.71,0,0,0,26.25,10.87,8,8,0,0,0,7.06-1.49L125.84,216q2.16.06,4.32,0l18.64,14.92a8,8,0,0,0,7.06,1.48,107.21,107.21,0,0,0,26.25-10.88,8,8,0,0,0,3.93-6l2.64-23.72q1.56-1.48,3-3L215.46,186a8,8,0,0,0,6-3.94,107.71,107.71,0,0,0,10.87-26.25,8,8,0,0,0-1.49-7.06Zm-16.1-6.5a73.93,73.93,0,0,1,0,8.68,8,8,0,0,0,1.74,5.48l14.19,17.73a91.57,91.57,0,0,1-6.23,15L187,173.11a8,8,0,0,0-5.1,2.64,74.11,74.11,0,0,1-6.14,6.14,8,8,0,0,0-2.64,5.1l-2.51,22.58a91.32,91.32,0,0,1-15,6.23l-17.74-14.19a8,8,0,0,0-5-1.75h-.48a73.93,73.93,0,0,1-8.68,0,8,8,0,0,0-5.48,1.74L100.45,215.8a91.57,91.57,0,0,1-15-6.23L82.89,187a8,8,0,0,0-2.64-5.1,74.11,74.11,0,0,1-6.14-6.14,8,8,0,0,0-5.1-2.64L46.43,170.6a91.32,91.32,0,0,1-6.23-15l14.19-17.74a8,8,0,0,0,1.74-5.48,73.93,73.93,0,0,1,0-8.68,8,8,0,0,0-1.74-5.48L40.2,100.45a91.57,91.57,0,0,1,6.23-15L69,82.89a8,8,0,0,0,5.1-2.64,74.11,74.11,0,0,1,6.14-6.14A8,8,0,0,0,82.89,69L85.4,46.43a91.32,91.32,0,0,1,15-6.23l17.74,14.19a8,8,0,0,0,5.48,1.74,73.93,73.93,0,0,1,8.68,0,8,8,0,0,0,5.48-1.74L155.55,40.2a91.57,91.57,0,0,1,15,6.23L173.11,69a8,8,0,0,0,2.64,5.1,74.11,74.11,0,0,1,6.14,6.14,8,8,0,0,0,5.1,2.64l22.58,2.51a91.32,91.32,0,0,1,6.23,15l-14.19,17.74A8,8,0,0,0,199.87,123.66Z"/></svg></span>: Button to open the Audio settings</li>
+<li>Volume slider for the Main output</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M155.51,24.81a8,8,0,0,0-8.42.88L77.25,80H32A16,16,0,0,0,16,96v64a16,16,0,0,0,16,16H77.25l69.84,54.31A8,8,0,0,0,160,224V32A8,8,0,0,0,155.51,24.81ZM32,96H72v64H32ZM144,207.64,88,164.09V91.91l56-43.55Zm54-106.08a40,40,0,0,1,0,52.88,8,8,0,0,1-12-10.58,24,24,0,0,0,0-31.72,8,8,0,0,1,12-10.58ZM248,128a79.9,79.9,0,0,1-20.37,53.34,8,8,0,0,1-11.92-10.67,64,64,0,0,0,0-85.33,8,8,0,1,1,11.92-10.67A79.83,79.83,0,0,1,248,128Z"/></svg></span>: Button to enable / disable audio output</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,40H56A16,16,0,0,0,40,56V200a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V56A16,16,0,0,0,200,40Zm0,160H56V56H200V200Z"/></svg></span>: Button to stop playback (panic)</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,48V96a8,8,0,0,1-8,8H168a8,8,0,0,1,0-16h28.69L182.06,73.37a79.56,79.56,0,0,0-56.13-23.43h-.45A79.52,79.52,0,0,0,69.59,72.71,8,8,0,0,1,58.41,61.27a96,96,0,0,1,135,.79L208,76.69V48a8,8,0,0,1,16,0ZM186.41,183.29a80,80,0,0,1-112.47-.66L59.31,168H88a8,8,0,0,0,0-16H40a8,8,0,0,0-8,8v48a8,8,0,0,0,16,0V179.31l14.63,14.63A95.43,95.43,0,0,0,130,222.06h.53a95.36,95.36,0,0,0,67.07-27.33,8,8,0,0,0-11.18-11.44Z"/></svg></span>: Button to enable / disable looping</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,176a48.05,48.05,0,0,0,48-48V64a48,48,0,0,0-96,0v64A48.05,48.05,0,0,0,128,176ZM96,64a32,32,0,0,1,64,0v64a32,32,0,0,1-64,0Zm40,143.6V240a8,8,0,0,1-16,0V207.6A80.11,80.11,0,0,1,48,128a8,8,0,0,1,16,0,64,64,0,0,0,128,0,8,8,0,0,1,16,0A80.11,80.11,0,0,1,136,207.6Z"/></svg></span>: Button to enable / disable audio input</li>
+</ul></section><section class="print-page" id="midi" heading-number="2.7"><h1 id="midi-midi">MIDI</h1>
+<hr />
+<p>SA_EDITOR includes MIDI input and output support that can be setup up via <a href="#midi-setttings.md-midi">Settings</a>.</p>
+<h2 id="midi-midi-input">MIDI Input</h2>
+<p>SA_EDITOR supports MIDI input from the selected MIDI Input port (in Setting's MIDI tab), allowing received MIDI notes to play the active file similarly to a sampler.</p>
+<p>Upon receiving a MIDI note, SA_EDITOR uses the incoming pitch and velocity to control playback rate (pitch) and volume, generating <a href="#actions">PlayMIDI actions</a> based on these rules:</p>
+<ul>
+<li><strong>Selection:</strong> Plays the selected range, transposed via MIDI.</li>
+<li><strong>Region Selected:</strong> Only plays the selected region, transposed according to the MIDI note.</li>
+<li><strong>Regions Present (None Selected):</strong> Regions are mapped across MIDI notes starting at C3, with each note triggering a different region.</li>
+<li><strong>No Regions in Active File:</strong> Plays entire file plays.</li>
+<li><strong>No Active File:</strong> No action occurs.</li>
+</ul>
+<h2 id="midi-midi-output">MIDI Output</h2>
+<p>The MIDI output port can also be selected from the Setting's MIDI tab and it's used to send MIDI notes when recording audio with the <a href="#tools-audiorecorder-recording-modes"><strong>MIDI</strong> Recording Mode</a>.</p></section></section>
+                    <section class='print-page md-section' id='section-3' heading-number='3'>
+                        <h1>Tools<a class='headerlink' href='#section-3' title='Permanent link'></a>
+                        </h1>
+                    <section class="print-page" id="tools" heading-number="3.1"><h1 id="tools-tools">Tools</h1>
+<hr />
+<p>Tools in SA_EDITOR add more ways of creating and editing files based on different features and workflows that go beyond the features avaialble in the core editor.</p>
+<h2 id="tools-available-tools">Available Tools</h2>
+<ul>
+<li><a href="#tools-audiorecorder">Audio Recorder</a></li>
+<li><a href="#tools-luaeditor">Lua Editor</a></li>
+<li><a href="#tools-samplechain">Sample Chain</a></li>
+<li><a href="#tools-batcheditor">Batch Editor</a></li>
+</ul></section><section class="print-page" id="tools-audiorecorder" heading-number="3.2"><h1 id="tools-audiorecorder-audio-recorder">Audio Recorder</h1>
+<hr />
+<p>The Audio Recorder captures audio from external hardware, software instruments, or internal routing to create new samples. It includes three recording modes for different tasks: standard manual recording, automated MIDI sampling, and external signal processing. The tool supports multi-channel input selection kkand real-time monitoring, allowing you to build sample libraries or re-sample audio through external hardware effects chains.</p>
+<h3 id="tools-audiorecorder-recording-modes">Recording Modes</h3>
+<h4 id="tools-audiorecorder-record">Record</h4>
+<p><strong>Record</strong> is the standard mode that simply records incoming audio from the selected inputs.</p>
+<h4 id="tools-audiorecorder-midi">MIDI</h4>
+<p><strong>MIDI</strong> mode is designed to help users automatically sample MIDI-enabled instruments and devices by sending MIDI notes to the selected MIDI port using a predefined range set by the user.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Start Note</td>
+<td>First MIDI note</td>
+</tr>
+<tr>
+<td>End Note</td>
+<td>Last MIDI note</td>
+</tr>
+<tr>
+<td>Interval</td>
+<td>Interval between notes (semitones)</td>
+</tr>
+<tr>
+<td>Length</td>
+<td>Length of each MIDI note (milliseconds)</td>
+</tr>
+<tr>
+<td>Velocity</td>
+<td>Base MIDI velocity</td>
+</tr>
+<tr>
+<td>Layers</td>
+<td>Number of velocity layers</td>
+</tr>
+<tr>
+<td>Channel</td>
+<td>MIDI Channel</td>
+</tr>
+<tr>
+<td>Interval</td>
+<td>Interval between notes (milliseconds)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tools-audiorecorder-process">Process</h4>
+<p><strong>Process</strong> makes it easier to process samples using external audio effects (such as hardware compressors, delays, etc) by playing a region of the active file routed to a different audio output channel of the selected audio output device. The output of the external effect can then be routed to one of active audio input device's channels and recorded as a new sample.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Region</td>
+<td>Region to be processed from the active file</td>
+</tr>
+<tr>
+<td>Channel</td>
+<td>Audio output device channel</td>
+</tr>
+<tr>
+<td>Loop</td>
+<td>Toggle looping playback for the selected region</td>
+</tr>
+</tbody>
+</table>
+<h3 id="tools-audiorecorder-options">Options</h3>
+<p>The Audio Recorder also includes additional options that can be used to improve the recording workflow.</p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Length</td>
+<td>Limit the recording to a specified length</td>
+</tr>
+<tr>
+<td>Arm</td>
+<td>Toggle arm recording (wait for signal above threshold)</td>
+</tr>
+<tr>
+<td>Normalize</td>
+<td>Normalize the recording</td>
+</tr>
+<tr>
+<td>Detect Regions</td>
+<td>Automatically detects regions in the recording</td>
+</tr>
+</tbody>
+</table>
+<h3 id="tools-audiorecorder-input-monitoring">Input Monitoring</h3>
+<p>Input monitoring can be enabled via the the <code>Audio Monitoring</code> button.</p>
+<h3 id="tools-audiorecorder-presets">Presets</h3>
+<p>Presets for the Audio Recorder can be saved and loaded via the list (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"/></svg></span>) button in the Input Device section.</p>
+<p>Each preset stores the selected audio input device, channels, recording mode, monitoring state and options.</p>
+<p>!! warning
+    Enabled channels may not load correctly if the audio input device included in a preset is not available when the preset is loaded.</p></section><section class="print-page" id="tools-luaeditor" heading-number="3.3"><h1 id="tools-luaeditor-lua-editor">Lua Editor</h1>
+<hr />
+<p>The Lua Editor lets users extend SA_EDITOR functionality via custom Lua scripts (Lua v5.4), which can be edited using the built-in editor or any text editor.</p>
+<p><strong>Lua</strong> is a lightweight, high-performance scripting language designed for embedded systems and extensibility, created and maintained by the a dedicated team in PUC-Rio (Brazilian university) and used by many games and applications.<br />
+For more information about Lua, visit <a href="https://www.lua.org/">https://www.lua.org/</a>.</p>
+<p>Scripts are stored in the <code>settings / scripts</code> folder and can be run via the Lua Editor or custom keyboard shortcuts.</p>
+<p>Many of SA_EDITOR's features and data (such as files, regions, and effects) can be accessed and manipulated from Lua via custom tables and functions that are available during runtime.</p>
+<p>For more information about scripting, check out the <a href="#tools-luaeditor-lua_scripting.md">Lua Scripting</a> page.</p>
+<h2 id="tools-luaeditor-scripting">Scripting</h2>
+<h3 id="tools-luaeditor-global-environment-api">Global &amp; Environment API</h3>
+<p>These tables and functions are available in the default script environment.</p>
+<table>
+<thead>
+<tr>
+<th>Name / Signature</th>
+<th>Parameters</th>
+<th>Functionality</th>
+<th>Return Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>action.open_path(path)</code></td>
+<td><code>path: string</code></td>
+<td>Queues opening of an audio file at the specified filesystem path.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>action.activate_file(index)</code></td>
+<td><code>index: number</code></td>
+<td>Switches the active file to the one at the given index (1-based).</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>action.file_count()</code></td>
+<td><em>None</em></td>
+<td>Returns the total number of loaded files.</td>
+<td><code>number</code></td>
+</tr>
+<tr>
+<td><code>action.get_file(index)</code></td>
+<td><code>index: number</code></td>
+<td>Retrieves a <code>File</code> object at the specified index (1-based).</td>
+<td><code>File</code> (userdata)</td>
+</tr>
+<tr>
+<td><code>action.update_file(index, file)</code></td>
+<td><code>index: number</code>, <code>file: File</code></td>
+<td>Replaces the file at the given index with a new <code>File</code> object (1-based).</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>action.get_active_file()</code></td>
+<td><em>None</em></td>
+<td>Returns the currently active <code>File</code> object.</td>
+<td><code>File</code> (userdata)</td>
+</tr>
+<tr>
+<td><code>action.update_active_file(file)</code></td>
+<td><code>file: File</code></td>
+<td>Replaces the active file with a new <code>File</code> object.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>action.close_file(index)</code></td>
+<td><code>index: number</code></td>
+<td>Queues closing/removing a file at the given index (1-based).</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>action.close_active_file()</code></td>
+<td><em>None</em></td>
+<td>Queues closing the currently active file.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>action.close_all_files()</code></td>
+<td><em>None</em></td>
+<td>Queues closing all loaded files.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>action.select_next_file()</code></td>
+<td><em>None</em></td>
+<td>Queues switching to the next file in the list.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>action.select_previous_file()</code></td>
+<td><em>None</em></td>
+<td>Queues switching to the previous file in the list.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>action.play()</code></td>
+<td><em>None</em></td>
+<td>Queues playback of the active buffer/region.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>action.zoom_all()</code></td>
+<td><em>None</em></td>
+<td>Queues UI zoom to fit the entire waveform.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>action.zoom_selected_region()</code></td>
+<td><em>None</em></td>
+<td>Queues UI zoom to the currently selected region.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>action.zoom_selection()</code></td>
+<td><em>None</em></td>
+<td>Queues UI zoom to the current time selection.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>action.new_files_from_regions()</code></td>
+<td><em>None</em></td>
+<td>Queues creation of new files from all existing regions.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>action.export_all_files()</code> / <code>action.export_file()</code></td>
+<td><em>None</em></td>
+<td>Queues export of all loaded files to disk.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>action.export_all_regions()</code></td>
+<td><em>None</em></td>
+<td>Queues export of all regions as separate audio files.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>action.export_selected_regions()</code></td>
+<td><em>None</em></td>
+<td>Queues export of only selected regions.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>action.available()</code></td>
+<td><em>None</em></td>
+<td>Lists all available action function names.</td>
+<td><code>string[]</code> (table)</td>
+</tr>
+<tr>
+<td><code>action.debug_table(tbl)</code></td>
+<td><code>tbl: table</code></td>
+<td>Logs all key-value pairs in the provided table to the app console.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>active_file.get()</code></td>
+<td><em>None</em></td>
+<td>Alias for <code>action.get_active_file()</code>. Retrieves active file.</td>
+<td><code>File</code> (userdata)</td>
+</tr>
+<tr>
+<td><code>active_file.update(file)</code></td>
+<td><code>file: File</code></td>
+<td>Alias for <code>action.update_active_file()</code>. Updates active file.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>active_file.update_buffer(buffer)</code></td>
+<td><code>buffer: AudioBuffer</code></td>
+<td>Replaces the audio buffer of the active file.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>active_file.available()</code></td>
+<td><em>None</em></td>
+<td>Lists available file utility function names.</td>
+<td><code>string[]</code> (table)</td>
+</tr>
+<tr>
+<td><code>info.file_count</code></td>
+<td><em>Property</em></td>
+<td>Contains the total number of loaded files.</td>
+<td><code>number</code></td>
+</tr>
+<tr>
+<td><code>check_equal(list1, list2)</code></td>
+<td><code>list1: string[]</code>, <code>list2: string[]</code></td>
+<td>Utility/debug: adds lengths of two string arrays.</td>
+<td><code>number</code></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="tools-luaeditor-audiobuffer-object"><code>AudioBuffer</code> Object</h3>
+<p>Represents the raw audio data, metadata, and processing methods.</p>
+<table>
+<thead>
+<tr>
+<th>Name / Signature</th>
+<th>Parameters</th>
+<th>Functionality</th>
+<th>Return Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>sample_count</code></td>
+<td><em>Field (Read)</em></td>
+<td>Total number of audio samples in the buffer.</td>
+<td><code>number</code></td>
+</tr>
+<tr>
+<td><code>bpm</code></td>
+<td><em>Field (Get/Set)</em></td>
+<td>Tempo metadata for the buffer.</td>
+<td><code>number</code></td>
+</tr>
+<tr>
+<td><code>samples</code></td>
+<td><em>Field (Get/Set)</em></td>
+<td>Raw sample data (multi-channel array).</td>
+<td><code>table</code></td>
+</tr>
+<tr>
+<td><code>sample_rate</code></td>
+<td><em>Field (Read)</em></td>
+<td>Sample rate in Hz.</td>
+<td><code>number</code></td>
+</tr>
+<tr>
+<td><code>bit_depth</code></td>
+<td><em>Field (Read)</em></td>
+<td>Audio bit depth (e.g., 16, 24, 32).</td>
+<td><code>number</code></td>
+</tr>
+<tr>
+<td><code>bars</code></td>
+<td><em>Field (Get/Set)</em></td>
+<td>Number of musical bars in the buffer.</td>
+<td><code>number</code></td>
+</tr>
+<tr>
+<td><code>grid_size</code></td>
+<td><em>Field (Get/Set)</em></td>
+<td>UI grid snapping size.</td>
+<td><code>number</code></td>
+</tr>
+<tr>
+<td><code>name</code></td>
+<td><em>Field (Get/Set)</em></td>
+<td>Display name of the buffer.</td>
+<td><code>string</code></td>
+</tr>
+<tr>
+<td><code>regions</code></td>
+<td><em>Field (Get/Set)</em></td>
+<td>Array of <code>Region</code> objects.</td>
+<td><code>table</code></td>
+</tr>
+<tr>
+<td><code>effects</code></td>
+<td><em>Field (Get/Set)</em></td>
+<td>Serialized global modifiers/effects applied to the buffer.</td>
+<td><code>table</code> (serialized)</td>
+</tr>
+<tr>
+<td><code>size_kb()</code></td>
+<td><em>None</em></td>
+<td>Calculates memory size of the buffer.</td>
+<td><code>number</code> (KB)</td>
+</tr>
+<tr>
+<td><code>is_mono()</code></td>
+<td><em>None</em></td>
+<td>Checks if buffer has 1 channel.</td>
+<td><code>boolean</code></td>
+</tr>
+<tr>
+<td><code>is_stereo()</code></td>
+<td><em>None</em></td>
+<td>Checks if buffer has 2 channels.</td>
+<td><code>boolean</code></td>
+</tr>
+<tr>
+<td><code>length_ms()</code></td>
+<td><em>None</em></td>
+<td>Calculates duration in milliseconds.</td>
+<td><code>number</code></td>
+</tr>
+<tr>
+<td><code>channel_diff()</code></td>
+<td><em>None</em></td>
+<td>Computes difference between channels.</td>
+<td><code>table</code></td>
+</tr>
+<tr>
+<td><code>restore()</code></td>
+<td><em>None</em></td>
+<td>Reverts buffer to its original reference samples.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>resample(new_rate)</code></td>
+<td><code>new_rate: number</code></td>
+<td>Resamples audio to a new sample rate.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>add_region(start, end)</code></td>
+<td><code>start: number</code>, <code>end: number</code></td>
+<td>Adds a region at sample positions.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>remove_region(index)</code></td>
+<td><code>index: number</code> (1-based)</td>
+<td>Removes a region by index.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>region_count()</code></td>
+<td><em>None</em></td>
+<td>Returns number of regions.</td>
+<td><code>number</code></td>
+</tr>
+<tr>
+<td><code>get_region_info(index)</code></td>
+<td><code>index: number</code> (1-based)</td>
+<td>Returns metadata for a region.</td>
+<td><code>RegionInfo</code></td>
+</tr>
+<tr>
+<td><code>remove_all_regions()</code></td>
+<td><em>None</em></td>
+<td>Clears all regions.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>detect_regions(threshold)</code></td>
+<td><code>threshold: number</code></td>
+<td>Auto-detects regions based on loudness threshold.</td>
+<td><code>Region[]</code></td>
+</tr>
+<tr>
+<td><code>detect_transients(threshold)</code></td>
+<td><code>threshold: number</code></td>
+<td>Marks transient points for snapping.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>get_region(index)</code></td>
+<td><code>index: number</code> (1-based)</td>
+<td>Returns a <code>Region</code> object.</td>
+<td><code>Region</code></td>
+</tr>
+<tr>
+<td><code>join_all_regions(sep_ms)</code></td>
+<td><code>sep_ms: number</code></td>
+<td>Concatenates all regions with separation silence.</td>
+<td><code>AudioBuffer</code></td>
+</tr>
+<tr>
+<td><code>auto_trim_region(idx, thresh)</code></td>
+<td><code>idx: number</code>, <code>thresh: number</code></td>
+<td>Shrinks region edges below threshold.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>zero_cross_region(index)</code></td>
+<td><code>index: number</code> (1-based)</td>
+<td>Snaps region edges to zero-crossings.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>zero_cross_transients()</code></td>
+<td><em>None</em></td>
+<td>Snaps transient markers to zero-crossings.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>slice(slices)</code></td>
+<td><code>slices: number</code></td>
+<td>Divides entire buffer into N equal regions.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>slice_region(idx, slices)</code></td>
+<td><code>idx: number</code>, <code>slices: number</code></td>
+<td>Divides a specific region into N equal parts.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>copy_at_sample(start, end)</code></td>
+<td><code>start: number</code>, <code>end: number</code></td>
+<td>Copies samples to a new buffer.</td>
+<td><code>AudioBuffer</code></td>
+</tr>
+<tr>
+<td><code>copy_at_position(start, end)</code></td>
+<td><code>start: 0.0-1.0</code>, <code>end: 0.0-1.0</code></td>
+<td>Copies proportional section to new buffer.</td>
+<td><code>AudioBuffer</code></td>
+</tr>
+<tr>
+<td><code>cut_at_sample(start, end)</code></td>
+<td><code>start: number</code>, <code>end: number</code></td>
+<td>Cuts samples, returns cut section.</td>
+<td><code>AudioBuffer</code></td>
+</tr>
+<tr>
+<td><code>cut_at_position(start, end)</code></td>
+<td><code>start: 0.0-1.0</code>, <code>end: 0.0-1.0</code></td>
+<td>Cuts proportional section, returns cut.</td>
+<td><code>AudioBuffer</code></td>
+</tr>
+<tr>
+<td><code>paste_at_sample(buf, idx, repl)</code></td>
+<td><code>buf: AudioBuffer</code>, <code>idx: number</code>, <code>repl: boolean</code></td>
+<td>Pastes buffer at sample index (insert/replace).</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>paste_at_position(buf, pos, repl)</code></td>
+<td><code>buf: AudioBuffer</code>, <code>pos: 0.0-1.0</code>, <code>repl: boolean</code></td>
+<td>Pastes buffer at proportional position.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>mix_at_sample(buf, pos, mix)</code></td>
+<td><code>buf: AudioBuffer</code>, <code>pos: number</code>, <code>mix: number</code></td>
+<td>Mixes buffer into target at sample position.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>mix_at_position(buf, pos, mix)</code></td>
+<td><code>buf: AudioBuffer</code>, <code>pos: 0.0-1.0</code>, <code>mix: number</code></td>
+<td>Mixes buffer at proportional position.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>update_region(idx, region)</code></td>
+<td><code>idx: number</code>, <code>region: Region</code></td>
+<td>Overwrites an existing region.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>export_region(index)</code></td>
+<td><code>index: number</code> (1-based)</td>
+<td>Exports region as a new independent buffer.</td>
+<td><code>AudioBuffer</code></td>
+</tr>
+<tr>
+<td><code>normalize(value)</code></td>
+<td><code>value: number</code></td>
+<td>Applies normalization.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>fade_in(duration)</code></td>
+<td><code>duration: number</code></td>
+<td>Applies fade-in envelope.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>fade_out(duration)</code></td>
+<td><code>duration: number</code></td>
+<td>Applies fade-out envelope.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>gain(value)</code></td>
+<td><code>value: number</code> (dB or linear)</td>
+<td>Applies gain adjustment.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>rate(value)</code></td>
+<td><code>value: number</code> (multiplier)</td>
+<td>Changes playback rate/time-stretch.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>reverse()</code></td>
+<td><em>None</em></td>
+<td>Reverses audio samples.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>pitch(amount)</code></td>
+<td><code>amount: number</code> (semitones)</td>
+<td>Pitch-shifts audio.</td>
+<td><code>void</code></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="tools-luaeditor-region-object"><code>Region</code> Object</h3>
+<p>Represents a defined slice/segment of an audio buffer.</p>
+<table>
+<thead>
+<tr>
+<th>Name / Signature</th>
+<th>Parameters</th>
+<th>Functionality</th>
+<th>Return Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>name</code></td>
+<td><em>Field (Get/Set)</em></td>
+<td>Display name of the region.</td>
+<td><code>string</code></td>
+</tr>
+<tr>
+<td><code>start_sample</code></td>
+<td><em>Field (Get/Set)</em></td>
+<td>Start position in samples.</td>
+<td><code>number</code></td>
+</tr>
+<tr>
+<td><code>end_sample</code></td>
+<td><em>Field (Get/Set)</em></td>
+<td>End position in samples.</td>
+<td><code>number</code></td>
+</tr>
+<tr>
+<td><code>length</code></td>
+<td><em>Field (Read)</em></td>
+<td>Calculated sample length (<code>end - start</code>).</td>
+<td><code>number</code></td>
+</tr>
+<tr>
+<td><code>bpm</code></td>
+<td><em>Field (Get/Set)</em></td>
+<td>Tempo metadata specific to the region.</td>
+<td><code>number</code></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="tools-luaeditor-regioninfo-object"><code>RegionInfo</code> Object</h3>
+<p>Read-only metadata returned by <code>AudioBuffer:get_region_info()</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Name / Signature</th>
+<th>Parameters</th>
+<th>Functionality</th>
+<th>Return Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>index</code></td>
+<td><em>Field (Read)</em></td>
+<td>Zero-based index of the region.</td>
+<td><code>number</code></td>
+</tr>
+<tr>
+<td><code>name</code></td>
+<td><em>Field (Read)</em></td>
+<td>Region name.</td>
+<td><code>string</code></td>
+</tr>
+<tr>
+<td><code>start_sample</code></td>
+<td><em>Field (Read)</em></td>
+<td>Absolute start in samples.</td>
+<td><code>number</code></td>
+</tr>
+<tr>
+<td><code>end_sample</code></td>
+<td><em>Field (Read)</em></td>
+<td>Absolute end in samples.</td>
+<td><code>number</code></td>
+</tr>
+<tr>
+<td><code>start_rel</code></td>
+<td><em>Field (Read)</em></td>
+<td>Relative start position (0.0-1.0).</td>
+<td><code>number</code></td>
+</tr>
+<tr>
+<td><code>end_rel</code></td>
+<td><em>Field (Read)</em></td>
+<td>Relative end position (0.0-1.0).</td>
+<td><code>number</code></td>
+</tr>
+<tr>
+<td><code>length_ms</code></td>
+<td><em>Field (Read)</em></td>
+<td>Duration in milliseconds.</td>
+<td><code>number</code></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="tools-luaeditor-file-object"><code>File</code> Object</h3>
+<p>Represents a loaded audio file in the workspace.</p>
+<table>
+<thead>
+<tr>
+<th>Name / Signature</th>
+<th>Parameters</th>
+<th>Functionality</th>
+<th>Return Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>path</code></td>
+<td><em>Field (Get/Set)</em></td>
+<td>Filesystem path of the loaded file.</td>
+<td><code>string</code></td>
+</tr>
+<tr>
+<td><code>buffer</code></td>
+<td><em>Field (Get/Set)</em></td>
+<td>The underlying <code>AudioBuffer</code> object.</td>
+<td><code>AudioBuffer</code></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="tools-luaeditor-audiobuffermodifier-object"><code>AudioBufferModifier</code> Object</h3>
+<p>Internal effect/modifier representation (typically handled via <code>effects</code> field).</p>
+<table>
+<thead>
+<tr>
+<th>Name / Signature</th>
+<th>Parameters</th>
+<th>Functionality</th>
+<th>Return Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>name</code></td>
+<td><em>Field (Read)</em></td>
+<td>Auto-formatted string name of the modifier.</td>
+<td><code>string</code></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="tools-luaeditor-important-scripting-notes">Important Scripting Notes</h3>
+<ol>
+<li><strong>1-Based Indexing</strong>: All Lua functions referencing <code>index</code> for regions or files use <strong>1-based indexing</strong>. Passing <code>0</code> will throw a runtime error.</li>
+<li><strong>Proportional Positions</strong>: Methods ending in <code>_at_position</code> accept <code>0.0</code> (start) to <code>1.0</code> (end). Values are automatically clamped.</li>
+<li><strong>Asynchronous Actions</strong>: All <code>action.*</code> functions do <strong>not</strong> execute immediately. They push commands to an internal action queue that the UI/app processes on the next tick.</li>
+<li><strong>In-Place vs Copy</strong>: Methods like <code>normalize</code>, <code>fade_in</code>, <code>pitch</code>, <code>slice</code>, etc., modify the <code>AudioBuffer</code> <strong>in-place</strong> and return <code>void</code>. Methods like <code>copy_at_...</code>, <code>cut_at_...</code>, and <code>join_all_regions</code> return <strong>new</strong> <code>AudioBuffer</code> instances without altering the source.</li>
+<li><strong>Serialization</strong>: The <code>effects</code> field expects/returns a Lua table that serializes to JSON matching the Rust <code>AudioBufferModifier</code> structure.
+                      | Clears all regions from the buffer.                                       | <code>nil</code>          |
+| <code>detect_regions()</code> | Method | <code>threshold: f32</code>                          | Detects regions based on loudness thresholds and adds them to the buffer. | <code>table&lt;Region&gt;</code> |
+| <code>detect_transients()</code> | Method | <code>threshold: f32</code>                          | Detects transients in the buffer at the given threshold and stores their positions. | <code>nil</code>          |
+| <code>get_region()</code> | Method | <code>index: usize</code>                            | Returns a clone of the region at the specified <strong>1-based</strong> index.         | <code>Region</code>       |
+| <code>join_all_regions()</code> | Method | <code>separation_ms: f32</code>                      | Joins all regions into a new <code>AudioBuffer</code>, with optional silence separation. | <code>AudioBuffer</code>  |
+| <code>auto_trim_region()</code> | Method | <code>region_index: usize</code>, <code>threshold: f32</code>   | Automatically trims (shrinks) the specified <strong>1-based</strong> region based on a loudness threshold. | <code>nil</code>          |
+| <code>zero_cross_region()</code> | Method | <code>region_index: usize</code>                     | Adjusts the start/end of the specified <strong>1-based</strong> region to the nearest zero-crossing point. | <code>nil</code>          |
+| <code>slice()</code>      | Method | <code>slices: usize</code>                           | Slices the entire buffer into <code>slices</code> equal parts, creating new regions. | <code>nil</code>          |
+| <code>slice_region()</code> | Method | <code>index: usize</code>, <code>slices: usize</code>           | Slices the specified <strong>1-based</strong> region into <code>slices</code> equal sub-regions.  | <code>nil</code>          |
+| <code>copy_at_sample()</code> | Method | <code>start: usize</code>, <code>end: usize</code>              | Copies a segment of the buffer between <code>start</code> and <code>end</code> sample indices as a new <code>AudioBuffer</code>. | <code>AudioBuffer</code>  |
+| <code>copy_at_position()</code> | Method | <code>start_rel: f32</code>, <code>end_rel: f32</code>          | Copies a segment of the buffer between relative positions (0.0 to 1.0) as a new <code>AudioBuffer</code>. | <code>AudioBuffer</code>  |
+| <code>cut_at_sample()</code> | Method | <code>start: usize</code>, <code>end: usize</code>              | Cuts a segment of the buffer between <code>start</code> and <code>end</code> sample indices, returning the cut section as a new <code>AudioBuffer</code>, and modifying the original buffer. | <code>AudioBuffer</code>  |
+| <code>cut_at_position()</code> | Method | <code>start_rel: f32</code>, <code>end_rel: f32</code>          | Cuts a segment of the buffer between relative positions (0.0 to 1.0), returning the cut section as a new <code>AudioBuffer</code>, and modifying the original buffer. | <code>AudioBuffer</code>  |
+| <code>paste_at_sample()</code> | Method | <code>buffer: AudioBuffer</code>, <code>sample_index: usize</code>, <code>replace: bool</code> | Pastes the <code>buffer</code> content at <code>sample_index</code>. If <code>replace</code> is <code>true</code>, it overwrites; otherwise, it inserts. | <code>nil</code>          |
+| <code>paste_at_position()</code> | Method | <code>buffer: AudioBuffer</code>, <code>position: f32</code>, <code>replace: bool</code> | Pastes the <code>buffer</code> content at a relative <code>position</code> (0.0 to 1.0). If <code>replace</code> is <code>true</code>, it overwrites; otherwise, it inserts. | <code>nil</code>          |
+| <code>mix_at_sample()</code> | Method | <code>buffer: AudioBuffer</code>, <code>position: usize</code>, <code>mix: f32</code> | Mixes the <code>buffer</code> content into the current buffer at <code>position</code> with a specified <code>mix</code> level (0.0 to 1.0). | <code>nil</code>          |
+| <code>mix_at_position()</code> | Method | <code>buffer: AudioBuffer</code>, <code>position: f32</code>, <code>mix: f32</code> | Mixes the <code>buffer</code> content into the current buffer at a relative <code>position</code> (0.0 to 1.0) with a specified <code>mix</code> level. | <code>nil</code>          |
+| <code>update_region()</code> | Method | <code>index: usize</code>, <code>region: Region</code>          | Updates the region at the specified <strong>1-based</strong> index with the provided <code>Region</code> object. | <code>nil</code>          |
+| <code>export_region()</code> | Method | <code>index: usize</code>                            | Exports the region at the specified <strong>1-based</strong> index as a new <code>AudioBuffer</code>. | <code>AudioBuffer</code>  |
+| <code>normalize()</code>  | Method | <code>value: f32</code>                              | Applies normalization to the buffer, setting the peak to <code>value</code> (e.g., 0.8). | <code>nil</code>          |
+| <code>fade_in()</code>    | Method | <code>value: f32</code>                              | Applies a fade-in effect to the buffer over a duration specified by <code>value</code> (relative to buffer length, 0.0 to 1.0). | <code>nil</code>          |
+| <code>fade_out()</code>   | Method | <code>value: f32</code>                              | Applies a fade-out effect to the buffer over a duration specified by <code>value</code> (relative to buffer length, 0.0 to 1.0). | <code>nil</code>          |
+| <code>gain()</code>       | Method | <code>value: f32</code>                              | Applies a gain (volume) adjustment to the buffer by <code>value</code> (e.g., 0.5 for -6dB, 2.0 for +6dB). | <code>nil</code>          |
+| <code>rate()</code>       | Method | <code>value: f32</code>                              | Changes the playback rate of the buffer by <code>value</code> (e.g., 0.5 for half speed, 2.0 for double speed). | <code>nil</code>          |
+| <code>reverse()</code>    | Method | -                                         | Reverses the audio samples in the buffer.                                 | <code>nil</code>          |
+| <code>pitch()</code>      | Method | <code>amount: f32</code>                             | Applies a pitch shift to the buffer by <code>amount</code> semitones. (e.g., 1.0 for +1 semitone, -1.0 for -1 semitone). | <code>nil</code>          |
+| <strong>Constructor</strong> | <code>AudioBuffer</code> | <code>name: string</code>, <code>sample_rate: usize</code>, <code>bit_depth: u8</code>, <code>samples: table&lt;table&lt;f32&gt;&gt;</code> (optional), <code>effects: table&lt;AudioBufferModifier&gt;</code> (optional), <code>regions: table&lt;Region&gt;</code> (optional), <code>grid_size: usize</code> (optional) | To create a new <code>AudioBuffer</code> object in Lua. Example: <code>AudioBuffer { name = "Synth", sample_rate = 44100, bit_depth = 16 }</code> | <code>AudioBuffer</code>  |</li>
+</ol>
+<h4 id="tools-luaeditor-file-type"><code>File</code> Type</h4>
+<p>Represents a loaded audio file, containing its path and <code>AudioBuffer</code>.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Parameters</th>
+<th style="text-align: left;">Description</th>
+<th style="text-align: left;">Returns / Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>path</code></td>
+<td style="text-align: left;">Field</td>
+<td style="text-align: left;"><code>value: string</code></td>
+<td style="text-align: left;">Get/Set: The file system path of the audio file.</td>
+<td style="text-align: left;"><code>string</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>buffer</code></td>
+<td style="text-align: left;">Field</td>
+<td style="text-align: left;"><code>value: AudioBuffer</code></td>
+<td style="text-align: left;">Get/Set: The <code>AudioBuffer</code> containing the file's content.</td>
+<td style="text-align: left;"><code>AudioBuffer</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Constructor</strong></td>
+<td style="text-align: left;"><code>File</code></td>
+<td style="text-align: left;"><code>path: string</code>, <code>buffer: AudioBuffer</code></td>
+<td style="text-align: left;">To create a new <code>File</code> object in Lua. Example: <code>File { path = "/tmp/test.wav", buffer = my_audio_buffer }</code></td>
+<td style="text-align: left;"><code>File</code></td>
+</tr>
+</tbody>
+</table>
+<h4 id="tools-luaeditor-audiobuffermodifier-type"><code>AudioBufferModifier</code> Type</h4>
+<p>Represents an effect or modification that can be applied to an <code>AudioBuffer</code>.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Parameters</th>
+<th style="text-align: left;">Description</th>
+<th style="text-align: left;">Returns / Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>name</code></td>
+<td style="text-align: left;">Field</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">Get: The string representation of the modifier (e.g., "Normalize(0.8)"). (Read-Only)</td>
+<td style="text-align: left;"><code>string</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Constructor</strong></td>
+<td style="text-align: left;"><code>AudioBufferModifier</code></td>
+<td style="text-align: left;"><em>(Direct conversion from Lua table matching JSON structure)</em></td>
+<td style="text-align: left;">To create an <code>AudioBufferModifier</code> in Lua, construct a table representing its type and parameters. E.g., <code>{ type = "Normalize", value = 0.8 }</code>, or <code>{ type = "PitchShift", amount = 1.0, preserve_formants = true }</code></td>
+<td style="text-align: left;"><code>AudioBufferModifier</code></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="tools-luaeditor-important-notes-on-usage">Important Notes on Usage:</h3>
+<ul>
+<li><strong>1-Based Indexing for Regions:</strong> When interacting with <code>Region</code> objects using methods like <code>remove_region()</code>, <code>get_region()</code>, <code>update_region()</code>, <code>auto_trim_region()</code>, <code>zero_cross_region()</code>, <code>slice_region()</code>, and <code>export_region()</code>, remember that Lua typically uses 1-based indexing. If you have 3 regions, the first region is at index 1, the second at 2, and the third at 3. Methods returning <code>RegionInfo</code> (like <code>AudioBuffer:get_region_info</code>) might use 0-based indexing as they are closer to the Rust internal representation; always check the specific method's description.</li>
+<li><strong>Object Copying:</strong> When you retrieve an <code>AudioBuffer</code> or <code>File</code> object (e.g., <code>action.get_active_file()</code>), you are often getting a <em>clone</em> or a <em>snapshot</em> of the object at that moment. Modifications to this Lua object will <em>not</em> automatically reflect in the application's state unless you explicitly use an <code>update_</code> function (e.g., <code>action.update_active_file()</code> or <code>active_file.update_buffer()</code>).</li>
+<li><strong><code>AudioBufferModifier</code> Creation:</strong> When setting the <code>effects</code> field of an <code>AudioBuffer</code> or creating an <code>AudioBufferModifier</code> for parameters, you typically need to provide a Lua table that maps to the JSON serialization of the <code>AudioBufferModifier</code> enum in Rust. The exact structure will depend on the modifier type (e.g., <code>{ type = "Gain", value = 1.2 }</code>, <code>{ type = "Reverse", value = true }</code>).</li>
+<li><strong>Error Handling:</strong> Lua scripts should ideally include robust error handling (e.g., <code>pcall</code>) when calling functions that might fail, as <code>mlua</code> converts Rust <code>Err</code> results into Lua errors.</li>
+<li><strong>Tracing/Debugging:</strong> Use <code>action.debug_table(my_table)</code> or <code>info("My message")</code> (if <code>mlua</code>'s <code>print</code> is configured to <code>tracing::info!</code>) to output debugging information to Recorte's log/console.</li>
+</ul></section><section class="print-page" id="tools-samplechain" heading-number="3.4"><h1 id="tools-samplechain-sample-chain">Sample Chain</h1>
+<hr />
+<p>The Sample Chain tool joins multiple audio files into a single file, reducing file count and facilitating workflows with hardware instruments such as the Elektron Octatrack, Teenage Engineering OP1, Dirtywave M8, and the Polyend Tracker.</p>
+<p>When chaining multiple files, the tool automatically detects the minimum common sample rate and bit depth among the selected files and performs any required conversions for the chain.</p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Close Source Files</td>
+<td>Closes all selected files after the new file is created</td>
+</tr>
+<tr>
+<td>Equal Length</td>
+<td>Automatically matches the length of all files by padding the end</td>
+</tr>
+</tbody>
+</table></section><section class="print-page" id="tools-batcheditor" heading-number="3.5"><h1 id="tools-batcheditor-batch-editor">Batch Editor</h1>
+<hr />
+<p>The Batch Editor tool makes it easier to process and export multiple files open in the Workspace at once using a customizable <a href="#actions">action</a> list.</p>
+<p><a href="#actions">Actions</a> can be added to list via the add (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"/></svg></span>) button and the parameters for each action can be edited by clicking on the Edit button.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The list of available actions in the Batch Editor only include actions compatible with batch-procesing.</p>
+</div>
+<h2 id="tools-batcheditor-presets">Presets</h2>
+<p>Presets for the Batch Editor can be saved and loaded via the list (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"/></svg></span>) button. </p>
+<p>Presets store the entire sequence of actions and their specific parameter configurations, allowing you to quickly recall complex processing chains for different projects.<br />
+For example, you might create a "Drum Prep" preset that includes normalization, a short fade-out, and sample rate conversion. </p>
+<p>Using presets ensures consistency across multiple batches and significantly speeds up the workflow when dealing with recurring tasks.</p>
+<h2 id="tools-batcheditor-example-use-cases">Example Use Cases</h2>
+<ul>
+<li>
+<p>Auto-Trim and normalize multiple files</p>
+</li>
+<li>
+<p>Apply watermark to multiple files</p>
+</li>
+</ul></section></section><section class="print-page" id="userinterface" heading-number="4"><h1 id="userinterface-editor">Editor</h1>
+<hr />
+<h2 id="userinterface-sidebar">Sidebar</h2>
+<p>The left siderbar on the user interface contains different sub-sections tha.</p>
+<h3 id="userinterface-tools">Tools</h3>
+<p>This sub-group contains a list of the available tools in SA_EDITOR.</p>
+<p>Each tool adds extra functionality to the editor to create, edit and interact with files available in the workspace.</p>
+<p>Available tools (<em>click on tool name for more information</em>):</p>
+<ul>
+<li><strong><code>Audio Recorder</code></strong></li>
+<li><strong><code>Lua Editor</code></strong></li>
+<li><strong><code>Sample Chain</code></strong></li>
+<li><strong><code>Batch Editor</code></strong></li>
+</ul>
+<h3 id="userinterface-audio">Audio</h3>
+<p>The audio sub-section contains different controls for the audio engine, including:</p>
+<ul>
+<li>Output Channel drop-down selector</li>
+<li>Button to open SA_EDITOR's settings (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Zm88-29.84q.06-2.16,0-4.32l14.92-18.64a8,8,0,0,0,1.48-7.06,107.21,107.21,0,0,0-10.88-26.25,8,8,0,0,0-6-3.93l-23.72-2.64q-1.48-1.56-3-3L186,40.54a8,8,0,0,0-3.94-6,107.71,107.71,0,0,0-26.25-10.87,8,8,0,0,0-7.06,1.49L130.16,40Q128,40,125.84,40L107.2,25.11a8,8,0,0,0-7.06-1.48A107.6,107.6,0,0,0,73.89,34.51a8,8,0,0,0-3.93,6L67.32,64.27q-1.56,1.49-3,3L40.54,70a8,8,0,0,0-6,3.94,107.71,107.71,0,0,0-10.87,26.25,8,8,0,0,0,1.49,7.06L40,125.84Q40,128,40,130.16L25.11,148.8a8,8,0,0,0-1.48,7.06,107.21,107.21,0,0,0,10.88,26.25,8,8,0,0,0,6,3.93l23.72,2.64q1.49,1.56,3,3L70,215.46a8,8,0,0,0,3.94,6,107.71,107.71,0,0,0,26.25,10.87,8,8,0,0,0,7.06-1.49L125.84,216q2.16.06,4.32,0l18.64,14.92a8,8,0,0,0,7.06,1.48,107.21,107.21,0,0,0,26.25-10.88,8,8,0,0,0,3.93-6l2.64-23.72q1.56-1.48,3-3L215.46,186a8,8,0,0,0,6-3.94,107.71,107.71,0,0,0,10.87-26.25,8,8,0,0,0-1.49-7.06Zm-16.1-6.5a73.93,73.93,0,0,1,0,8.68,8,8,0,0,0,1.74,5.48l14.19,17.73a91.57,91.57,0,0,1-6.23,15L187,173.11a8,8,0,0,0-5.1,2.64,74.11,74.11,0,0,1-6.14,6.14,8,8,0,0,0-2.64,5.1l-2.51,22.58a91.32,91.32,0,0,1-15,6.23l-17.74-14.19a8,8,0,0,0-5-1.75h-.48a73.93,73.93,0,0,1-8.68,0,8,8,0,0,0-5.48,1.74L100.45,215.8a91.57,91.57,0,0,1-15-6.23L82.89,187a8,8,0,0,0-2.64-5.1,74.11,74.11,0,0,1-6.14-6.14,8,8,0,0,0-5.1-2.64L46.43,170.6a91.32,91.32,0,0,1-6.23-15l14.19-17.74a8,8,0,0,0,1.74-5.48,73.93,73.93,0,0,1,0-8.68,8,8,0,0,0-1.74-5.48L40.2,100.45a91.57,91.57,0,0,1,6.23-15L69,82.89a8,8,0,0,0,5.1-2.64,74.11,74.11,0,0,1,6.14-6.14A8,8,0,0,0,82.89,69L85.4,46.43a91.32,91.32,0,0,1,15-6.23l17.74,14.19a8,8,0,0,0,5.48,1.74,73.93,73.93,0,0,1,8.68,0,8,8,0,0,0,5.48-1.74L155.55,40.2a91.57,91.57,0,0,1,15,6.23L173.11,69a8,8,0,0,0,2.64,5.1,74.11,74.11,0,0,1,6.14,6.14,8,8,0,0,0,5.1,2.64l22.58,2.51a91.32,91.32,0,0,1,6.23,15l-14.19,17.74A8,8,0,0,0,199.87,123.66Z"/></svg></span>)</li>
+<li>Slider for output / preview volume</li>
+<li>Buttons for toggling / triggering audio output (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M155.51,24.81a8,8,0,0,0-8.42.88L77.25,80H32A16,16,0,0,0,16,96v64a16,16,0,0,0,16,16H77.25l69.84,54.31A8,8,0,0,0,160,224V32A8,8,0,0,0,155.51,24.81ZM32,96H72v64H32ZM144,207.64,88,164.09V91.91l56-43.55Zm54-106.08a40,40,0,0,1,0,52.88,8,8,0,0,1-12-10.58,24,24,0,0,0,0-31.72,8,8,0,0,1,12-10.58ZM248,128a79.9,79.9,0,0,1-20.37,53.34,8,8,0,0,1-11.92-10.67,64,64,0,0,0,0-85.33,8,8,0,1,1,11.92-10.67A79.83,79.83,0,0,1,248,128Z"/></svg></span>), panic (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,40H56A16,16,0,0,0,40,56V200a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V56A16,16,0,0,0,200,40Zm0,160H56V56H200V200Z"/></svg></span>), looping (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M24,128A72.08,72.08,0,0,1,96,56H204.69L194.34,45.66a8,8,0,0,1,11.32-11.32l24,24a8,8,0,0,1,0,11.32l-24,24a8,8,0,0,1-11.32-11.32L204.69,72H96a56.06,56.06,0,0,0-56,56,8,8,0,0,1-16,0Zm200-8a8,8,0,0,0-8,8,56.06,56.06,0,0,1-56,56H51.31l10.35-10.34a8,8,0,0,0-11.32-11.32l-24,24a8,8,0,0,0,0,11.32l24,24a8,8,0,0,0,11.32-11.32L51.31,200H160a72.08,72.08,0,0,0,72-72A8,8,0,0,0,224,120Z"/></svg></span>) and audio input (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,176a48.05,48.05,0,0,0,48-48V64a48,48,0,0,0-96,0v64A48.05,48.05,0,0,0,128,176ZM96,64a32,32,0,0,1,64,0v64a32,32,0,0,1-64,0Zm40,143.6V240a8,8,0,0,1-16,0V207.6A80.11,80.11,0,0,1,48,128a8,8,0,0,1,16,0,64,64,0,0,0,128,0,8,8,0,0,1,16,0A80.11,80.11,0,0,1,136,207.6Z"/></svg></span>).</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Output volume and looping are not stored across sessions and are set to default when the application is open.</p>
+</div>
+<h3 id="userinterface-workspace">Workspace</h3>
+<p>The workspace sub-section contains the list of files currenctly open in your workspace.</p>
+<p>Each file is represented by a header, containing the file name and a button to the close the file (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/></svg></span>), a waveform display, and information about the file (number of channels, length, sample rate, and file size).</p>
+<p>The file list can also be compacted via the waveform button (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M56,96v64a8,8,0,0,1-16,0V96a8,8,0,0,1,16,0ZM88,24a8,8,0,0,0-8,8V224a8,8,0,0,0,16,0V32A8,8,0,0,0,88,24Zm40,32a8,8,0,0,0-8,8V192a8,8,0,0,0,16,0V64A8,8,0,0,0,128,56Zm40,32a8,8,0,0,0-8,8v64a8,8,0,0,0,16,0V96A8,8,0,0,0,168,88Zm40-16a8,8,0,0,0-8,8v96a8,8,0,0,0,16,0V80A8,8,0,0,0,208,72Z"/></svg></span>). </p>
+<h3 id="userinterface-undo-history">Undo History</h3>
+<p>The undo history sub-section contains a list of undo-able changes made to the currently active file. </p>
+<p>Clicking on one of the items in the list reverts / undos to the selected state.</p>
+<h3 id="userinterface-clipboard">Clipboard</h3>
+<p>The clipboard sub-section displays the content of the workspace clipboard when any audio is copied to it (via the <code>Copy</code> command).</p>
+<hr />
+<h2 id="userinterface-editor-panel">Editor Panel</h2>
+<p>The main content panel contains the parameters available for the active file.</p>
+<h3 id="userinterface-file-header">File Header</h3>
+<p><img align="right" alt="File Header" src="../assets/images/file-header.png" /></p>
+<p>The file header is divided into 3 separate rows:</p>
+<ul>
+<li>
+<p><strong>File name</strong>: text field to display and edit the file name (click to edit)</p>
+</li>
+<li>
+<p><strong>File path / folder</strong>: path for export (click on <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M245,110.64A16,16,0,0,0,232,104H216V88a16,16,0,0,0-16-16H130.67L102.94,51.2a16.14,16.14,0,0,0-9.6-3.2H40A16,16,0,0,0,24,64V208h0a8,8,0,0,0,8,8H211.1a8,8,0,0,0,7.59-5.47l28.49-85.47A16.05,16.05,0,0,0,245,110.64ZM93.34,64,123.2,86.4A8,8,0,0,0,128,88h72v16H69.77a16,16,0,0,0-15.18,10.94L40,158.7V64Zm112,136H43.1l26.67-80H232Z"/></svg></span> to reveal or <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,48V96a8,8,0,0,1-8,8H168a8,8,0,0,1,0-16h28.69L182.06,73.37a79.56,79.56,0,0,0-56.13-23.43h-.45A79.52,79.52,0,0,0,69.59,72.71,8,8,0,0,1,58.41,61.27a96,96,0,0,1,135,.79L208,76.69V48a8,8,0,0,1,16,0ZM186.41,183.29a80,80,0,0,1-112.47-.66L59.31,168H88a8,8,0,0,0,0-16H40a8,8,0,0,0-8,8v48a8,8,0,0,0,16,0V179.31l14.63,14.63A95.43,95.43,0,0,0,130,222.06h.53a95.36,95.36,0,0,0,67.07-27.33,8,8,0,0,0-11.18-11.44Z"/></svg></span> to change)</p>
+</li>
+<li>
+<p><strong>View Options / Export</strong>:</p>
+<ul>
+<li>
+<p>Regions: toggles the visibility of regions in the waveform display.</p>
+</li>
+<li>
+<p>Transient: toggles the visibility of transients in the waveform display.</p>
+</li>
+<li>
+<p>Position: toggles the visilibity of the viewport position guide.</p>
+</li>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M40,88H73a32,32,0,0,0,62,0h81a8,8,0,0,0,0-16H135a32,32,0,0,0-62,0H40a8,8,0,0,0,0,16Zm64-24A16,16,0,1,1,88,80,16,16,0,0,1,104,64ZM216,168H199a32,32,0,0,0-62,0H40a8,8,0,0,0,0,16h97a32,32,0,0,0,62,0h17a8,8,0,0,0,0-16Zm-48,24a16,16,0,1,1,16-16A16,16,0,0,1,168,192Z"/></svg></span>: toggles the visilibity of the waveform display parameters.</p>
+</li>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Zm88-29.84q.06-2.16,0-4.32l14.92-18.64a8,8,0,0,0,1.48-7.06,107.21,107.21,0,0,0-10.88-26.25,8,8,0,0,0-6-3.93l-23.72-2.64q-1.48-1.56-3-3L186,40.54a8,8,0,0,0-3.94-6,107.71,107.71,0,0,0-26.25-10.87,8,8,0,0,0-7.06,1.49L130.16,40Q128,40,125.84,40L107.2,25.11a8,8,0,0,0-7.06-1.48A107.6,107.6,0,0,0,73.89,34.51a8,8,0,0,0-3.93,6L67.32,64.27q-1.56,1.49-3,3L40.54,70a8,8,0,0,0-6,3.94,107.71,107.71,0,0,0-10.87,26.25,8,8,0,0,0,1.49,7.06L40,125.84Q40,128,40,130.16L25.11,148.8a8,8,0,0,0-1.48,7.06,107.21,107.21,0,0,0,10.88,26.25,8,8,0,0,0,6,3.93l23.72,2.64q1.49,1.56,3,3L70,215.46a8,8,0,0,0,3.94,6,107.71,107.71,0,0,0,26.25,10.87,8,8,0,0,0,7.06-1.49L125.84,216q2.16.06,4.32,0l18.64,14.92a8,8,0,0,0,7.06,1.48,107.21,107.21,0,0,0,26.25-10.88,8,8,0,0,0,3.93-6l2.64-23.72q1.56-1.48,3-3L215.46,186a8,8,0,0,0,6-3.94,107.71,107.71,0,0,0,10.87-26.25,8,8,0,0,0-1.49-7.06Zm-16.1-6.5a73.93,73.93,0,0,1,0,8.68,8,8,0,0,0,1.74,5.48l14.19,17.73a91.57,91.57,0,0,1-6.23,15L187,173.11a8,8,0,0,0-5.1,2.64,74.11,74.11,0,0,1-6.14,6.14,8,8,0,0,0-2.64,5.1l-2.51,22.58a91.32,91.32,0,0,1-15,6.23l-17.74-14.19a8,8,0,0,0-5-1.75h-.48a73.93,73.93,0,0,1-8.68,0,8,8,0,0,0-5.48,1.74L100.45,215.8a91.57,91.57,0,0,1-15-6.23L82.89,187a8,8,0,0,0-2.64-5.1,74.11,74.11,0,0,1-6.14-6.14,8,8,0,0,0-5.1-2.64L46.43,170.6a91.32,91.32,0,0,1-6.23-15l14.19-17.74a8,8,0,0,0,1.74-5.48,73.93,73.93,0,0,1,0-8.68,8,8,0,0,0-1.74-5.48L40.2,100.45a91.57,91.57,0,0,1,6.23-15L69,82.89a8,8,0,0,0,5.1-2.64,74.11,74.11,0,0,1,6.14-6.14A8,8,0,0,0,82.89,69L85.4,46.43a91.32,91.32,0,0,1,15-6.23l17.74,14.19a8,8,0,0,0,5.48,1.74,73.93,73.93,0,0,1,8.68,0,8,8,0,0,0,5.48-1.74L155.55,40.2a91.57,91.57,0,0,1,15,6.23L173.11,69a8,8,0,0,0,2.64,5.1,74.11,74.11,0,0,1,6.14,6.14,8,8,0,0,0,5.1,2.64l22.58,2.51a91.32,91.32,0,0,1,6.23,15l-14.19,17.74A8,8,0,0,0,199.87,123.66Z"/></svg></span>: toggles the export settings.</p>
+</li>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,112v96a16,16,0,0,1-16,16H56a16,16,0,0,1-16-16V112A16,16,0,0,1,56,96H80a8,8,0,0,1,0,16H56v96H200V112H176a8,8,0,0,1,0-16h24A16,16,0,0,1,216,112ZM93.66,69.66,120,43.31V136a8,8,0,0,0,16,0V43.31l26.34,26.35a8,8,0,0,0,11.32-11.32l-40-40a8,8,0,0,0-11.32,0l-40,40A8,8,0,0,0,93.66,69.66Z"/></svg></span> Export: export the active file.</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="userinterface-waveform-display">Waveform Display</h3>
+<p><img alt="Waveform Display" src="../assets/images/waveform1.png" /></p>
+<p>The waveform display works as an interactive display of the currently active file.</p>
+<p>It displays the waveform (using one of the available <a href="#userinterface-">Waveform Display</a> modes), regions, transients and the background grid. When interacted with a mouse, it can make selections, create and manipulate regions, and set the playback position.</p>
+<h4 id="userinterface-create-edit-regions">Create / Edit Regions</h4>
+<p><a href="#regions">Regions</a> can be created and edited via the Waveform display.</p>
+<p>To create a region, click and drag on the waveform to create a selection and then click on the selection to create a new region.</p>
+<p>To move the region, click and drag on an existing region. The start and end points of a region can be adjusted independently by clicking and dragging on the left or right sides of the region bounds.</p>
+<p>To edit multiple regions simultaniously, hold Shift to select multiple regions than click and drag to edit (while holding Shift).</p>
+<h4 id="userinterface-mouse-interactions">Mouse Interactions</h4>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Target</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Click</td>
+<td>Waveform</td>
+<td>Set / Cancel Playback Position</td>
+</tr>
+<tr>
+<td>Click and Drag</td>
+<td>Waveform</td>
+<td>Create Selection</td>
+</tr>
+<tr>
+<td>Mouse Scroll (horizontal)</td>
+<td>Waveform</td>
+<td>Scroll horizontally</td>
+</tr>
+<tr>
+<td>Mouse Scroll (vertical)</td>
+<td>Waveform</td>
+<td>Adjust Zoom</td>
+</tr>
+<tr>
+<td>Click</td>
+<td>Selection</td>
+<td>Create Region</td>
+</tr>
+<tr>
+<td>Click</td>
+<td>Region</td>
+<td>Select Region</td>
+</tr>
+<tr>
+<td>Shift + Click</td>
+<td>Region</td>
+<td>Add / Remove Region to Selection</td>
+</tr>
+<tr>
+<td>Click and Drag</td>
+<td>Region</td>
+<td>Move / Resize Selected Region</td>
+</tr>
+<tr>
+<td>Shift + Click and Drag</td>
+<td>Region</td>
+<td>Move / Resize Selected Region (Fine Control)</td>
+</tr>
+<tr>
+<td>Right-Click</td>
+<td>Waveform</td>
+<td>Open Contextual Menu</td>
+</tr>
+</tbody>
+</table>
+<h3 id="userinterface-waveform-parameters">Waveform Parameters</h3>
+<p><img alt="Waveform Parameters" src="../assets/images/waveform-parameters.png" /></p>
+<p>The Waveform Parameters section contains different parameters to control the Waveform Display.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Icon</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Zoom</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"/></svg></span></td>
+<td>Set horizontal zoom</td>
+</tr>
+<tr>
+<td>Position</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M237.66,133.66l-32,32a8,8,0,0,1-11.32-11.32L212.69,136H43.31l18.35,18.34a8,8,0,0,1-11.32,11.32l-32-32a8,8,0,0,1,0-11.32l32-32a8,8,0,0,1,11.32,11.32L43.31,120H212.69l-18.35-18.34a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,237.66,133.66Z"/></svg></span></td>
+<td>Set the horizontal scroll position</td>
+</tr>
+<tr>
+<td>Vertical Zoom</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M165.66,194.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L120,212.69V43.31L101.66,61.66A8,8,0,0,1,90.34,50.34l32-32a8,8,0,0,1,11.32,0l32,32a8,8,0,0,1-11.32,11.32L136,43.31V212.69l18.34-18.35A8,8,0,0,1,165.66,194.34Z"/></svg></span></td>
+<td>Set the vertical zoom</td>
+</tr>
+<tr>
+<td>_</td>
+<td>_</td>
+<td>_</td>
+</tr>
+<tr>
+<td>Enable Grid</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,40H56A16,16,0,0,0,40,56V200a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V56A16,16,0,0,0,200,40Zm0,80H136V56h64ZM120,56v64H56V56ZM56,136h64v64H56Zm144,64H136V136h64v64Z"/></svg></span></td>
+<td>Enable the waveform grid</td>
+</tr>
+<tr>
+<td>Grid Division</td>
+<td></td>
+<td>Set the grid division</td>
+</tr>
+<tr>
+<td>Enable Timelines</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm64-88a8,8,0,0,1-8,8H128a8,8,0,0,1-8-8V72a8,8,0,0,1,16,0v48h48A8,8,0,0,1,192,128Z"/></svg></span></td>
+<td>Enable time Markers</td>
+</tr>
+<tr>
+<td>Disable Grid</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/></svg></span></td>
+<td>Disable Grid / Time</td>
+</tr>
+<tr>
+<td>_</td>
+<td>_</td>
+<td>_</td>
+</tr>
+<tr>
+<td>Bar Waveform Mode</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M56,96v64a8,8,0,0,1-16,0V96a8,8,0,0,1,16,0ZM88,24a8,8,0,0,0-8,8V224a8,8,0,0,0,16,0V32A8,8,0,0,0,88,24Zm40,32a8,8,0,0,0-8,8V192a8,8,0,0,0,16,0V64A8,8,0,0,0,128,56Zm40,32a8,8,0,0,0-8,8v64a8,8,0,0,0,16,0V96A8,8,0,0,0,168,88Zm40-16a8,8,0,0,0-8,8v96a8,8,0,0,0,16,0V80A8,8,0,0,0,208,72Z"/></svg></span></td>
+<td>Set Waveform Display mode to Bars</td>
+</tr>
+<tr>
+<td>Line Waveform More</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,128a8,8,0,0,1-8,8H204.94l-37.78,75.58A8,8,0,0,1,160,216h-.4a8,8,0,0,1-7.08-5.14L95.35,60.76,63.28,131.31A8,8,0,0,1,56,136H24a8,8,0,0,1,0-16H50.85L88.72,36.69a8,8,0,0,1,14.76.46l57.51,151,31.85-63.71A8,8,0,0,1,200,120h32A8,8,0,0,1,240,128Z"/></svg></span></td>
+<td>Set Waveform Display mode to Lines</td>
+</tr>
+</tbody>
+</table>
+<h3 id="userinterface-regions">Regions</h3>
+<p><img align="right" alt="Regions" src="../assets/images/regions.png" /></p>
+<p>The Regions panel contains a scrolling list of the regions available in the active file and options to sort, rename, and remove regions.</p>
+<h4 id="userinterface-buttons">Buttons</h4>
+<table>
+<thead>
+<tr>
+<th>Header Button</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm16-40a8,8,0,0,1-8,8,16,16,0,0,1-16-16V128a8,8,0,0,1,0-16,16,16,0,0,1,16,16v40A8,8,0,0,1,144,176ZM112,84a12,12,0,1,1,12,12A12,12,0,0,1,112,84Z"/></svg></span></td>
+<td>Toggle Region Info / Parameters</td>
+</tr>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,128a8,8,0,0,1-8,8H48a8,8,0,0,1,0-16h72A8,8,0,0,1,128,128ZM48,72H184a8,8,0,0,0,0-16H48a8,8,0,0,0,0,16Zm56,112H48a8,8,0,0,0,0,16h56a8,8,0,0,0,0-16Zm125.66-21.66a8,8,0,0,0-11.32,0L192,188.69V112a8,8,0,0,0-16,0v76.69l-26.34-26.35a8,8,0,0,0-11.32,11.32l40,40a8,8,0,0,0,11.32,0l40-40A8,8,0,0,0,229.66,162.34Z"/></svg></span></td>
+<td>Sort Regions</td>
+</tr>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M112,40a8,8,0,0,0-8,8V64H24A16,16,0,0,0,8,80v96a16,16,0,0,0,16,16h80v16a8,8,0,0,0,16,0V48A8,8,0,0,0,112,40ZM24,176V80h80v96ZM248,80v96a16,16,0,0,1-16,16H144a8,8,0,0,1,0-16h88V80H144a8,8,0,0,1,0-16h88A16,16,0,0,1,248,80ZM88,112a8,8,0,0,1-8,8H72v24a8,8,0,0,1-16,0V120H48a8,8,0,0,1,0-16H80A8,8,0,0,1,88,112Z"/></svg></span></td>
+<td>Rename Regions</td>
+</tr>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,48H176V40a24,24,0,0,0-24-24H104A24,24,0,0,0,80,40v8H40a8,8,0,0,0,0,16h8V208a16,16,0,0,0,16,16H192a16,16,0,0,0,16-16V64h8a8,8,0,0,0,0-16ZM96,40a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96Zm96,168H64V64H192ZM112,104v64a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Zm48,0v64a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Z"/></svg></span></td>
+<td>Remove Regions</td>
+</tr>
+</tbody>
+</table>
+<h4 id="userinterface-regions-list">Regions List</h4>
+<p>The top section of each region contains a number button to indicates the region number (click to select), a text input to display and edit the region name, and buttons to play, locate (zoom to region), and show region options.</p>
+<p>Each region also contains a waveform display which, like the region number button, can be clicked to add or remove a region from the current region selection.</p>
+<table>
+<thead>
+<tr>
+<th>Button</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232.4,114.49,88.32,26.35a16,16,0,0,0-16.2-.3A15.86,15.86,0,0,0,64,39.87V216.13A15.94,15.94,0,0,0,80,232a16.07,16.07,0,0,0,8.36-2.35L232.4,141.51a15.81,15.81,0,0,0,0-27ZM80,215.94V40l143.83,88Z"/></svg></span></td>
+<td>Play Region</td>
+</tr>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"/></svg></span></td>
+<td>Zoom to Region</td>
+</tr>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"/></svg></span></td>
+<td>Show Region Options</td>
+</tr>
+</tbody>
+</table>
+<p>The Region Options sub-menu also includes options to delete and export the region.</p>
+<h3 id="userinterface-effect-chain">Effect Chain</h3>
+<p><img align="right," alt="Effect-Chain" src="../assets/images/effect-chain.png" width="300" /></p>
+<p>The Effect Chain panel is used to add, remove, and re-order effects in the Global and Region effect chain.</p>
+<p>For more information about Effects and Effect Chains, check out the <strong><a href="#effects">Effects</a></strong> section.</p>
+<h4 id="userinterface-buttons_1">Buttons</h4>
+<table>
+<thead>
+<tr>
+<th>Button</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"/></svg></span></td>
+<td>Show Effect Chain Options</td>
+</tr>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"/></svg></span></td>
+<td>Add effect to selected chain</td>
+</tr>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"/></svg></span></td>
+<td>Enable / Disable effect chains</td>
+</tr>
+</tbody>
+</table>
+<h4 id="userinterface-effect-list">Effect list</h4>
+<p>Use the tab buttons to switch between the <strong>Global</strong> and <strong>Region</strong> effect chains.</p>
+<p>The effect list displays a list of all the effects in the selected chain, including the effect name, parameters, and buttons to collapse, enable / disable, and remove the effect.</p>
+<p>Effects can be re-ordered in the chain via drag-and-drop.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The Region Effect Chain is independente per-region. When set to <code>Region</code>, the Effect Chain shows the list of effects for the last selected region.</p>
+</div>
+<h4 id="userinterface-effect-chain-presets">Effect Chain Presets</h4>
+<p>Individual effect chains can also be saved as presets (JSON format) and loaded into the <code>Global</code> of <code>Region</code> chains.</p>
+<p>When opening or recording a new file, SA_EDITOR automatically loads the <code>default</code> preset to the <code>Global</code> effect chain.</p>
+<h4 id="userinterface-effect-chain-options">Effect Chain Options</h4>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Apply to All Regions</td>
+<td>Applies the effect chains to all regions (destructively)</td>
+</tr>
+<tr>
+<td>Apply to Selected Regions</td>
+<td>Applies the effect chains to selected regions (destructively)</td>
+</tr>
+<tr>
+<td>Copy</td>
+<td>Copies the selected effect chain to the clipboard</td>
+</tr>
+<tr>
+<td>Paste</td>
+<td>Pastes from the clipboard to the selected chain</td>
+</tr>
+<tr>
+<td>Clear</td>
+<td>Clears the effect chain</td>
+</tr>
+<tr>
+<td>Oversample</td>
+<td>Sets the oversampling factor for the effect chains</td>
+</tr>
+<tr>
+<td>Presets</td>
+<td>Save / Load Effect Chain Presets</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="userinterface-info">Info</h3>
+<p><img alt="Info" src="../assets/images/info.png" /></p>
+<p>The Info panel contains an information table for the active file.</p>
+<table>
+<thead>
+<tr>
+<th>Info</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Total Length</td>
+<td>Length of the file</td>
+</tr>
+<tr>
+<td>Samples</td>
+<td>Number of samples</td>
+</tr>
+<tr>
+<td>Channels</td>
+<td>Number of channels</td>
+</tr>
+<tr>
+<td>Avg Diff</td>
+<td>Difference between channels (dB)</td>
+</tr>
+<tr>
+<td>Sample Rate</td>
+<td>Sample Rate of the file</td>
+</tr>
+<tr>
+<td>Bit Depth</td>
+<td>Bit-depth of the file</td>
+</tr>
+<tr>
+<td>Peak</td>
+<td>Max sample value (dB)</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>Dynamic Range (dB)</td>
+</tr>
+<tr>
+<td>RMS</td>
+<td>Average RMS of the file</td>
+</tr>
+<tr>
+<td>File Size</td>
+<td>File size in kilobytes</td>
+</tr>
+<tr>
+<td>Bars</td>
+<td>Number of Bars (for BPM calculation)</td>
+</tr>
+<tr>
+<td>BPM</td>
+<td>Calculated BPM based on sample count x bars</td>
+</tr>
+</tbody>
+</table>
+<h2 id="userinterface-modals">Modals</h2></section>
+                    <section class='print-page md-section' id='section-5' heading-number='5'>
+                        <h1>Setup<a class='headerlink' href='#section-5' title='Permanent link'></a>
+                        </h1>
+                    <section class="print-page" id="shortcuts" heading-number="5.1"><h1 id="shortcuts-keyboard-shortcuts">Keyboard Shortcuts</h1>
+<hr />
+<h2 id="shortcuts-about">About</h2>
+<p>Shortcuts in SA_EDITOR provide a flexible and powerful method for triggering one or more <a href="#actions">Actions</a> via the keyboard using a macro-style approach.</p>
+<p>Rather than mapping keyboard keys to individual actions, each key can be customized to trigger multiple actions sequentially. Parameters for each action can also be customized, and confirmation dialogs or notifications can be enabled.</p>
+<p>This approach allows for multiple shortcuts to be assigned to the same action using different parameters.</p>
+<h2 id="shortcuts-shortcuts-editor">Shortcuts Editor</h2>
+<h2 id="shortcuts-factory-reset">Factory Reset</h2>
+<p>To reset all shortcuts to factory defaults, open the Shortcuts settings and click on the <code>Factory Reset</code> button.</p>
+<h2 id="shortcuts-shortcuts-file">Shortcuts File</h2>
+<p>To make it easier to share or edit shortcuts externally, SA_EDITOR saves all shortcuts as a <code>.json</code> file in <code>%APP_FOLDER%/settings/shortcuts.json</code> and automatically reloads it when the app is re-open.</p></section><section class="print-page" id="settings" heading-number="5.2"><h1 id="settings-settings">Settings</h1>
+<hr />
+<h2 id="settings-general">General</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Prepend Original Name</td>
+<td>When creating or exporting a new file, prepend the original file name to the new file name</td>
+</tr>
+<tr>
+<td>Copy Path from Source</td>
+<td>When creating or exporting a new file, copy the original file's path/location into the new file's metadata or default save location</td>
+</tr>
+<tr>
+<td>Copy Effects from Source</td>
+<td>Copy modifiers (metadata/attributes/tags) from the original file into the new file</td>
+</tr>
+<tr>
+<td>Auto Create First Region</td>
+<td>Automatically create an initial region when a new file is created or opened</td>
+</tr>
+<tr>
+<td>Auto Sort Regions</td>
+<td>Automatically sort regions (for example by start time) in the editor</td>
+</tr>
+<tr>
+<td>Default File Path</td>
+<td>Set the default path for new audio recordings</td>
+</tr>
+<tr>
+<td><strong>EDITING</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Auto Sort Regions</td>
+<td>Automatically sort regions when adding new regions</td>
+</tr>
+<tr>
+<td>Detect Region Pitch</td>
+<td>Enable automatic detection of pitch for newly created or edited regions</td>
+</tr>
+<tr>
+<td>Undo Items</td>
+<td>Set the maximum undo items per file</td>
+</tr>
+<tr>
+<td>Waveform Scroll Sensitivy</td>
+<td></td>
+</tr>
+<tr>
+<td>X (Position)</td>
+<td>Set the mouse scroll horizontal sensitivity</td>
+</tr>
+<tr>
+<td>Y (Zoom)</td>
+<td>Set the mouse scroll vertical sensitivity</td>
+</tr>
+<tr>
+<td><strong>RECORDING</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Split Recording by Channels</td>
+<td>When recording, split each input channel into separate tracks/regions</td>
+</tr>
+<tr>
+<td>Bit Depth</td>
+<td>Set the recording bit depth (16 or 24)</td>
+</tr>
+<tr>
+<td><strong>PLAYBACK</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Polyphonic Playback</td>
+<td>Allow overlapping playback of multiple regions/voices (polyphonic playback)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="settings-default">Default</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Show Regions</td>
+<td>Default: show region in waveform view</td>
+</tr>
+<tr>
+<td>Show Transients</td>
+<td>Default: show transient markers in waveform view</td>
+</tr>
+<tr>
+<td>Show Zoom</td>
+<td>Default: show zoom controls in the waveform view</td>
+</tr>
+<tr>
+<td>Show Waveform Controls</td>
+<td>Default: show waveform control elements (play/pause/other controls)</td>
+</tr>
+<tr>
+<td>Show Region Controls</td>
+<td>Default: show region control elements (play/pause/other controls) in (<code>Regions</code> panel)</td>
+</tr>
+<tr>
+<td>Waveform Mode</td>
+<td>Choose waveform display mode (options shown in UI: Bars or Line)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="settings-theme-editor">Theme Editor</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Theme Editor</td>
+<td>Open the theme editor UI to edit colors and other theme values (availability depends on licensing/limits)</td>
+</tr>
+<tr>
+<td>Load Theme</td>
+<td>Load/import a theme JSON from the themes directory into the theme editor</td>
+</tr>
+<tr>
+<td>Export Theme</td>
+<td>Export the currently edited/applied theme to a JSON file</td>
+</tr>
+</tbody>
+</table>
+<h2 id="settings-audio">Audio</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>AUDIO INPUT</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Audio Input Enabled / Disable</td>
+<td>Enable or disable audio input</td>
+</tr>
+<tr>
+<td>Device</td>
+<td>Select the audio input device to use</td>
+</tr>
+<tr>
+<td>Sample Rate</td>
+<td>Select the sample rate for the selected input device (choose from available rates)</td>
+</tr>
+<tr>
+<td><strong>AUDIO OUTPUT</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Audio Output Enabled / Disable</td>
+<td>Enable or disable audio output</td>
+</tr>
+<tr>
+<td>Device</td>
+<td>Select the audio output device to use</td>
+</tr>
+<tr>
+<td>Sample Rate</td>
+<td>Select the sample rate for the selected output device (choose from available rates)</td>
+</tr>
+<tr>
+<td>Channel Routing</td>
+<td></td>
+</tr>
+<tr>
+<td>Preview Output</td>
+<td>Set the output device channel for audio playback / preview (main output)</td>
+</tr>
+<tr>
+<td>Sampler Output</td>
+<td>Set the output device channel for the <code>Send to Sampler</code> action</td>
+</tr>
+</tbody>
+</table>
+<h2 id="settings-midi">MIDI</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>MIDI INPUT</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Enabled / Disabled (MIDI Input)</td>
+<td>Toggle button to enable or disable MIDI input processing (shows "Enabled" when running, "Disabled" when stopped)</td>
+</tr>
+<tr>
+<td>Port (MIDI Input)</td>
+<td>Select the MIDI input port from detected MIDI devices</td>
+</tr>
+<tr>
+<td>MIDI Monitor</td>
+<td>UI element that displays incoming MIDI events for monitoring and debugging</td>
+</tr>
+<tr>
+<td><strong>MIDI OUTPUT</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>Port (MIDI Output)</td>
+<td>Select the MIDI output port used for sending MIDI messages</td>
+</tr>
+</tbody>
+</table></section></section></div><style>.print-site-enumerate-headings #index > h1:before { content: '1 ' }
+
+.print-site-enumerate-headings #section-2 > h1:before { content: '2 ' }
+.print-site-enumerate-headings #files > h1:before { content: '2.1 ' }
+
+.print-site-enumerate-headings #regions > h1:before { content: '2.2 ' }
+
+.print-site-enumerate-headings #effects > h1:before { content: '2.3 ' }
+
+.print-site-enumerate-headings #actions > h1:before { content: '2.4 ' }
+
+.print-site-enumerate-headings #actionpallete > h1:before { content: '2.5 ' }
+
+.print-site-enumerate-headings #audioplayback > h1:before { content: '2.6 ' }
+
+.print-site-enumerate-headings #midi > h1:before { content: '2.7 ' }
+
+.print-site-enumerate-headings #section-3 > h1:before { content: '3 ' }
+.print-site-enumerate-headings #tools > h1:before { content: '3.1 ' }
+
+.print-site-enumerate-headings #tools-audiorecorder > h1:before { content: '3.2 ' }
+
+.print-site-enumerate-headings #tools-luaeditor > h1:before { content: '3.3 ' }
+
+.print-site-enumerate-headings #tools-samplechain > h1:before { content: '3.4 ' }
+
+.print-site-enumerate-headings #tools-batcheditor > h1:before { content: '3.5 ' }
+
+.print-site-enumerate-headings #userinterface > h1:before { content: '4 ' }
+
+.print-site-enumerate-headings #section-5 > h1:before { content: '5 ' }
+.print-site-enumerate-headings #shortcuts > h1:before { content: '5.1 ' }
+
+.print-site-enumerate-headings #settings > h1:before { content: '5.2 ' }
+</style>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://twitter.com/spektroaudio" target="_blank" rel="noopener" title="Spektro Audio on Twitter" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://instagram.com/spektroaudio" target="_blank" rel="noopener" title="Spektro Audio on Twitter" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M224.3 141a115 115 0 1 0-.6 230 115 115 0 1 0 .6-230m-.6 40.4a74.6 74.6 0 1 1 .6 149.2 74.6 74.6 0 1 1-.6-149.2m93.4-45.1a26.8 26.8 0 1 1 53.6 0 26.8 26.8 0 1 1-53.6 0m129.7 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8M399 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "/", "features": ["navigation.instant"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../js/print-site.js"></script>
+      
+    
+  </body>
+</html>
