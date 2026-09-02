@@ -1,0 +1,4496 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../effects/">
+      
+      
+        <link rel="next" href="../actionpalette/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Actions - Recorte User Manual</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/css/custom.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-348677531"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-348677531",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-348677531",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#actions" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Recorte User Manual" class="md-header__button md-logo" aria-label="Recorte User Manual" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Recorte User Manual
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Actions
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Recorte User Manual" class="md-nav__button md-logo" aria-label="Recorte User Manual" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Recorte User Manual
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Usage
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Usage
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../files/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Files
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../regions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../effects/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Effects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Actions
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Actions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#about" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        About
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        File
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="File">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#auto-trim-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auto Trim File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#close-active-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Close Active File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#close-all-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Close All Files
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#duplicate-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Duplicate File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-file-from-selected-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        New File From Selected Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-files-from-all-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        New Files From All Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#slice-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Slice File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trim-file-to-selected-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trim File to Selected Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#playback" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Playback
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Playback">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#play" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Play
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#play-note" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Play Note
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stop-playback" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stop Playback
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#toggle-playback-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Toggle Playback Loop
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Editing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cut-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cut Selection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copy-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copy Selection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paste" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#convert-bit-depth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Convert Bit-Depth
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#convert-sample-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Convert Sample Rate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#duplicate-channel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Duplicate Channel
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-channel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Remove Channel
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#region-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Region Actions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Region Actions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#auto-trim-selected-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auto Trim Selected Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auto-trim-all-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auto Trim All Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zero-cross-selected-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zero-Cross Selected Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zero-cross-transients" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zero-Cross Transients
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create-region-from-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Create Region From Selection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create-region-from-transients" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Create Region From Transients
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Remove Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-selected-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Remove Selected Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-all-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Remove All Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#duplicate-selected-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Duplicate Selected Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expand" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expand
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#extend-all-selected-region-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Extend (All / Selected) Region Start
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#extend-all-selected-region-end" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Extend (All / Selected) Region End
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#join-all-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Join All Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#join-selected-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Join Selected Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#slice-selected-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Slice Selected Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resize-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resize Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resize-region-by" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resize Region By
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sort-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sort Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#select-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Select Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#move-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Move Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#export" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Export
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Export">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#export-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Export File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#export-all-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Export All Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#export-selected-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Export Selected Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#export-all-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Export All Files
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#transients-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transients &amp; Detection
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Transients &amp; Detection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#clear-transients" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clear Transients
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detect-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detect Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detect-transients" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detect Transients
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detect-pitch-for-all-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detect Pitch for All Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recording" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recording
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recording">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#start-recording" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Start Recording
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stop-recording" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stop Recording
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-recording-length" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Set Recording Length
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#load-audio-recorder-preset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Load Audio Recorder Preset
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#save-audio-recorder-preset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Save Audio Recorder Preset
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#effects-processing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Effects &amp; Processing
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Effects &amp; Processing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#process" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Process
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apply-effect-chains" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Apply Effect Chains
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#load-effect-preset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Load Effect Preset
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copy-effect-chain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copy Effect Chain
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paste-effect-chain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paste Effect Chain
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clear-effect-chain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clear Effect Chain
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#save-effect-preset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Save Effect Preset
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#save-effects-as-default" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Save Effects as Default
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reveal-effect-preset-folder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reveal Effect Preset Folder
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#send-to-sampler" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Send to Sampler
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apply-effects-to-selected-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Apply Effects To Selected Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apply-effects-to-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Apply Effects To Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#batch-processor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Batch Processor
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Batch Processor">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#load-batch-editor-preset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Load Batch Editor Preset
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#save-batch-editor-preset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Save Batch Editor Preset
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ui-navigation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        UI &amp; Navigation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UI &amp; Navigation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#select-next-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Select Next File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#select-previous-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Select Previous File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#select-next-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Select Next Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#select-previous-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Select Previous Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zoom-all" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zoom All
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zoom-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zoom Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zoom-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zoom Selection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zoom" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zoom
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#center-to-selected-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Center to Selected Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#toggle-waveform-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Toggle Waveform Mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selection
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Selection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#set-selection-to-playback-position" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Set Selection to Playback Position
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clear-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clear Selection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#extend-selection-to-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Extend Selection to Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#extend-selection-to-transient" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Extend Selection to Transient
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workspace" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workspace
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Workspace">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#save-workspace" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Save Workspace
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-workspace" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open Workspace
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#export-theme" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Export Theme
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lua-scripting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lua Scripting
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lua Scripting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#run-lua-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Run Lua Script
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#run-lua-editor-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Run Lua Editor Script
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tools &amp; Windows
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tools &amp; Windows">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#open-action-palette" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open Action Palette
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-audio-recorder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open Audio Recorder
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-lua-editor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open Lua Editor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-sample-chain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open Sample Chain
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-batch-editor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open Batch Editor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-export-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open Export Settings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-keyboard-shortcuts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open Keyboard Shortcuts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open Settings
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../actionpalette/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Action Palette
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../audioplayback/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Audio Playback
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../midi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MIDI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tools
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tools
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/audiorecorder/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Audio Recorder
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/luaeditor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lua Scripting / Editor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/samplechain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sample Chain
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/batcheditor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Batch Editor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../userinterface/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Interface
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Setup
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Setup
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../howtoinstall/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Install
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../filelocations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    File Locations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../shortcuts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Keyboard Shortcuts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#about" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        About
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        File
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="File">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#auto-trim-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auto Trim File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#close-active-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Close Active File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#close-all-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Close All Files
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#duplicate-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Duplicate File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-file-from-selected-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        New File From Selected Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-files-from-all-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        New Files From All Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#slice-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Slice File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trim-file-to-selected-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trim File to Selected Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#playback" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Playback
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Playback">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#play" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Play
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#play-note" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Play Note
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stop-playback" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stop Playback
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#toggle-playback-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Toggle Playback Loop
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Editing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cut-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cut Selection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copy-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copy Selection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paste" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paste
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#convert-bit-depth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Convert Bit-Depth
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#convert-sample-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Convert Sample Rate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#duplicate-channel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Duplicate Channel
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-channel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Remove Channel
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#region-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Region Actions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Region Actions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#auto-trim-selected-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auto Trim Selected Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auto-trim-all-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auto Trim All Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zero-cross-selected-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zero-Cross Selected Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zero-cross-transients" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zero-Cross Transients
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create-region-from-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Create Region From Selection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create-region-from-transients" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Create Region From Transients
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Remove Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-selected-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Remove Selected Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-all-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Remove All Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#duplicate-selected-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Duplicate Selected Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expand" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expand
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#extend-all-selected-region-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Extend (All / Selected) Region Start
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#extend-all-selected-region-end" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Extend (All / Selected) Region End
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#join-all-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Join All Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#join-selected-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Join Selected Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#slice-selected-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Slice Selected Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resize-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resize Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resize-region-by" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resize Region By
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sort-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sort Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#select-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Select Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#move-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Move Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#export" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Export
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Export">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#export-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Export File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#export-all-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Export All Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#export-selected-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Export Selected Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#export-all-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Export All Files
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#transients-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transients &amp; Detection
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Transients &amp; Detection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#clear-transients" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clear Transients
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detect-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detect Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detect-transients" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detect Transients
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detect-pitch-for-all-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detect Pitch for All Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recording" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recording
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recording">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#start-recording" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Start Recording
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stop-recording" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stop Recording
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-recording-length" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Set Recording Length
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#load-audio-recorder-preset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Load Audio Recorder Preset
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#save-audio-recorder-preset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Save Audio Recorder Preset
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#effects-processing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Effects &amp; Processing
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Effects &amp; Processing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#process" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Process
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apply-effect-chains" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Apply Effect Chains
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#load-effect-preset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Load Effect Preset
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copy-effect-chain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copy Effect Chain
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paste-effect-chain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paste Effect Chain
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clear-effect-chain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clear Effect Chain
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#save-effect-preset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Save Effect Preset
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#save-effects-as-default" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Save Effects as Default
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reveal-effect-preset-folder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reveal Effect Preset Folder
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#send-to-sampler" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Send to Sampler
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apply-effects-to-selected-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Apply Effects To Selected Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apply-effects-to-regions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Apply Effects To Regions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#batch-processor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Batch Processor
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Batch Processor">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#load-batch-editor-preset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Load Batch Editor Preset
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#save-batch-editor-preset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Save Batch Editor Preset
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ui-navigation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        UI &amp; Navigation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UI &amp; Navigation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#select-next-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Select Next File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#select-previous-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Select Previous File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#select-next-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Select Next Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#select-previous-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Select Previous Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zoom-all" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zoom All
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zoom-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zoom Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zoom-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zoom Selection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zoom" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zoom
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#center-to-selected-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Center to Selected Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#toggle-waveform-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Toggle Waveform Mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selection
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Selection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#set-selection-to-playback-position" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Set Selection to Playback Position
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clear-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clear Selection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#extend-selection-to-region" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Extend Selection to Region
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#extend-selection-to-transient" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Extend Selection to Transient
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workspace" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workspace
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Workspace">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#save-workspace" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Save Workspace
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-workspace" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open Workspace
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#export-theme" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Export Theme
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lua-scripting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lua Scripting
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lua Scripting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#run-lua-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Run Lua Script
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#run-lua-editor-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Run Lua Editor Script
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tools &amp; Windows
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tools &amp; Windows">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#open-action-palette" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open Action Palette
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-audio-recorder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open Audio Recorder
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-lua-editor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open Lua Editor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-sample-chain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open Sample Chain
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-batch-editor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open Batch Editor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-export-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open Export Settings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-keyboard-shortcuts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open Keyboard Shortcuts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open Settings
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="actions">Actions</h1>
+<hr />
+<h2 id="about">About</h2>
+<p>Many of Recorte's features can be controlled using actions, which you can trigger using keyboard shortcuts or the Action Palette.</p>
+<hr />
+<h2 id="file">File</h2>
+<h3 id="auto-trim-file">Auto Trim File</h3>
+<p>Trim the active file to its audio content. A temporary region spanning the whole file is shrunk based on loudness (threshold), and all samples before and after it are removed.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Threshold</td>
+<td>Threshold in dB</td>
+</tr>
+</tbody>
+</table>
+<h3 id="close-active-file">Close Active File</h3>
+<p>Close the active file in the workspace.</p>
+<h3 id="close-all-files">Close All Files</h3>
+<p>Close all files in the workspace.</p>
+<h3 id="duplicate-file">Duplicate File</h3>
+<p>Duplicate the active file.</p>
+<h3 id="new-file-from-selected-region">New File From Selected Region</h3>
+<p>Create a new file from each selected region in the active file.</p>
+<h3 id="new-files-from-all-regions">New Files From All Regions</h3>
+<p>Create new files from each region available in the active file.</p>
+<h3 id="open-file">Open File</h3>
+<p>Open a file from disk into the workspace (opens the file dialog).</p>
+<h3 id="slice-file">Slice File</h3>
+<p>Split the file into equal slices / regions.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Slices</td>
+<td>Number of slices / regions</td>
+</tr>
+</tbody>
+</table>
+<h3 id="trim-file-to-selected-regions">Trim File to Selected Regions</h3>
+<p>Trim the active file based on the selected regions' start and end.</p>
+<hr />
+<h2 id="playback">Playback</h2>
+<h3 id="play">Play</h3>
+<p>Start playback of the active file, or the current selection / selected regions, with custom pitch and gain.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pitch</td>
+<td>Playback rate (1.0 = original speed), bipolar slider (-10.0 to 10.0)</td>
+</tr>
+<tr>
+<td>Gain</td>
+<td>Gain level (0.0 to 1.0)</td>
+</tr>
+<tr>
+<td>Loopable</td>
+<td>Loop playback (boolean toggle)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="play-note">Play Note</h3>
+<p>Start playback with the pitch and gain set by an incoming MIDI note (Base note: C4). Plays the current selection or selected regions at that pitch; without a selection, each note from C4 up plays a different region.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Note</td>
+<td>Note number / pitch (0-127)</td>
+</tr>
+<tr>
+<td>Velocity</td>
+<td>Note velocity (0-127), sets the playback gain</td>
+</tr>
+</tbody>
+</table>
+<h3 id="stop-playback">Stop Playback</h3>
+<p>Immediately stop any ongoing playback.</p>
+<h3 id="toggle-playback-loop">Toggle Playback Loop</h3>
+<p>Enable or disable loop playback.</p>
+<hr />
+<h2 id="editing">Editing</h2>
+<h3 id="cut-selection">Cut Selection</h3>
+<p>Cut the current selection from the active file and store it in the clipboard.</p>
+<h3 id="copy-selection">Copy Selection</h3>
+<p>Copy the current selection from the active file and store it in the clipboard.</p>
+<h3 id="paste">Paste</h3>
+<p>Paste the content of the clipboard into the active file based on a specified position and mode.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Position</td>
+<td><code>Prepend</code>: Paste to the beginning of the file. <br> <code>Append</code>: Paste to the end of the file. <br><code>Position</code>: Paste at a specific position (0–100% of the file length).</td>
+</tr>
+<tr>
+<td>Mode</td>
+<td><code>Insert</code>: Inserts the new clipboard content at position.<br><code>Replace</code>: Replace existing audio with the clipboard content. <br> <code>Mix</code>: Mixes existing audio with clipboard content (blend controlled by the mix ratio, 0.0 to 1.0). <br> <code>Add</code>: Overlay existing audio with clipboard content.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="convert-bit-depth">Convert Bit-Depth</h3>
+<p>Convert the active file bit-depth and apply dithering when you reduce the bit depth.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bit Depth</td>
+<td>Target bit depth (1 to 24)</td>
+</tr>
+<tr>
+<td>Dither</td>
+<td>Apply dithering during conversion (boolean toggle)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="convert-sample-rate">Convert Sample Rate</h3>
+<p>Convert the active file's sample-rate via re-sampling.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sample Rate</td>
+<td>Target sample rate in Hz (1 to 192000)</td>
+</tr>
+<tr>
+<td>Interpolation</td>
+<td>Resampling interpolation: Nearest, Linear, or Cubic</td>
+</tr>
+</tbody>
+</table>
+<h3 id="duplicate-channel">Duplicate Channel</h3>
+<p>Duplicate one of the available channels in the active file based on its channel number.</p>
+<h3 id="remove-channel">Remove Channel</h3>
+<p>Remove a channel from the active file based on its channel number. The last remaining channel cannot be removed.</p>
+<hr />
+<h2 id="region-actions">Region Actions</h2>
+<h3 id="auto-trim-selected-regions">Auto Trim Selected Regions</h3>
+<p>Shrink the selected regions' start and end based on the audio loudness.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Threshold</td>
+<td>Threshold in dB</td>
+</tr>
+</tbody>
+</table>
+<h3 id="auto-trim-all-regions">Auto Trim All Regions</h3>
+<p>Shrink all regions' start and end based on the audio loudness.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Threshold</td>
+<td>Threshold in dB</td>
+</tr>
+</tbody>
+</table>
+<h3 id="zero-cross-selected-region">Zero-Cross Selected Region</h3>
+<p>Snap the selected region to the nearest zero-crossing point.</p>
+<h3 id="zero-cross-transients">Zero-Cross Transients</h3>
+<p>Snap all transients to the nearest zero-crossing points.</p>
+<h3 id="create-region-from-selection">Create Region From Selection</h3>
+<p>Create a new region from the current selection.</p>
+<h3 id="create-region-from-transients">Create Region From Transients</h3>
+<p>Create a region at each detected transient. Transients must be detected first.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pad Start</td>
+<td>Padding added before each region start (ms)</td>
+</tr>
+<tr>
+<td>Pad End</td>
+<td>Padding added after each region end (ms)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="remove-region">Remove Region</h3>
+<p>Remove a region in the active file based on the region index.</p>
+<h3 id="remove-selected-region">Remove Selected Region</h3>
+<p>Remove the currently selected region.</p>
+<h3 id="remove-all-regions">Remove All Regions</h3>
+<p>Remove all regions in the active file.</p>
+<h3 id="duplicate-selected-region">Duplicate Selected Region</h3>
+<p>Make a copy of the selected region.</p>
+<h3 id="expand">Expand</h3>
+<p>Expand the current selection or selected regions to the next or previous region or transient boundary.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Destination</td>
+<td><code>Auto</code>: Expand automatically based on the current context. <br> <code>All Regions</code>: Expand all selected regions. <br><code>Selected Regions</code>: Expand the selected region(s). <br><code>Selection</code>: Expand the current selection.</td>
+</tr>
+<tr>
+<td>Location</td>
+<td><code>Start</code>: Expand towards the start. <br> <code>End</code>: Expand towards the end. <br><code>Both</code>: Expand both directions.</td>
+</tr>
+<tr>
+<td>Expand To</td>
+<td><code>Region</code>: Expand to the next region boundary. <br><code>Transient</code>: Expand to the next transient point.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="extend-all-selected-region-start">Extend (All / Selected) Region Start</h3>
+<p>Extend the start of all / selected regions backwards until the previous region or transient.</p>
+<h3 id="extend-all-selected-region-end">Extend (All / Selected) Region End</h3>
+<p>Extend the end of all / selected regions forwards until the next region or transient.</p>
+<h3 id="join-all-regions">Join All Regions</h3>
+<p>Consolidate the audio from all regions in the active file to a new file.
+It is also possible to add some separation and crossfading between regions.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Separation</td>
+<td>Gap between segments in ms</td>
+</tr>
+<tr>
+<td>Crossfade</td>
+<td>Crossfade duration in ms</td>
+</tr>
+</tbody>
+</table>
+<h3 id="join-selected-regions">Join Selected Regions</h3>
+<p>Consolidate the audio from the selected regions in the active file to a new file.
+It is also possible to add some separation and crossfading between regions.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Separation</td>
+<td>Gap between segments in ms</td>
+</tr>
+<tr>
+<td>Crossfade</td>
+<td>Crossfade duration in ms</td>
+</tr>
+</tbody>
+</table>
+<h3 id="slice-selected-region">Slice Selected Region</h3>
+<p>Split the selected region into equal regions.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Slices</td>
+<td>Number of slices / regions</td>
+</tr>
+</tbody>
+</table>
+<h3 id="resize-region">Resize Region</h3>
+<p>Open the dialog to resize the current region.</p>
+<h3 id="resize-region-by">Resize Region By</h3>
+<p>Resize region by a specific size preset.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Size</td>
+<td>Size unit: Millis, Samples, Beats, Bars, SizeKbs, or Factor</td>
+</tr>
+<tr>
+<td>Millis</td>
+<td>Time in milliseconds (optional, positive integer)</td>
+</tr>
+<tr>
+<td>Samples</td>
+<td>Number of samples (optional, positive integer)</td>
+</tr>
+<tr>
+<td>Beats</td>
+<td>Number of beats (optional, positive integer)</td>
+</tr>
+<tr>
+<td>Bars</td>
+<td>Number of bars (optional, positive integer)</td>
+</tr>
+<tr>
+<td>SizeKbs</td>
+<td>Size in kilobytes (optional, positive integer)</td>
+</tr>
+<tr>
+<td>Factor</td>
+<td>Multiplication factor (optional, positive float, default: 1.0)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="sort-regions">Sort Regions</h3>
+<p>Reorder the regions of the active file by Name, Position, Start, End, or Length. Only the region order and numbering change — the audio itself is not moved.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sorting Mode</td>
+<td><code>Name</code><br><code>Position</code><br><code>Start</code><br><code>End</code><br><code>Length</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="select-region">Select Region</h3>
+<p>Select a specific region based on the chosen selection mode.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Selection</td>
+<td><code>First</code>: Select the first region. <br> <code>Last</code>: Select the last region. <br><code>Shortest</code>: Select the shortest region. <br><code>Longest</code>: Select the longest region.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="move-regions">Move Regions</h3>
+<p>Shift selected regions by a time period.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Period</td>
+<td>Shift amount in samples, milliseconds, or percentage (positive moves later in the file, negative earlier)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="export">Export</h2>
+<h3 id="export-file">Export File</h3>
+<p>Export the active file to its path (overwrite if the file already exists).</p>
+<h3 id="export-all-regions">Export All Regions</h3>
+<p>Export all regions in the active file as separate audio files to the file path using the Export settings.</p>
+<h3 id="export-selected-regions">Export Selected Regions</h3>
+<p>Export the selected regions in the active file as separate audio files to the file path using the Export settings.</p>
+<h3 id="export-all-files">Export All Files</h3>
+<p>Export all files in the workspace.</p>
+<hr />
+<h2 id="transients-detection">Transients &amp; Detection</h2>
+<h3 id="clear-transients">Clear Transients</h3>
+<p>Remove all detected transients.</p>
+<h3 id="detect-regions">Detect Regions</h3>
+<p>Analyze the active file and create regions from detected audio segments.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Threshold</td>
+<td>Detection threshold in dB</td>
+</tr>
+<tr>
+<td>Min. Length</td>
+<td>Minimum region length in ms</td>
+</tr>
+<tr>
+<td>Min. Separation</td>
+<td>Minimum silence between regions in ms</td>
+</tr>
+<tr>
+<td>Pad Start</td>
+<td>Padding added before each region start (ms)</td>
+</tr>
+<tr>
+<td>Pad End</td>
+<td>Padding added after each region end (ms)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="detect-transients">Detect Transients</h3>
+<p>Analyze and mark transients in the current file.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Threshold</td>
+<td>Detection Threshold</td>
+</tr>
+<tr>
+<td>Zero-Cross Transients</td>
+<td>Toggle zero-crossing for all detected transients</td>
+</tr>
+</tbody>
+</table>
+<h3 id="detect-pitch-for-all-regions">Detect Pitch for All Regions</h3>
+<p>Run pitch detection on every region.</p>
+<hr />
+<h2 id="recording">Recording</h2>
+<h3 id="start-recording">Start Recording</h3>
+<p>Begin audio recording using the settings defined in the <a href="../tools/audiorecorder/">Audio Recorder</a>.</p>
+<h3 id="stop-recording">Stop Recording</h3>
+<p>Stop the active recording and create a new file in the workspace from the recording.</p>
+<h3 id="set-recording-length">Set Recording Length</h3>
+<p>Configure the recording duration in seconds.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Seconds</td>
+<td>Length in seconds</td>
+</tr>
+</tbody>
+</table>
+<h3 id="load-audio-recorder-preset">Load Audio Recorder Preset</h3>
+<p>Load a saved recorder configuration.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Preset</td>
+<td>Preset file path (.json)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="save-audio-recorder-preset">Save Audio Recorder Preset</h3>
+<p>Export the current recorder settings as a JSON file.</p>
+<hr />
+<h2 id="effects-processing">Effects &amp; Processing</h2>
+<h3 id="process">Process</h3>
+<p>Apply a single audio effect to the active file, all regions, selected regions, or the current selection. See <a href="../effects/">Effects</a> for available effects.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Apply To</td>
+<td>File / All Regions / Selected Regions / Selection</td>
+</tr>
+<tr>
+<td>Effect</td>
+<td>Effect to Apply</td>
+</tr>
+</tbody>
+</table>
+<h3 id="apply-effect-chains">Apply Effect Chains</h3>
+<p>Apply the current effect chain to the specified destination.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Apply To</td>
+<td>File / All Regions / Selected Regions / Selection</td>
+</tr>
+<tr>
+<td>Clear Effects</td>
+<td>Clear the effect chain after applying (boolean toggle)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="load-effect-preset">Load Effect Preset</h3>
+<p>Load a saved effect preset.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Preset</td>
+<td>Preset file path</td>
+</tr>
+</tbody>
+</table>
+<h3 id="copy-effect-chain">Copy Effect Chain</h3>
+<p>Copy the current effect chain to the clipboard.</p>
+<h3 id="paste-effect-chain">Paste Effect Chain</h3>
+<p>Paste an effect chain from the clipboard.</p>
+<h3 id="clear-effect-chain">Clear Effect Chain</h3>
+<p>Remove all effects from the chain.</p>
+<h3 id="save-effect-preset">Save Effect Preset</h3>
+<p>Save the current effect chain as a preset.</p>
+<h3 id="save-effects-as-default">Save Effects as Default</h3>
+<p>Save the active file's current effect chain as the default preset. New files use this chain when they are created.</p>
+<h3 id="reveal-effect-preset-folder">Reveal Effect Preset Folder</h3>
+<p>Open the effect preset folder in Finder.</p>
+<h3 id="send-to-sampler">Send to Sampler</h3>
+<p>Send audio to a sampler with custom parameters.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Source</td>
+<td>Source type: File, All Regions, Selected Region, or Selection</td>
+</tr>
+<tr>
+<td>Output Channel</td>
+<td>Output device channel (1 to output_channels)</td>
+</tr>
+<tr>
+<td>Gain dB</td>
+<td>Output gain in dB (-96.0 to 0.0, step 3.0 dB)</td>
+</tr>
+<tr>
+<td>Convert to Volca</td>
+<td>Enable Volca Syro stream conversion (optional, boolean toggle)</td>
+</tr>
+<tr>
+<td>Sample Slot</td>
+<td>Sample slot for Volca (optional, 1 to 100)</td>
+</tr>
+<tr>
+<td>Quality</td>
+<td>Conversion quality (optional, 8 to 16)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="apply-effects-to-selected-regions">Apply Effects To Selected Regions</h3>
+<p>Apply the file's current effect chain to the selected regions.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Clear Effects</td>
+<td>Clear the effect chain after applying (boolean toggle)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="apply-effects-to-regions">Apply Effects To Regions</h3>
+<p>Apply the file's current effect chain to specific regions by index.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Regions</td>
+<td>List of region indices</td>
+</tr>
+<tr>
+<td>Clear Effects</td>
+<td>Clear the effect chain after applying (boolean toggle)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="batch-processor">Batch Processor</h2>
+<h3 id="load-batch-editor-preset">Load Batch Editor Preset</h3>
+<p>Load a batch processor preset.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Preset</td>
+<td>Preset name or file path (.json)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="save-batch-editor-preset">Save Batch Editor Preset</h3>
+<p>Save the current batch processor settings.</p>
+<hr />
+<h2 id="ui-navigation">UI &amp; Navigation</h2>
+<h3 id="select-next-file">Select Next File</h3>
+<p>Activate the next file in the workspace.</p>
+<h3 id="select-previous-file">Select Previous File</h3>
+<p>Activate the previous file in the workspace.</p>
+<h3 id="select-next-region">Select Next Region</h3>
+<p>Move selection to the next region.</p>
+<h3 id="select-previous-region">Select Previous Region</h3>
+<p>Move selection to the previous region.</p>
+<h3 id="zoom-all">Zoom All</h3>
+<p>Fit the entire file in view.</p>
+<h3 id="zoom-region">Zoom Region</h3>
+<p>Zoom to the current region.</p>
+<h3 id="zoom-selection">Zoom Selection</h3>
+<p>Zoom to the current selection.</p>
+<h3 id="zoom">Zoom</h3>
+<p>Zoom the view to the selected destination (auto, file, all regions, or selection).</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Destination</td>
+<td>Destination (Auto/File/AllRegions/Selection)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="center-to-selected-region">Center to Selected Region</h3>
+<p>Pan view to center on the selected region.</p>
+<h3 id="toggle-waveform-mode">Toggle Waveform Mode</h3>
+<p>Switch the waveform view between line and bar display modes.</p>
+<hr />
+<h2 id="selection">Selection</h2>
+<h3 id="set-selection-to-playback-position">Set Selection to Playback Position</h3>
+<p>Mark the current playback position as the selection start. If a selection start is already marked, it sets the selection end instead.</p>
+<h3 id="clear-selection">Clear Selection</h3>
+<p>Deselect everything.</p>
+<h3 id="extend-selection-to-region">Extend Selection to Region</h3>
+<p>Expand selection to the next region boundary.</p>
+<h3 id="extend-selection-to-transient">Extend Selection to Transient</h3>
+<p>Expand selection to the next transient.</p>
+<hr />
+<h2 id="workspace">Workspace</h2>
+<h3 id="save-workspace">Save Workspace</h3>
+<p>Save the current workspace layout and state as a JSON file (opens a save dialog).</p>
+<h3 id="open-workspace">Open Workspace</h3>
+<p>Load a saved workspace from a JSON file (opens a file dialog).</p>
+<h3 id="export-theme">Export Theme</h3>
+<p>Export the current UI theme as a JSON file to the themes folder (opens a save dialog).</p>
+<hr />
+<h2 id="lua-scripting">Lua Scripting</h2>
+<h3 id="run-lua-script">Run Lua Script</h3>
+<p>Execute a Lua script file. See <a href="../tools/luaeditor/">Lua Scripting / Editor</a> for scripting details.</p>
+<p>Parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Script</td>
+<td>Script file path</td>
+</tr>
+</tbody>
+</table>
+<h3 id="run-lua-editor-script">Run Lua Editor Script</h3>
+<p>Run the script in the Lua editor panel.</p>
+<hr />
+<h2 id="tools-windows">Tools &amp; Windows</h2>
+<h3 id="open-action-palette">Open Action Palette</h3>
+<p>Open the Action Palette modal.</p>
+<h3 id="open-audio-recorder">Open Audio Recorder</h3>
+<p>Open the audio recorder modal.</p>
+<h3 id="open-lua-editor">Open Lua Editor</h3>
+<p>Open the Lua scripting editor.</p>
+<h3 id="open-sample-chain">Open Sample Chain</h3>
+<p>Open the Sample Chain tool modal.</p>
+<h3 id="open-batch-editor">Open Batch Editor</h3>
+<p>Open the Batch Editor tool modal.</p>
+<h3 id="open-export-settings">Open Export Settings</h3>
+<p>Open the export settings dialog.</p>
+<h3 id="open-keyboard-shortcuts">Open Keyboard Shortcuts</h3>
+<p>Open the keyboard shortcuts configuration.</p>
+<h3 id="open-settings">Open Settings</h3>
+<p>Open the application settings.</p>
+<hr />
+
+
+
+
+
+
+
+  
+    
+  
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Last update">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
+    </span>
+    2026-09-02
+  </span>
+
+    
+    
+    
+    
+  </aside>
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://tiktok.com/@spektroaudio" target="_blank" rel="noopener" title="Spektro Audio on Twitter" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M448.5 209.9c-44 .1-87-13.6-122.8-39.2v178.7c0 33.1-10.1 65.4-29 92.6s-45.6 48-76.6 59.6-64.8 13.5-96.9 5.3-60.9-25.9-82.7-50.8-35.3-56-39-88.9 2.9-66.1 18.6-95.2 40-52.7 69.6-67.7 62.9-20.5 95.7-16v89.9c-15-4.7-31.1-4.6-46 .4s-27.9 14.6-37 27.3-14 28.1-13.9 43.9 5.2 31 14.5 43.7 22.4 22.1 37.4 26.9 31.1 4.8 46-.1 28-14.4 37.2-27.1 14.2-28.1 14.2-43.8V0h88c-.1 7.4.6 14.9 1.9 22.2 3.1 16.3 9.4 31.9 18.7 45.7s21.3 25.6 35.2 34.6c19.9 13.1 43.2 20.1 67 20.1V210z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://instagram.com/spektroaudio" target="_blank" rel="noopener" title="Spektro Audio on Instagram" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M224.3 141a115 115 0 1 0-.6 230 115 115 0 1 0 .6-230m-.6 40.4a74.6 74.6 0 1 1 .6 149.2 74.6 74.6 0 1 1-.6-149.2m93.4-45.1a26.8 26.8 0 1 1 53.6 0 26.8 26.8 0 1 1-53.6 0m129.7 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8M399 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../js/print-site.js"></script>
+      
+    
+  </body>
+</html>
