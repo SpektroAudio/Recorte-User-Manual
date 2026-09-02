@@ -23,7 +23,7 @@
     
     
       
-        <title>Lua Scripting / Editor - My Docs</title>
+        <title>Lua Scripting / Editor - Recorte User Manual</title>
       
     
     
@@ -48,6 +48,8 @@
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="../../assets/css/custom.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -100,7 +102,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="My Docs" class="md-header__button md-logo" aria-label="My Docs" data-md-component="logo">
+    <a href="../.." title="Recorte User Manual" class="md-header__button md-logo" aria-label="Recorte User Manual" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -114,7 +116,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            My Docs
+            Recorte User Manual
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -224,13 +226,13 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs" data-md-component="logo">
+    <a href="../.." title="Recorte User Manual" class="md-nav__button md-logo" aria-label="Recorte User Manual" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    My Docs
+    Recorte User Manual
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -428,14 +430,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../actionpallete/" class="md-nav__link">
+      <a href="../../actionpalette/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Action Pallete
+    Action Palette
   
 
     
@@ -696,10 +698,32 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#global-environment-api" class="md-nav__link">
+  <a href="#action-table" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Global &amp; Environment API
+        action Table
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#active_file-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        active_file Table
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-globals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Other Globals
       
     </span>
   </a>
@@ -751,10 +775,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#audiobuffermodifier-object" class="md-nav__link">
+  <a href="#effect-object" class="md-nav__link">
     <span class="md-ellipsis">
       
-        AudioBufferModifier Object
+        Effect Object
       
     </span>
   </a>
@@ -766,17 +790,6 @@
     <span class="md-ellipsis">
       
         Important Scripting Notes
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#important-notes-on-usage" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Important Notes on Usage:
       
     </span>
   </a>
@@ -941,6 +954,62 @@
   
   
     <li class="md-nav__item">
+      <a href="../../howtoinstall/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Install
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../filelocations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    File Locations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../shortcuts/" class="md-nav__link">
         
   
@@ -1036,10 +1105,32 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#global-environment-api" class="md-nav__link">
+  <a href="#action-table" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Global &amp; Environment API
+        action Table
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#active_file-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        active_file Table
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-globals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Other Globals
       
     </span>
   </a>
@@ -1091,10 +1182,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#audiobuffermodifier-object" class="md-nav__link">
+  <a href="#effect-object" class="md-nav__link">
     <span class="md-ellipsis">
       
-        AudioBufferModifier Object
+        Effect Object
       
     </span>
   </a>
@@ -1106,17 +1197,6 @@
     <span class="md-ellipsis">
       
         Important Scripting Notes
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#important-notes-on-usage" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Important Notes on Usage:
       
     </span>
   </a>
@@ -1147,15 +1227,15 @@
 
 <h1 id="lua-editor">Lua Editor</h1>
 <hr />
-<p>The Lua Editor lets users extend SA_EDITOR functionality via custom Lua scripts (Lua v5.4), which can be edited using the built-in editor or any text editor.</p>
-<p><strong>Lua</strong> is a lightweight, high-performance scripting language designed for embedded systems and extensibility, created and maintained by the a dedicated team in PUC-Rio (Brazilian university) and used by many games and applications.<br />
+<p><img alt="Lua Editor" src="../../assets/images/lua-editor.png" /></p>
+<p>The Lua Editor lets users extend Recorte functionality through custom Lua scripts (Lua v5.4), that users can edit with the built-in editor or any text editor.</p>
+<p><strong>Lua</strong> is a lightweight, high-performance scripting language designed for embedded systems and extensibility, created and maintained by a dedicated team in PUC-Rio (Brazilian university) and used by many games and applications.<br />
 For more information about Lua, visit <a href="https://www.lua.org/">https://www.lua.org/</a>.</p>
 <p>Scripts are stored in the <code>settings / scripts</code> folder and can be run via the Lua Editor or custom keyboard shortcuts.</p>
-<p>Many of SA_EDITOR's features and data (such as files, regions, and effects) can be accessed and manipulated from Lua via custom tables and functions that are available during runtime.</p>
-<p>For more information about scripting, check out the <a href="lua_scripting.md">Lua Scripting</a> page.</p>
+<p>You can access and manipulate <a href="../../files/">Files</a>, <a href="../../regions/">Regions</a>, <a href="../../effects/">Effects</a>, and <a href="../../actions/">Actions</a> from Lua through custom tables and functions that are available during runtime.</p>
 <h2 id="scripting">Scripting</h2>
-<h3 id="global-environment-api">Global &amp; Environment API</h3>
-<p>These tables and functions are available in the default script environment.</p>
+<h3 id="action-table"><code>action</code> Table</h3>
+<p>Global functions that queue actions for the application to process.</p>
 <table>
 <thead>
 <tr>
@@ -1215,12 +1295,6 @@ For more information about Lua, visit <a href="https://www.lua.org/">https://www
 <td><code>void</code></td>
 </tr>
 <tr>
-<td><code>action.close_active_file()</code></td>
-<td><em>None</em></td>
-<td>Queues closing the currently active file.</td>
-<td><code>void</code></td>
-</tr>
-<tr>
 <td><code>action.close_all_files()</code></td>
 <td><em>None</em></td>
 <td>Queues closing all loaded files.</td>
@@ -1236,12 +1310,6 @@ For more information about Lua, visit <a href="https://www.lua.org/">https://www
 <td><code>action.select_previous_file()</code></td>
 <td><em>None</em></td>
 <td>Queues switching to the previous file in the list.</td>
-<td><code>void</code></td>
-</tr>
-<tr>
-<td><code>action.play()</code></td>
-<td><em>None</em></td>
-<td>Queues playback of the active buffer/region.</td>
 <td><code>void</code></td>
 </tr>
 <tr>
@@ -1263,27 +1331,15 @@ For more information about Lua, visit <a href="https://www.lua.org/">https://www
 <td><code>void</code></td>
 </tr>
 <tr>
-<td><code>action.new_files_from_regions()</code></td>
-<td><em>None</em></td>
-<td>Queues creation of new files from all existing regions.</td>
-<td><code>void</code></td>
-</tr>
-<tr>
-<td><code>action.export_all_files()</code> / <code>action.export_file()</code></td>
+<td><code>action.export_all_files()</code></td>
 <td><em>None</em></td>
 <td>Queues export of all loaded files to disk.</td>
 <td><code>void</code></td>
 </tr>
 <tr>
-<td><code>action.export_all_regions()</code></td>
-<td><em>None</em></td>
-<td>Queues export of all regions as separate audio files.</td>
-<td><code>void</code></td>
-</tr>
-<tr>
-<td><code>action.export_selected_regions()</code></td>
-<td><em>None</em></td>
-<td>Queues export of only selected regions.</td>
+<td><code>action.debug_table(table)</code></td>
+<td><code>table: table</code></td>
+<td>Debug utility: logs the contents of a Lua table to Recorte's console.</td>
 <td><code>void</code></td>
 </tr>
 <tr>
@@ -1292,22 +1348,30 @@ For more information about Lua, visit <a href="https://www.lua.org/">https://www
 <td>Lists all available action function names.</td>
 <td><code>string[]</code> (table)</td>
 </tr>
+</tbody>
+</table>
+<h3 id="active_file-table"><code>active_file</code> Table</h3>
+<p>Utilities for interacting with the currently active file.</p>
+<table>
+<thead>
 <tr>
-<td><code>action.debug_table(tbl)</code></td>
-<td><code>tbl: table</code></td>
-<td>Logs all key-value pairs in the provided table to the app console.</td>
-<td><code>void</code></td>
+<th>Name / Signature</th>
+<th>Parameters</th>
+<th>Functionality</th>
+<th>Return Value</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td><code>active_file.get()</code></td>
 <td><em>None</em></td>
-<td>Alias for <code>action.get_active_file()</code>. Retrieves active file.</td>
+<td>Retrieves the currently active <code>File</code> object.</td>
 <td><code>File</code> (userdata)</td>
 </tr>
 <tr>
 <td><code>active_file.update(file)</code></td>
 <td><code>file: File</code></td>
-<td>Alias for <code>action.update_active_file()</code>. Updates active file.</td>
+<td>Replaces the active file with a new <code>File</code> object.</td>
 <td><code>void</code></td>
 </tr>
 <tr>
@@ -1317,11 +1381,84 @@ For more information about Lua, visit <a href="https://www.lua.org/">https://www
 <td><code>void</code></td>
 </tr>
 <tr>
+<td><code>active_file.select_regions(indices)</code></td>
+<td><code>indices: table&lt;number&gt;</code></td>
+<td>Selects multiple regions for the active file (1-based).</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>active_file.selected_regions()</code></td>
+<td><em>None</em></td>
+<td>Returns the currently selected region indices (1-based).</td>
+<td><code>table&lt;number&gt;</code></td>
+</tr>
+<tr>
+<td><code>active_file.play()</code></td>
+<td><em>None</em></td>
+<td>Queues playback of the active buffer/region.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>active_file.close()</code></td>
+<td><em>None</em></td>
+<td>Queues closing the currently active file.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>active_file.new_files_from_regions()</code></td>
+<td><em>None</em></td>
+<td>Queues creation of new files from all existing regions.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>active_file.export()</code></td>
+<td><em>None</em></td>
+<td>Queues export of the currently active file.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>active_file.export_region(index)</code></td>
+<td><code>index: number</code> (1-based)</td>
+<td>Queues export of the region at the given index of the active file.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>active_file.export_selected_regions()</code></td>
+<td><em>None</em></td>
+<td>Queues export of only selected regions.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>active_file.export_all_regions()</code></td>
+<td><em>None</em></td>
+<td>Queues export of all regions as separate audio files.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>active_file.load_effect_preset(path)</code></td>
+<td><code>path: string</code></td>
+<td>Loads an effect preset into the active file.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
 <td><code>active_file.available()</code></td>
 <td><em>None</em></td>
 <td>Lists available file utility function names.</td>
 <td><code>string[]</code> (table)</td>
 </tr>
+</tbody>
+</table>
+<h3 id="other-globals">Other Globals</h3>
+<table>
+<thead>
+<tr>
+<th>Name / Signature</th>
+<th>Parameters</th>
+<th>Functionality</th>
+<th>Return Value</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><code>info.file_count</code></td>
 <td><em>Property</em></td>
@@ -1357,7 +1494,7 @@ For more information about Lua, visit <a href="https://www.lua.org/">https://www
 </tr>
 <tr>
 <td><code>bpm</code></td>
-<td><em>Field (Get/Set)</em></td>
+<td><em>Field (Read)</em></td>
 <td>Tempo metadata for the buffer.</td>
 <td><code>number</code></td>
 </tr>
@@ -1406,7 +1543,7 @@ For more information about Lua, visit <a href="https://www.lua.org/">https://www
 <tr>
 <td><code>effects</code></td>
 <td><em>Field (Get/Set)</em></td>
-<td>Serialized global modifiers/effects applied to the buffer.</td>
+<td>Serialized global effects applied to the buffer.</td>
 <td><code>table</code> (serialized)</td>
 </tr>
 <tr>
@@ -1482,10 +1619,10 @@ For more information about Lua, visit <a href="https://www.lua.org/">https://www
 <td><code>void</code></td>
 </tr>
 <tr>
-<td><code>detect_regions(threshold)</code></td>
-<td><code>threshold: number</code></td>
-<td>Auto-detects regions based on loudness threshold.</td>
-<td><code>Region[]</code></td>
+<td><code>detect_regions(threshold, min_length_ms)</code></td>
+<td><code>threshold: number</code>, <code>min_length_ms: number</code></td>
+<td>Auto-detects regions based on loudness threshold and minimum length.</td>
+<td><code>table&lt;Region&gt;</code></td>
 </tr>
 <tr>
 <td><code>detect_transients(threshold)</code></td>
@@ -1615,8 +1752,8 @@ For more information about Lua, visit <a href="https://www.lua.org/">https://www
 </tr>
 <tr>
 <td><code>gain(value)</code></td>
-<td><code>value: number</code> (dB or linear)</td>
-<td>Applies gain adjustment.</td>
+<td><code>value: number</code></td>
+<td>Applies gain adjustment (linear).</td>
 <td><code>void</code></td>
 </tr>
 <tr>
@@ -1637,8 +1774,41 @@ For more information about Lua, visit <a href="https://www.lua.org/">https://www
 <td>Pitch-shifts audio.</td>
 <td><code>void</code></td>
 </tr>
+<tr>
+<td><code>pitch_shift(amount)</code></td>
+<td><code>amount: number</code> (semitones)</td>
+<td>Pitch-shifts audio with formant preservation.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>size()</code></td>
+<td><em>None</em></td>
+<td>Returns the formatted size of the buffer as a string.</td>
+<td><code>string</code></td>
+</tr>
+<tr>
+<td><code>channel()</code></td>
+<td><em>None</em></td>
+<td>Returns the number of channels.</td>
+<td><code>number</code></td>
+</tr>
+<tr>
+<td><code>remove_channel(index)</code></td>
+<td><code>index: number</code> (1-based)</td>
+<td>Removes a channel by index.</td>
+<td><code>void</code></td>
+</tr>
+<tr>
+<td><code>trim_to_regions(indices)</code></td>
+<td><code>indices: table&lt;number&gt;</code> (1-based)</td>
+<td>Trims the buffer to the specified regions.</td>
+<td><code>void</code></td>
+</tr>
 </tbody>
 </table>
+<ul>
+<li>Methods ending in <code>_at_position</code> accept <code>0.0</code> (start) to <code>1.0</code> (end). Values are automatically clamped.</li>
+</ul>
 <hr />
 <h3 id="region-object"><code>Region</code> Object</h3>
 <p>Represents a defined slice/segment of an audio buffer.</p>
@@ -1675,6 +1845,12 @@ For more information about Lua, visit <a href="https://www.lua.org/">https://www
 <td><em>Field (Read)</em></td>
 <td>Calculated sample length (<code>end - start</code>).</td>
 <td><code>number</code></td>
+</tr>
+<tr>
+<td><code>pitch_str</code></td>
+<td><em>Field (Read)</em></td>
+<td>String representation of the region's pitch.</td>
+<td><code>string</code></td>
 </tr>
 <tr>
 <td><code>bpm</code></td>
@@ -1769,8 +1945,8 @@ For more information about Lua, visit <a href="https://www.lua.org/">https://www
 </tbody>
 </table>
 <hr />
-<h3 id="audiobuffermodifier-object"><code>AudioBufferModifier</code> Object</h3>
-<p>Internal effect/modifier representation (typically handled via <code>effects</code> field).</p>
+<h3 id="effect-object"><code>Effect</code> Object</h3>
+<p>Internal effect representation (typically handled through the <code>effects</code> field).</p>
 <table>
 <thead>
 <tr>
@@ -1784,121 +1960,39 @@ For more information about Lua, visit <a href="https://www.lua.org/">https://www
 <tr>
 <td><code>name</code></td>
 <td><em>Field (Read)</em></td>
-<td>Auto-formatted string name of the modifier.</td>
+<td>Auto-formatted string name of the effect.</td>
 <td><code>string</code></td>
 </tr>
 </tbody>
 </table>
 <hr />
 <h3 id="important-scripting-notes">Important Scripting Notes</h3>
-<ol>
-<li><strong>1-Based Indexing</strong>: All Lua functions referencing <code>index</code> for regions or files use <strong>1-based indexing</strong>. Passing <code>0</code> will throw a runtime error.</li>
-<li><strong>Proportional Positions</strong>: Methods ending in <code>_at_position</code> accept <code>0.0</code> (start) to <code>1.0</code> (end). Values are automatically clamped.</li>
-<li><strong>Asynchronous Actions</strong>: All <code>action.*</code> functions do <strong>not</strong> execute immediately. They push commands to an internal action queue that the UI/app processes on the next tick.</li>
-<li><strong>In-Place vs Copy</strong>: Methods like <code>normalize</code>, <code>fade_in</code>, <code>pitch</code>, <code>slice</code>, etc., modify the <code>AudioBuffer</code> <strong>in-place</strong> and return <code>void</code>. Methods like <code>copy_at_...</code>, <code>cut_at_...</code>, and <code>join_all_regions</code> return <strong>new</strong> <code>AudioBuffer</code> instances without altering the source.</li>
-<li><strong>Serialization</strong>: The <code>effects</code> field expects/returns a Lua table that serializes to JSON matching the Rust <code>AudioBufferModifier</code> structure.
-                      | Clears all regions from the buffer.                                       | <code>nil</code>          |
-| <code>detect_regions()</code> | Method | <code>threshold: f32</code>                          | Detects regions based on loudness thresholds and adds them to the buffer. | <code>table&lt;Region&gt;</code> |
-| <code>detect_transients()</code> | Method | <code>threshold: f32</code>                          | Detects transients in the buffer at the given threshold and stores their positions. | <code>nil</code>          |
-| <code>get_region()</code> | Method | <code>index: usize</code>                            | Returns a clone of the region at the specified <strong>1-based</strong> index.         | <code>Region</code>       |
-| <code>join_all_regions()</code> | Method | <code>separation_ms: f32</code>                      | Joins all regions into a new <code>AudioBuffer</code>, with optional silence separation. | <code>AudioBuffer</code>  |
-| <code>auto_trim_region()</code> | Method | <code>region_index: usize</code>, <code>threshold: f32</code>   | Automatically trims (shrinks) the specified <strong>1-based</strong> region based on a loudness threshold. | <code>nil</code>          |
-| <code>zero_cross_region()</code> | Method | <code>region_index: usize</code>                     | Adjusts the start/end of the specified <strong>1-based</strong> region to the nearest zero-crossing point. | <code>nil</code>          |
-| <code>slice()</code>      | Method | <code>slices: usize</code>                           | Slices the entire buffer into <code>slices</code> equal parts, creating new regions. | <code>nil</code>          |
-| <code>slice_region()</code> | Method | <code>index: usize</code>, <code>slices: usize</code>           | Slices the specified <strong>1-based</strong> region into <code>slices</code> equal sub-regions.  | <code>nil</code>          |
-| <code>copy_at_sample()</code> | Method | <code>start: usize</code>, <code>end: usize</code>              | Copies a segment of the buffer between <code>start</code> and <code>end</code> sample indices as a new <code>AudioBuffer</code>. | <code>AudioBuffer</code>  |
-| <code>copy_at_position()</code> | Method | <code>start_rel: f32</code>, <code>end_rel: f32</code>          | Copies a segment of the buffer between relative positions (0.0 to 1.0) as a new <code>AudioBuffer</code>. | <code>AudioBuffer</code>  |
-| <code>cut_at_sample()</code> | Method | <code>start: usize</code>, <code>end: usize</code>              | Cuts a segment of the buffer between <code>start</code> and <code>end</code> sample indices, returning the cut section as a new <code>AudioBuffer</code>, and modifying the original buffer. | <code>AudioBuffer</code>  |
-| <code>cut_at_position()</code> | Method | <code>start_rel: f32</code>, <code>end_rel: f32</code>          | Cuts a segment of the buffer between relative positions (0.0 to 1.0), returning the cut section as a new <code>AudioBuffer</code>, and modifying the original buffer. | <code>AudioBuffer</code>  |
-| <code>paste_at_sample()</code> | Method | <code>buffer: AudioBuffer</code>, <code>sample_index: usize</code>, <code>replace: bool</code> | Pastes the <code>buffer</code> content at <code>sample_index</code>. If <code>replace</code> is <code>true</code>, it overwrites; otherwise, it inserts. | <code>nil</code>          |
-| <code>paste_at_position()</code> | Method | <code>buffer: AudioBuffer</code>, <code>position: f32</code>, <code>replace: bool</code> | Pastes the <code>buffer</code> content at a relative <code>position</code> (0.0 to 1.0). If <code>replace</code> is <code>true</code>, it overwrites; otherwise, it inserts. | <code>nil</code>          |
-| <code>mix_at_sample()</code> | Method | <code>buffer: AudioBuffer</code>, <code>position: usize</code>, <code>mix: f32</code> | Mixes the <code>buffer</code> content into the current buffer at <code>position</code> with a specified <code>mix</code> level (0.0 to 1.0). | <code>nil</code>          |
-| <code>mix_at_position()</code> | Method | <code>buffer: AudioBuffer</code>, <code>position: f32</code>, <code>mix: f32</code> | Mixes the <code>buffer</code> content into the current buffer at a relative <code>position</code> (0.0 to 1.0) with a specified <code>mix</code> level. | <code>nil</code>          |
-| <code>update_region()</code> | Method | <code>index: usize</code>, <code>region: Region</code>          | Updates the region at the specified <strong>1-based</strong> index with the provided <code>Region</code> object. | <code>nil</code>          |
-| <code>export_region()</code> | Method | <code>index: usize</code>                            | Exports the region at the specified <strong>1-based</strong> index as a new <code>AudioBuffer</code>. | <code>AudioBuffer</code>  |
-| <code>normalize()</code>  | Method | <code>value: f32</code>                              | Applies normalization to the buffer, setting the peak to <code>value</code> (e.g., 0.8). | <code>nil</code>          |
-| <code>fade_in()</code>    | Method | <code>value: f32</code>                              | Applies a fade-in effect to the buffer over a duration specified by <code>value</code> (relative to buffer length, 0.0 to 1.0). | <code>nil</code>          |
-| <code>fade_out()</code>   | Method | <code>value: f32</code>                              | Applies a fade-out effect to the buffer over a duration specified by <code>value</code> (relative to buffer length, 0.0 to 1.0). | <code>nil</code>          |
-| <code>gain()</code>       | Method | <code>value: f32</code>                              | Applies a gain (volume) adjustment to the buffer by <code>value</code> (e.g., 0.5 for -6dB, 2.0 for +6dB). | <code>nil</code>          |
-| <code>rate()</code>       | Method | <code>value: f32</code>                              | Changes the playback rate of the buffer by <code>value</code> (e.g., 0.5 for half speed, 2.0 for double speed). | <code>nil</code>          |
-| <code>reverse()</code>    | Method | -                                         | Reverses the audio samples in the buffer.                                 | <code>nil</code>          |
-| <code>pitch()</code>      | Method | <code>amount: f32</code>                             | Applies a pitch shift to the buffer by <code>amount</code> semitones. (e.g., 1.0 for +1 semitone, -1.0 for -1 semitone). | <code>nil</code>          |
-| <strong>Constructor</strong> | <code>AudioBuffer</code> | <code>name: string</code>, <code>sample_rate: usize</code>, <code>bit_depth: u8</code>, <code>samples: table&lt;table&lt;f32&gt;&gt;</code> (optional), <code>effects: table&lt;AudioBufferModifier&gt;</code> (optional), <code>regions: table&lt;Region&gt;</code> (optional), <code>grid_size: usize</code> (optional) | To create a new <code>AudioBuffer</code> object in Lua. Example: <code>AudioBuffer { name = "Synth", sample_rate = 44100, bit_depth = 16 }</code> | <code>AudioBuffer</code>  |</li>
-</ol>
-<h4 id="file-type"><code>File</code> Type</h4>
-<p>Represents a loaded audio file, containing its path and <code>AudioBuffer</code>.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: left;">Type</th>
-<th style="text-align: left;">Parameters</th>
-<th style="text-align: left;">Description</th>
-<th style="text-align: left;">Returns / Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><code>path</code></td>
-<td style="text-align: left;">Field</td>
-<td style="text-align: left;"><code>value: string</code></td>
-<td style="text-align: left;">Get/Set: The file system path of the audio file.</td>
-<td style="text-align: left;"><code>string</code></td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>buffer</code></td>
-<td style="text-align: left;">Field</td>
-<td style="text-align: left;"><code>value: AudioBuffer</code></td>
-<td style="text-align: left;">Get/Set: The <code>AudioBuffer</code> containing the file's content.</td>
-<td style="text-align: left;"><code>AudioBuffer</code></td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Constructor</strong></td>
-<td style="text-align: left;"><code>File</code></td>
-<td style="text-align: left;"><code>path: string</code>, <code>buffer: AudioBuffer</code></td>
-<td style="text-align: left;">To create a new <code>File</code> object in Lua. Example: <code>File { path = "/tmp/test.wav", buffer = my_audio_buffer }</code></td>
-<td style="text-align: left;"><code>File</code></td>
-</tr>
-</tbody>
-</table>
-<h4 id="audiobuffermodifier-type"><code>AudioBufferModifier</code> Type</h4>
-<p>Represents an effect or modification that can be applied to an <code>AudioBuffer</code>.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: left;">Type</th>
-<th style="text-align: left;">Parameters</th>
-<th style="text-align: left;">Description</th>
-<th style="text-align: left;">Returns / Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><code>name</code></td>
-<td style="text-align: left;">Field</td>
-<td style="text-align: left;">-</td>
-<td style="text-align: left;">Get: The string representation of the modifier (e.g., "Normalize(0.8)"). (Read-Only)</td>
-<td style="text-align: left;"><code>string</code></td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Constructor</strong></td>
-<td style="text-align: left;"><code>AudioBufferModifier</code></td>
-<td style="text-align: left;"><em>(Direct conversion from Lua table matching JSON structure)</em></td>
-<td style="text-align: left;">To create an <code>AudioBufferModifier</code> in Lua, construct a table representing its type and parameters. E.g., <code>{ type = "Normalize", value = 0.8 }</code>, or <code>{ type = "PitchShift", amount = 1.0, preserve_formants = true }</code></td>
-<td style="text-align: left;"><code>AudioBufferModifier</code></td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h3 id="important-notes-on-usage">Important Notes on Usage:</h3>
 <ul>
-<li><strong>1-Based Indexing for Regions:</strong> When interacting with <code>Region</code> objects using methods like <code>remove_region()</code>, <code>get_region()</code>, <code>update_region()</code>, <code>auto_trim_region()</code>, <code>zero_cross_region()</code>, <code>slice_region()</code>, and <code>export_region()</code>, remember that Lua typically uses 1-based indexing. If you have 3 regions, the first region is at index 1, the second at 2, and the third at 3. Methods returning <code>RegionInfo</code> (like <code>AudioBuffer:get_region_info</code>) might use 0-based indexing as they are closer to the Rust internal representation; always check the specific method's description.</li>
-<li><strong>Object Copying:</strong> When you retrieve an <code>AudioBuffer</code> or <code>File</code> object (e.g., <code>action.get_active_file()</code>), you are often getting a <em>clone</em> or a <em>snapshot</em> of the object at that moment. Modifications to this Lua object will <em>not</em> automatically reflect in the application's state unless you explicitly use an <code>update_</code> function (e.g., <code>action.update_active_file()</code> or <code>active_file.update_buffer()</code>).</li>
-<li><strong><code>AudioBufferModifier</code> Creation:</strong> When setting the <code>effects</code> field of an <code>AudioBuffer</code> or creating an <code>AudioBufferModifier</code> for parameters, you typically need to provide a Lua table that maps to the JSON serialization of the <code>AudioBufferModifier</code> enum in Rust. The exact structure will depend on the modifier type (e.g., <code>{ type = "Gain", value = 1.2 }</code>, <code>{ type = "Reverse", value = true }</code>).</li>
-<li><strong>Error Handling:</strong> Lua scripts should ideally include robust error handling (e.g., <code>pcall</code>) when calling functions that might fail, as <code>mlua</code> converts Rust <code>Err</code> results into Lua errors.</li>
-<li><strong>Tracing/Debugging:</strong> Use <code>action.debug_table(my_table)</code> or <code>info("My message")</code> (if <code>mlua</code>'s <code>print</code> is configured to <code>tracing::info!</code>) to output debugging information to Recorte's log/console.</li>
+<li>
+<p><strong>1-Based Indexing</strong>: All Lua functions referencing <code>index</code> for regions or files use <strong>1-based indexing</strong>. Passing <code>0</code> throws a runtime error in most methods; <code>action.close_file(0)</code> and <code>active_file.export_region(0)</code> treat <code>0</code> as <code>1</code>. Out-of-range indices on queued actions are silently ignored. Methods returning <code>RegionInfo</code> (like <code>AudioBuffer:get_region_info()</code>) use 0-based indexing for the <code>index</code> field.</p>
+</li>
+<li>
+<p><strong>Asynchronous Actions</strong>: All <code>action.*</code> functions do <strong>not</strong> execute immediately. They push commands to an internal action queue that the UI/app processes on the next tick.</p>
+</li>
+<li>
+<p><strong>In-Place vs Copy</strong>: Methods like <code>normalize</code>, <code>fade_in</code>, <code>pitch</code>, and <code>slice</code> modify the <code>AudioBuffer</code> <strong>in-place</strong> and return <code>void</code>. Methods like <code>copy_at_...</code>, <code>cut_at_...</code>, and <code>join_all_regions</code> return <strong>new</strong> <code>AudioBuffer</code> instances without altering the source.</p>
+</li>
+<li>
+<p><strong>Serialization</strong>: The <code>effects</code> field expects/returns a Lua table that serializes to JSON matching the Rust <code>Effect</code> structure.</p>
+</li>
+<li>
+<p><strong>Object Copying</strong>: When you retrieve an <code>AudioBuffer</code> or <code>File</code> object (for example, <code>action.get_active_file()</code>), you get a clone/snapshot. Modifications to this Lua object do not affect the application state. You must use an <code>update_</code> function to apply changes (for example, <code>action.update_active_file()</code> or <code>active_file.update_buffer()</code>).</p>
+</li>
+<li>
+<p><strong><code>Effect</code> Creation</strong>: To set the <code>effects</code> field, provide a Lua table of effect slots matching the Rust <code>EffectSlot</code> structure: each slot has a <code>status</code> boolean and an <code>effect</code> entry keyed by the <code>Effect</code> variant name (externally tagged). Examples:</p>
+</li>
 </ul>
+<div class="highlight"><pre><span></span><code><span class="nv">b</span><span class="p">.</span><span class="py">effects</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="nv">status</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="nv">effect</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nv">Gain</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">-</span><span class="mf">6.0</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="nv">status</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="nv">effect</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nv">Normalize</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.9</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="nv">status</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="nv">effect</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nv">PitchShift</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nv">window</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">50</span><span class="p">,</span><span class="w"> </span><span class="nv">amount</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">2.0</span><span class="p">,</span><span class="w"> </span><span class="nv">oversampling</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">16</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="p">},</span>
+<span class="p">}</span>
+</code></pre></div>
 
 
 
@@ -1919,7 +2013,7 @@ For more information about Lua, visit <a href="https://www.lua.org/">https://www
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    2026-05-19
+    2026-09-02
   </span>
 
     
@@ -1965,15 +2059,15 @@ For more information about Lua, visit <a href="https://www.lua.org/">https://www
     
     
     
-    <a href="https://twitter.com/spektroaudio" target="_blank" rel="noopener" title="Spektro Audio on Twitter" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
+    <a href="https://tiktok.com/@spektroaudio" target="_blank" rel="noopener" title="Spektro Audio on Twitter" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M448.5 209.9c-44 .1-87-13.6-122.8-39.2v178.7c0 33.1-10.1 65.4-29 92.6s-45.6 48-76.6 59.6-64.8 13.5-96.9 5.3-60.9-25.9-82.7-50.8-35.3-56-39-88.9 2.9-66.1 18.6-95.2 40-52.7 69.6-67.7 62.9-20.5 95.7-16v89.9c-15-4.7-31.1-4.6-46 .4s-27.9 14.6-37 27.3-14 28.1-13.9 43.9 5.2 31 14.5 43.7 22.4 22.1 37.4 26.9 31.1 4.8 46-.1 28-14.4 37.2-27.1 14.2-28.1 14.2-43.8V0h88c-.1 7.4.6 14.9 1.9 22.2 3.1 16.3 9.4 31.9 18.7 45.7s21.3 25.6 35.2 34.6c19.9 13.1 43.2 20.1 67 20.1V210z"/></svg>
     </a>
   
     
     
     
     
-    <a href="https://instagram.com/spektroaudio" target="_blank" rel="noopener" title="Spektro Audio on Twitter" class="md-social__link">
+    <a href="https://instagram.com/spektroaudio" target="_blank" rel="noopener" title="Spektro Audio on Instagram" class="md-social__link">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M224.3 141a115 115 0 1 0-.6 230 115 115 0 1 0 .6-230m-.6 40.4a74.6 74.6 0 1 1 .6 149.2 74.6 74.6 0 1 1-.6-149.2m93.4-45.1a26.8 26.8 0 1 1 53.6 0 26.8 26.8 0 1 1-53.6 0m129.7 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8M399 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1"/></svg>
     </a>
   

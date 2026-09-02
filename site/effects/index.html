@@ -23,7 +23,7 @@
     
     
       
-        <title>Effects - My Docs</title>
+        <title>Effects - Recorte User Manual</title>
       
     
     
@@ -48,6 +48,8 @@
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="../assets/css/custom.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -100,7 +102,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="My Docs" class="md-header__button md-logo" aria-label="My Docs" data-md-component="logo">
+    <a href=".." title="Recorte User Manual" class="md-header__button md-logo" aria-label="Recorte User Manual" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -114,7 +116,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            My Docs
+            Recorte User Manual
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -224,13 +226,13 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs" data-md-component="logo">
+    <a href=".." title="Recorte User Manual" class="md-nav__button md-logo" aria-label="Recorte User Manual" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    My Docs
+    Recorte User Manual
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -467,6 +469,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#managing-effect-chains" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Managing Effect Chains
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -485,10 +498,43 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#gain" class="md-nav__link">
+  <a href="#channels" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Gain
+        Channels
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creative" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creative
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#edit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Edit
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eq-filter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EQ / Filter
       
     </span>
   </a>
@@ -507,32 +553,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#filter" class="md-nav__link">
+  <a href="#gain" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Filter
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#resample" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Resample
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#channels" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Channels
+        Gain
       
     </span>
   </a>
@@ -551,10 +575,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#extra" class="md-nav__link">
+  <a href="#resample" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Extra
+        Resample
       
     </span>
   </a>
@@ -610,14 +634,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../actionpallete/" class="md-nav__link">
+      <a href="../actionpalette/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Action Pallete
+    Action Palette
   
 
     
@@ -969,6 +993,62 @@
   
   
     <li class="md-nav__item">
+      <a href="../howtoinstall/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Install
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../filelocations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    File Locations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../shortcuts/" class="md-nav__link">
         
   
@@ -1085,6 +1165,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#managing-effect-chains" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Managing Effect Chains
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1103,10 +1194,43 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#gain" class="md-nav__link">
+  <a href="#channels" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Gain
+        Channels
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creative" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creative
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#edit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Edit
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eq-filter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EQ / Filter
       
     </span>
   </a>
@@ -1125,32 +1249,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#filter" class="md-nav__link">
+  <a href="#gain" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Filter
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#resample" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Resample
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#channels" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Channels
+        Gain
       
     </span>
   </a>
@@ -1169,10 +1271,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#extra" class="md-nav__link">
+  <a href="#resample" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Extra
+        Resample
       
     </span>
   </a>
@@ -1203,250 +1305,642 @@
 
 <h1 id="effects">Effects</h1>
 <hr />
-<p>SA_EDITOR features 30+ audio effects which can be applied to the entire file, all regions, specific regions, or the waveform selection destructively (via the <code>Apply</code> actions) or non-desctructively (via the <a href="../userinterface/#effect-chain">Effect Chain panel in the Editor</a>).</p>
+<p>Recorte features 25+ audio effects. These effects can be applied to the entire file, all regions, specific regions, or the waveform selection destructively (through the <code>Apply</code> actions) or non-destructively (through the <a href="../userinterface/#effect-chain">Effect Chain panel in the Editor</a>).</p>
 <hr />
 <h2 id="effect-chains">Effect Chains</h2>
-<p>The effect chains in SA_EDITOR lets the user add effects to the active file non-destructively via a serial (sequential) chain of effects, which are used when playing or creating files and regions (as new <a href="../files/">files</a> in SA_EDITOR or exported audio files).</p>
-<p>Effects can be added to the list (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"/></svg></span>) button, reordered by dragging and dropping on the effect title, disabled (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"/></svg></span>), or removed (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/></svg></span>).</p>
-<p>Each <a href="../files/">file</a> contains two effect chain types:</p>
+<p>The effect chains in Recorte let the user add effects to the active file non-destructively through a serial chain of effects. The chain is used when playing or creating files and regions (as new <a href="../files/">files</a> in Recorte or exported audio files).</p>
+<p>Effects can be added to the list through the (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"/></svg></span>) button. Reorder them by dragging and dropping on the effect title.<br />
+Each effect in the list can also be collapsed (▸), disabled (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"/></svg></span>) or removed (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/></svg></span>) using the buttons on the effect header.</p>
+<p>Each <a href="../files/">file</a> loaded in Recorte contains two effect chain types:</p>
 <ol>
-<li><strong>Global</strong>: A single global chain in the file that gets applied to the file (including all regions).</li>
-<li><strong>Region</strong>: List of effects that can be added to each region (individual chain per region).</li>
+<li><strong>Global</strong>: A single global chain in the file that is applied to the file (including all regions).</li>
+<li><strong>Region</strong>: Individual effect chains that can be added to each region.</li>
 </ol>
 <h3 id="applying-effect-chains">Applying Effect Chains</h3>
-<p>Effect chains can also be applied destructively to the file or regions via the <code>Apply Effects to Selected Regions</code> <a href="../actions/">action</a>.</p>
+<p>Effect chains can also be applied (destructively) to an entire file, its regions, or a selection using the <code>Apply Effect Chains</code> <a href="../actions/">action</a>.</p>
 <h3 id="effect-chain-presets">Effect Chain Presets</h3>
-<p>Effect chains can be saved and loaded as presets by clicking on the list (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"/></svg></span>) icon in the Effect's section header.</p>
-<p>It's also possible to replace the default effects by overwriting the <code>default.json</code> preset file or by selecting the <em>Save as Default</em> option.</p>
+<p>Effect chains can be saved and loaded as presets from the Effect Chain sub-menu (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"/></svg></span>) in the section header.</p>
+<p>It is also possible to replace the default effects. Overwrite the <code>default.json</code> preset file or select the <code>Save as Default</code> option from the preset sub-menu.</p>
 <p>Presets are stored as JSON files and can be used in any file.</p>
+<h3 id="managing-effect-chains">Managing Effect Chains</h3>
+<p>The Effect Chain sub-menu (<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"/></svg></span>) also contains options for copying, pasting and clearing the effect chains.</p>
 <hr />
 <h2 id="available-effects">Available Effects</h2>
-<h3 id="gain">Gain</h3>
+<h3 id="channels">Channels</h3>
+<h4 id="mono-to-stereo">Mono to Stereo</h4>
+<p>Duplicates the mono channel to create a stereo signal.</p>
+<h4 id="stereo-to-mono">Stereo to Mono</h4>
+<p>Converts stereo to mono using various modes (Mixed, Left, or Right) and an optional Dual Mono mode.</p>
 <table>
 <thead>
 <tr>
-<th>Name</th>
+<th>Parameter</th>
 <th>Description</th>
-<th>Parameters</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Gain</strong></td>
-<td>Applies a linear gain multiplier to the audio signal.</td>
-<td><code>Gain</code> — Multiplier in x (0–10)</td>
+<td>Mode</td>
+<td>Selection of downscale method (Mixed, Left, Right)</td>
 </tr>
 <tr>
-<td><strong>Drive</strong></td>
-<td>Adds saturation/distortion using a tanh curve for warm overdrive.</td>
-<td><code>Gain</code> — Drive intensity in x (0–10)</td>
+<td>Dual Mono</td>
+<td>Copies left to right and keeps both channels</td>
+</tr>
+</tbody>
+</table>
+<h3 id="creative">Creative</h3>
+<h4 id="bit-crush">Bit Crush</h4>
+<p>Reduces sample rate and bit depth.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sample Rate Reduction</td>
+<td>Percentage (0–100%)</td>
 </tr>
 <tr>
-<td><strong>Normalize</strong></td>
-<td>Scales the signal so its peak reaches a target maximum level.</td>
-<td><code>Ceiling</code> — Target peak level in dB (-24 to 0)</td>
+<td>Bit Depth</td>
+<td>Percentage (0–100%)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cluster">Cluster</h4>
+<p>Creates randomized echoes/delays and mixes them back into the signal.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Max Repeats</td>
+<td>Number of echo repeats (2–50)</td>
+</tr>
+<tr>
+<td>Max Delay</td>
+<td>Maximum delay in ms (0–1000)</td>
+</tr>
+<tr>
+<td>Mix</td>
+<td>Wet/dry mix in % (0–100)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="frequency-shifter">Frequency Shifter</h4>
+<p>Shifts all frequency components by a fixed amount (changes pitch).</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Frequency</td>
+<td>Shift amount in Hz (-1000–1000)</td>
+</tr>
+<tr>
+<td>Mix</td>
+<td>Dry/wet mix (0–100%)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="granular">Granular</h4>
+<p>Applies a granular effect by scanning through the audio with a modulated window.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Grain Size (ms)</td>
+<td>Grain size in ms (1–128)</td>
+</tr>
+<tr>
+<td>Frequency</td>
+<td>Scan rate in Hz (1–100)</td>
+</tr>
+<tr>
+<td>Factor</td>
+<td>Playback speed factor (0.01–10, logarithmic)</td>
+</tr>
+<tr>
+<td>Window Type</td>
+<td>Window type (None, Hanning, Blackman, Tukey, Tukey Wide)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="spectral-gate">Spectral Gate</h4>
+<p>Attenuates spectral bins below a threshold using FFT-based processing.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Threshold</td>
+<td>Fraction of frame peak (0–1)</td>
+</tr>
+<tr>
+<td>Depth</td>
+<td>Attenuation amount (0 = none, 1 = full mute)</td>
+</tr>
+<tr>
+<td>Fft Size</td>
+<td>FFT window size (512, 1024, 2048, 4096)</td>
+</tr>
+<tr>
+<td>Sliding Window</td>
+<td>Enable streaming mode</td>
+</tr>
+</tbody>
+</table>
+<h4 id="transient-shaper">Transient Shaper</h4>
+<p>Enhances or reduces transients (attack) and sustain (release).</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Attack</td>
+<td>Transient control (-1–1)</td>
+</tr>
+<tr>
+<td>Release</td>
+<td>Sustain control (-1–1)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="edit">Edit</h3>
+<h4 id="pad">Pad</h4>
+<p>Adds silence to the beginning and/or end of the buffer.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Start</td>
+<td>Silence added at the beginning (ms, samples, or %)</td>
+</tr>
+<tr>
+<td>End</td>
+<td>Silence added at the end (ms, samples, or %)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="repeat">Repeat</h4>
+<p>Repeats the entire selection N times.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Repeats</td>
+<td>Number of repetitions</td>
+</tr>
+<tr>
+<td>Ratchet Mode</td>
+<td>Speeds up the audio by the repeat factor</td>
+</tr>
+</tbody>
+</table>
+<h4 id="reverse">Reverse</h4>
+<p>Reverses the audio waveform.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Reverse</td>
+<td>Reverses the buffer</td>
+</tr>
+</tbody>
+</table>
+<h3 id="eq-filter">EQ / Filter</h3>
+<h4 id="comb-filter">Comb Filter</h4>
+<p>Creates resonant peaks or notches using a delay line (phaser / flanger effect).</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mode</td>
+<td>Feed Forward (notches) or Feedback (peaks)</td>
+</tr>
+<tr>
+<td>Delay Time</td>
+<td>Delay in ms (0.1–20)</td>
+</tr>
+<tr>
+<td>Gain</td>
+<td>Feedback gain (-0.90–0.90)</td>
+</tr>
+<tr>
+<td>Mix</td>
+<td>Dry/wet mix (0–100%)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="dc-filter">DC Filter</h4>
+<p>Removes DC offset using a high-pass filter.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Frequency</td>
+<td>Cutoff frequency in Hz</td>
+</tr>
+</tbody>
+</table>
+<h4 id="dj-eq">DJ EQ</h4>
+<p>Three-band equalizer with low shelf, mid bell, and high shelf.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Low Gain</td>
+<td>Boost/cut in dB (-24 to 24)</td>
+</tr>
+<tr>
+<td>Mid Gain</td>
+<td>Boost/cut in dB (-24 to 24)</td>
+</tr>
+<tr>
+<td>High Gain</td>
+<td>Boost/cut in dB (-24 to 24)</td>
+</tr>
+<tr>
+<td>Mode</td>
+<td>EQ mode (Classic, Isolator)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tone-eq">Tone EQ</h4>
+<p>Passive-tilt EQ that boosts/cuts bass and treble symmetrically around a center frequency.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tone</td>
+<td>Tilt amount (-1.0 = bass boost, 1.0 = treble boost)</td>
+</tr>
+<tr>
+<td>Slope</td>
+<td>Slope in dB per octave (6, 12)</td>
+</tr>
+<tr>
+<td>Center Frequency</td>
+<td>Pivot frequency in Hz (200–2000)</td>
+</tr>
+<tr>
+<td>Q Gain</td>
+<td>Resonance control</td>
 </tr>
 </tbody>
 </table>
 <h3 id="fade">Fade</h3>
+<h4 id="fade-in">Fade In</h4>
+<p>Gradually increases volume from silence at the start of the selection.</p>
 <table>
 <thead>
 <tr>
-<th>Name</th>
+<th>Parameter</th>
 <th>Description</th>
-<th>Parameters</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Fade In</strong></td>
-<td>Gradually increases volume from silence at the start of the selection.</td>
-<td><code>Duration</code> — Fade length (ms, samples, or %)</td>
+<td>Mode</td>
+<td>Unit selector (ms, samples, or %)</td>
 </tr>
 <tr>
-<td><strong>Fade Out</strong></td>
-<td>Gradually decreases volume to silence at the end of the selection.</td>
-<td><code>Duration</code> — Fade length (ms, samples, or %)</td>
+<td>Curve</td>
+<td>Fade curve shape (-1.0–1.0)</td>
+</tr>
+<tr>
+<td>Duration</td>
+<td>Fade length</td>
 </tr>
 </tbody>
 </table>
-<h3 id="filter">Filter</h3>
+<h4 id="fade-out">Fade Out</h4>
+<p>Gradually decreases volume from silence at the end of the selection.</p>
 <table>
 <thead>
 <tr>
-<th>Name</th>
+<th>Parameter</th>
 <th>Description</th>
-<th>Parameters</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>DC Filter</strong></td>
-<td>Removes DC offset using a high-pass filter.</td>
-<td><code>Frequency</code> — Cutoff frequency in Hz (5–30)</td>
+<td>Mode</td>
+<td>Unit selector (ms, samples, or %)</td>
 </tr>
 <tr>
-<td><strong>DJ EQ</strong></td>
-<td>Three-band equalizer with low shelf, mid bell, and high shelf.</td>
-<td><code>Low Gain</code>, <code>Mid Gain</code>, <code>High Gain</code> — Boost/cut per band in dB (-12 to 12)</td>
+<td>Curve</td>
+<td>Fade curve shape (-1.0–1.0)</td>
 </tr>
 <tr>
-<td><strong>Tone EQ</strong></td>
-<td>Pultec-style tilt EQ that boosts/cuts bass and treble symmetrically around a center frequency.</td>
-<td><code>Tone</code> — Tilt amount (-1.0 = bass boost, 1.0 = treble boost)<br><code>Center</code> — Pivot frequency in Hz (200–10 k)</td>
-</tr>
-<tr>
-<td><strong>Spectral Gate</strong></td>
-<td>Attenuates spectral bins below a threshold using FFT-based processing.</td>
-<td><code>Threshold</code> — Fraction of frame peak (0–1)<br><code>Depth</code> — Attenuation amount (0 = none, 1 = full mute)<br><code>Fft Size</code> — FFT window size (512, 1024, 2048, 4096)<br><code>Sliding Window</code> — Enable streaming mode</td>
+<td>Duration</td>
+<td>Fade length</td>
 </tr>
 </tbody>
 </table>
-<h3 id="resample">Resample</h3>
+<h3 id="gain">Gain</h3>
+<h4 id="compressor">Compressor</h4>
+<p>Reduces the dynamic range of the audio signal.</p>
 <table>
 <thead>
 <tr>
-<th>Name</th>
+<th>Parameter</th>
 <th>Description</th>
-<th>Parameters</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Resample</strong></td>
-<td>Changes the sample rate using sinc interpolation (Blackman-Harris window).</td>
-<td><code>Sample Rate</code> — Destination rate in Hz (100–192 k)<br><code>Keep size</code> — If true, resamples then stretches back to original length</td>
+<td>Ratio</td>
+<td>Compression ratio (1–20x)</td>
+</tr>
+<tr>
+<td>Makeup Gain</td>
+<td>Output gain compensation (0–24 dB)</td>
+</tr>
+<tr>
+<td>Attack</td>
+<td>Attack time (1–100 ms)</td>
+</tr>
+<tr>
+<td>Release</td>
+<td>Release time (1–250 ms)</td>
+</tr>
+<tr>
+<td>Threshold</td>
+<td>Level at which compression engages (-60 to 0 dB)</td>
 </tr>
 </tbody>
 </table>
-<h3 id="channels">Channels</h3>
+<h4 id="drive">Drive</h4>
+<p>Adds saturation/distortion using a tanh curve for warm overdrive.</p>
 <table>
 <thead>
 <tr>
-<th>Name</th>
+<th>Parameter</th>
 <th>Description</th>
-<th>Parameters</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>To Mono (from Left)</strong></td>
-<td>Converts stereo to mono using only the left channel.</td>
-<td><code>Dual Mono</code> — If true, copies left to right and keeps both channels</td>
+<td>Gain</td>
+<td>Drive intensity (0–10x)</td>
 </tr>
+</tbody>
+</table>
+<h4 id="gain_1">Gain</h4>
+<p>Applies a linear gain multiplier to the audio signal.</p>
+<table>
+<thead>
 <tr>
-<td><strong>To Mono (from Right)</strong></td>
-<td>Converts stereo to mono using only the right channel.</td>
-<td><code>Dual Mono</code> — If true, copies right to left and keeps both channels</td>
+<th>Parameter</th>
+<th>Description</th>
 </tr>
+</thead>
+<tbody>
 <tr>
-<td><strong>To Mono (Mixed)</strong></td>
-<td>Mixes both channels together by averaging them.</td>
-<td><code>Dual Mono</code> — If true, keeps both channels after mixing</td>
+<td>Gain</td>
+<td>Multiplier (0–10x)</td>
 </tr>
+</tbody>
+</table>
+<h4 id="normalize">Normalize</h4>
+<p>Scales the signal so its peak reaches a target maximum level.</p>
+<table>
+<thead>
 <tr>
-<td><strong>Mono to Stereo</strong></td>
-<td>Duplicates the mono channel to create a stereo signal.</td>
-<td><em>(none)</em></td>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ceiling</td>
+<td>Target peak level in dB (-24 to 0)</td>
 </tr>
 </tbody>
 </table>
 <h3 id="pitch-speed">Pitch / Speed</h3>
+<h4 id="pitch-shift">Pitch Shift</h4>
+<p>Changes pitch without affecting duration using FFT-based processing.</p>
 <table>
 <thead>
 <tr>
-<th>Name</th>
+<th>Parameter</th>
 <th>Description</th>
-<th>Parameters</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Pitch Shift</strong></td>
-<td>Changes pitch without affecting duration using FFT-based processing.</td>
-<td><code>Amount</code> — Pitch shift in semitones (-64 to 64)<br><code>Window Size</code> — FFT window size (10–100)</td>
+<td>Amount</td>
+<td>Pitch shift in semitones (-64 to 64)</td>
 </tr>
 <tr>
-<td><strong>Rate</strong></td>
-<td>Changes playback speed; optionally preserves pitch with anti-aliasing resampling.</td>
-<td><code>Rate</code> — Playback speed in % (6.25–1600)<br><code>Semitones</code> — Pitch offset in semitones (-48 to 48)<br><code>Anti Aliasing</code> — If true, uses sinc resampling to preserve pitch</td>
-</tr>
-<tr>
-<td><strong>Stretch to BPM</strong></td>
-<td>Resamples the audio so it fits a target tempo over a given number of bars.</td>
-<td><code>BPM</code> — Target tempo (20–300)<br><code>Bars</code> — Number of bars to fill (1–32)</td>
-</tr>
-<tr>
-<td><strong>Integer Speed Up</strong></td>
-<td>Speeds up playback by skipping samples (integer factor, pitch changes).</td>
-<td><code>factor</code> — Speed multiplier (integer &gt; 0)</td>
-</tr>
-<tr>
-<td><strong>Integer Stretch</strong></td>
-<td>Stretches audio by duplicating samples (integer factor, pitch changes).</td>
-<td><code>factor</code> — Stretch multiplier (integer &gt; 0)</td>
-</tr>
-<tr>
-<td><strong>Time Stretch</strong></td>
-<td>Granular time-stretching using a custom phase-vocoder algorithm.</td>
-<td><code>grain_size</code> — Grain size (0–10)<br><code>factor</code> — Time-stretch ratio (0–10, logarithmic)<br><code>Resample</code> — If true, compensates pitch changes via resampling<br><code>c</code> — Grain overlap coefficient (0–1)</td>
+<td>Window Size</td>
+<td>FFT window size (10–100)</td>
 </tr>
 </tbody>
 </table>
-<h3 id="extra">Extra</h3>
+<h4 id="rate">Rate</h4>
+<p>Changes playback speed. Optionally preserves pitch with anti-aliasing resampling.</p>
 <table>
 <thead>
 <tr>
-<th>Name</th>
+<th>Parameter</th>
 <th>Description</th>
-<th>Parameters</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Reverse</strong></td>
-<td>Reverses the audio waveform.</td>
-<td><code>value</code> — If true, reverses the buffer</td>
+<td>Rate</td>
+<td>Playback speed in % (6.25–1600)</td>
 </tr>
 <tr>
-<td><strong>Repeat</strong></td>
-<td>Repeats the entire selection N times.</td>
-<td>Slider value (1–10) — Number of repetitions</td>
+<td>Semitones</td>
+<td>Pitch offset in semitones (-48 to 48)</td>
 </tr>
 <tr>
-<td><strong>Cluster</strong></td>
-<td>Creates randomized echoes/delays and mixes them back into the signal.</td>
-<td><code>Max Repeats</code> — Number of echo repeats (2–50)<br><code>Max Delay</code> — Maximum delay in ms (0–1000)<br><code>Mix</code> — Wet/dry mix in % (0–100)</td>
+<td>Anti Aliasing</td>
+<td>If true, uses sinc resampling to preserve pitch</td>
+</tr>
+</tbody>
+</table>
+<h4 id="stretch-to-bpm">Stretch to BPM</h4>
+<p>Resamples the audio so it fits a target tempo over a given number of bars.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BPM</td>
+<td>Target tempo (20–300)</td>
 </tr>
 <tr>
-<td><strong>Granular</strong></td>
-<td>Applies a granular effect by scanning through the audio with a modulated window.</td>
-<td><code>Window Size (ms)</code> — Grain size in ms (1–128)<br><code>Frequency</code> — Scan rate in Hz (1–100)<br><code>Factor</code> — Playback speed factor (0.01–10, logarithmic)<br><code>Window Shape</code> — Window type (None, Hanning, Blackman, Tukey, Tukey Wide)</td>
+<td>Bars</td>
+<td>Number of bars to fill (1–32)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="integer-speed-up">Integer Speed Up</h4>
+<p>Speeds up playback by skipping samples (integer factor, pitch changes).</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Factor</td>
+<td>Speed multiplier (1–10)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="integer-stretch">Integer Stretch</h4>
+<p>Stretches audio by duplicating samples (integer factor, pitch changes).</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Factor</td>
+<td>Stretch multiplier (1–10)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="time-stretcher">Time Stretcher</h4>
+<p>Advanced grain-based time-stretching with formant preservation and stereo spread.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mode</td>
+<td>BPM (<code>From BPM</code>, <code>To BPM</code>) or Ratio (<code>Multiplier</code>)</td>
 </tr>
 <tr>
-<td><strong>Pad</strong></td>
-<td>Adds silence to the beginning and/or end of the buffer.</td>
-<td><code>Start</code> — Silence added at the beginning (ms, samples, or %)<br><code>End</code> — Silence added at the end (ms, samples, or %)</td>
+<td>Multiplier</td>
+<td>Time-stretch ratio (0.01–4x)</td>
 </tr>
 <tr>
-<td><strong>Transient Shaper</strong></td>
-<td>Enhances or reduces transients (attack) and sustain (release).</td>
-<td><code>Attack</code> — Transient control (-1 to 1)<br><code>Release</code> — Sustain control (-1 to 1)</td>
+<td>Grain Size</td>
+<td>Grain size in ms (0.1–200)</td>
 </tr>
 <tr>
-<td><strong>Frequency Shifter</strong></td>
-<td>Shifts all frequency components by a fixed amount (changes pitch).</td>
-<td><code>Frequency</code> — Shift amount in Hz (-1000 to 1000)<br><code>Mix</code> — Dry/wet mix (0–1)</td>
+<td>Overlap</td>
+<td>Grain overlap in % (0–100)</td>
 </tr>
 <tr>
-<td><strong>Comb Filter</strong></td>
-<td>Creates resonant peaks or notches using a delay line (phaser / flanger effect).</td>
-<td><code>Delay Time</code> — Delay in ms (0.1–20)<br><code>Gain</code> — Feedback gain (-0.99 to 0.99)<br><code>Mix</code> — Dry/wet mix (0–1)<br><code>mode</code> — Feed Frwd (notches) or Feedback (peaks)</td>
+<td>Window Type</td>
+<td>Window function (Hanning, Hamming, Blackman, Bartlett, Welch, Rectangular)</td>
 </tr>
 <tr>
-<td><strong>Time Stretcher</strong></td>
-<td>Advanced grain-based time-stretching with formant preservation and stereo spread.</td>
-<td><code>mode</code> — BPM (<code>From BPM</code>, <code>To BPM</code>) or Ratio (<code>Multiplier</code>)<br><code>Grain Size</code> — Grain size in ms (10–200)<br><code>Overlap</code> — Grain overlap in % (0–100)<br><code>Window Type</code> — Window function (Hanning, Hamming, Blackman, Bartlett, Welch, Rectangular)<br><code>Formant</code> — If true, preserves vocal formants<br><code>Reverse</code> — If true, reverses every 4th grain<br><code>Grain Spread</code> — Stereo spread in ms (0–100)</td>
+<td>Formant</td>
+<td>If true, preserves vocal formants</td>
+</tr>
+<tr>
+<td>Reverse</td>
+<td>If true, reverses every 4th grain</td>
+</tr>
+<tr>
+<td>Grain Spread</td>
+<td>Stereo spread in ms (0–100)</td>
+</tr>
+<tr>
+<td>Quality</td>
+<td>Processing quality (Lofi, Standard, High)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="resample">Resample</h3>
+<h4 id="resample_1">Resample</h4>
+<p>Changes the sample rate using sinc interpolation (Blackman-Harris window).</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sample Rate</td>
+<td>Destination rate in Hz (100–192k)</td>
+</tr>
+<tr>
+<td>Keep size</td>
+<td>If true, resamples then stretches back to original length</td>
 </tr>
 </tbody>
 </table>
@@ -1470,7 +1964,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    2026-05-19
+    2026-09-02
   </span>
 
     
@@ -1516,15 +2010,15 @@
     
     
     
-    <a href="https://twitter.com/spektroaudio" target="_blank" rel="noopener" title="Spektro Audio on Twitter" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
+    <a href="https://tiktok.com/@spektroaudio" target="_blank" rel="noopener" title="Spektro Audio on Twitter" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M448.5 209.9c-44 .1-87-13.6-122.8-39.2v178.7c0 33.1-10.1 65.4-29 92.6s-45.6 48-76.6 59.6-64.8 13.5-96.9 5.3-60.9-25.9-82.7-50.8-35.3-56-39-88.9 2.9-66.1 18.6-95.2 40-52.7 69.6-67.7 62.9-20.5 95.7-16v89.9c-15-4.7-31.1-4.6-46 .4s-27.9 14.6-37 27.3-14 28.1-13.9 43.9 5.2 31 14.5 43.7 22.4 22.1 37.4 26.9 31.1 4.8 46-.1 28-14.4 37.2-27.1 14.2-28.1 14.2-43.8V0h88c-.1 7.4.6 14.9 1.9 22.2 3.1 16.3 9.4 31.9 18.7 45.7s21.3 25.6 35.2 34.6c19.9 13.1 43.2 20.1 67 20.1V210z"/></svg>
     </a>
   
     
     
     
     
-    <a href="https://instagram.com/spektroaudio" target="_blank" rel="noopener" title="Spektro Audio on Twitter" class="md-social__link">
+    <a href="https://instagram.com/spektroaudio" target="_blank" rel="noopener" title="Spektro Audio on Instagram" class="md-social__link">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M224.3 141a115 115 0 1 0-.6 230 115 115 0 1 0 .6-230m-.6 40.4a74.6 74.6 0 1 1 .6 149.2 74.6 74.6 0 1 1-.6-149.2m93.4-45.1a26.8 26.8 0 1 1 53.6 0 26.8 26.8 0 1 1-53.6 0m129.7 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8M399 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1"/></svg>
     </a>
   

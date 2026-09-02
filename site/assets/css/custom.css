@@ -1,0 +1,18 @@
+img {
+  border-radius: 8px;
+}
+img.float-right {
+  float: right;
+  margin: 0em 0 1em 1em;
+}
+img.float-left {
+  float: left;
+  margin: 0em 0em 1em 1em;
+}
+
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset hr,
+.md-typeset table {
+  clear: both;
+}
