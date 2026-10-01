@@ -66,7 +66,7 @@ nav:
     - File Locations: 'filelocations.md'
     - Keyboard Shortcuts: 'shortcuts.md'
     - Settings: 'settings.md'
-  - Change-Log: 'changelog.md'
+  - Changelog: 'changelog.md'
 
 extra:
   social:

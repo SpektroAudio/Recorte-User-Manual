@@ -903,6 +903,33 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../changelog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Changelog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -1176,6 +1203,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#changelog" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6 Changelog
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1240,7 +1278,7 @@
 <p>You can also customize to your own workflow with macro-style keyboard shortcuts, 15+ built-in themes with a theme editor, default settings, JSON-based presets, and more.</p>
 <p>Recorte is available for macOS (Silicon &amp; Intel), Windows (x64) and Linux.</p>
 <p><strong>Product Page:</strong> <a href="https://spektroaudio.com/recorte">https://spektroaudio.com/recorte</a></p>
-<p><strong>Current Version:</strong> 1.0</p></section>
+<p><strong>Current Version:</strong> 1.0.1</p></section>
                     <section class='print-page md-section' id='section-2' heading-number='2'>
                         <h1>Usage<a class='headerlink' href='#section-2' title='Permanent link'></a>
                         </h1>
@@ -4523,6 +4561,11 @@ For example, you might create a "Drum Prep" preset that includes normalization, 
 <td>Set bit depth from 1 to 24 bits</td>
 </tr>
 <tr>
+<td><strong>Float</strong></td>
+<td>Checkbox</td>
+<td>Export as floating-point audio file</td>
+</tr>
+<tr>
 <td><strong>Suffix</strong></td>
 <td>Text input</td>
 <td>File name suffix appended before the extension (default hint: <code>_{bitDepth}_{sampleRate/1000}</code>)</td>
@@ -5216,7 +5259,7 @@ For example, you might create a "Drum Prep" preset that includes normalization, 
 </tr>
 <tr>
 <td>Undo Items</td>
-<td>Set the maximum undo items per file (5-100)</td>
+<td>Set the maximum undo items per file (5-100) *</td>
 </tr>
 <tr>
 <td>Waveform Scroll Sensitivity</td>
@@ -5227,8 +5270,16 @@ For example, you might create a "Drum Prep" preset that includes normalization, 
 <td>Horizontal mouse scroll sensitivity</td>
 </tr>
 <tr>
+<td>Inverse</td>
+<td>Inverse horizontal scrolling</td>
+</tr>
+<tr>
 <td>Y (Zoom)</td>
 <td>Vertical mouse scroll sensitivity</td>
+</tr>
+<tr>
+<td>Inverse</td>
+<td>Inverse vertical scrolling</td>
 </tr>
 <tr>
 <td><strong>RECORDING</strong></td>
@@ -5240,7 +5291,7 @@ For example, you might create a "Drum Prep" preset that includes normalization, 
 </tr>
 <tr>
 <td>Bit Depth</td>
-<td>Set the recording bit depth (16-bit or 24-bit)</td>
+<td>Set the recording bit depth (16 / 24 / 32 bits)</td>
 </tr>
 <tr>
 <td><strong>PLAYBACK</strong></td>
@@ -5285,6 +5336,10 @@ For example, you might create a "Drum Prep" preset that includes normalization, 
 <tr>
 <td>Waveform Mode</td>
 <td>Choose waveform display mode (Bars or Line)</td>
+</tr>
+<tr>
+<td>Waveform Glow</td>
+<td>Toggle the background glow for the waveform (Bar mode)</td>
 </tr>
 </tbody>
 </table>
@@ -5402,7 +5457,34 @@ For example, you might create a "Drum Prep" preset that includes normalization, 
 <td>Select the MIDI output port used for sending MIDI messages</td>
 </tr>
 </tbody>
-</table></section></section></div><style>.print-site-enumerate-headings #index > h1:before { content: '1 ' }
+</table></section></section><section class="print-page" id="changelog" heading-number="6"><h1 id="changelog-changelog">Changelog</h1>
+<hr />
+<h2 id="changelog-recorte-101">Recorte 1.01</h2>
+<h3 id="changelog-added">Added</h3>
+<ul>
+<li>[Audio] Added 32-bit recording</li>
+<li>[Editor] Added resize options (0.5x / 2x) to the waveform display's context menu (right-click)</li>
+<li>[Settings] Added new Waveform Glow toggle</li>
+</ul>
+<h3 id="changelog-improved">Improved</h3>
+<ul>
+<li>[UI] Waveform Display: Improved zoom range</li>
+<li>[UI] Waveform Display: Fixed scroll / panning when zoomed in </li>
+<li>[UI] Waveform Display: Zoom now anchors to mouse / pointer</li>
+<li>[Audio] Process Preview: Added fade to prevent clicks / pops</li>
+</ul>
+<h3 id="changelog-fixed">Fixed</h3>
+<ul>
+<li>[Audio] Fixed 32-bit (floating point) importing and exporting</li>
+<li>[Editor] Fixed Copy Selection action when zoomed in</li>
+<li>[UI] Double clicking a parameter causes the slider and UI to expand and overflow</li>
+<li>[UI] Fixed slider width when resizing (shrinking) the window.</li>
+<li>[UI] Fixed the visibility of the Clear and Change Path buttons</li>
+<li>[UI] Waveform Display: Fixed bug that would cause the waveform to dissappear when zoomed in</li>
+</ul>
+<hr />
+<h2 id="changelog-recorte-10">Recorte 1.0</h2>
+<p>Initial Release</p></section></div><style>.print-site-enumerate-headings #index > h1:before { content: '1 ' }
 
 .print-site-enumerate-headings #section-2 > h1:before { content: '2 ' }
 .print-site-enumerate-headings #files > h1:before { content: '2.1 ' }
@@ -5440,6 +5522,8 @@ For example, you might create a "Drum Prep" preset that includes normalization, 
 .print-site-enumerate-headings #shortcuts > h1:before { content: '5.3 ' }
 
 .print-site-enumerate-headings #settings > h1:before { content: '5.4 ' }
+
+.print-site-enumerate-headings #changelog > h1:before { content: '6 ' }
 </style>
 
 

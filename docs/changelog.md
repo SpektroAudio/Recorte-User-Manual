@@ -1,4 +1,4 @@
-# Change-log
+# Changelog
 
 ---
 
@@ -7,7 +7,7 @@
 ### Added
 - [Audio] Added 32-bit recording
 - [Editor] Added resize options (0.5x / 2x) to the waveform display's context menu (right-click)
-- [Settings]: Added new Waveform Glow toggle
+- [Settings] Added new Waveform Glow toggle
 
 ### Improved
 - [UI] Waveform Display: Improved zoom range
@@ -20,7 +20,7 @@
 - [Editor] Fixed Copy Selection action when zoomed in
 - [UI] Double clicking a parameter causes the slider and UI to expand and overflow
 - [UI] Fixed slider width when resizing (shrinking) the window.
-- [UI] UI: Fixed the visibility of the Clear and Change Path buttons
+- [UI] Fixed the visibility of the Clear and Change Path buttons
 - [UI] Waveform Display: Fixed bug that would cause the waveform to dissappear when zoomed in
 
 ---
