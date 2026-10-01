@@ -19,5 +19,5 @@ Recorte is available for macOS (Silicon & Intel), Windows (x64) and Linux.
 
 **Product Page:** [https://spektroaudio.com/recorte](https://spektroaudio.com/recorte)
 
-**Current Version:** 1.0
+**Current Version:** 1.0.1
 

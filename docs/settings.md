@@ -16,28 +16,32 @@
 | Default File Path           | Set the default path for new audio recordings                                         |
 | **EDITING**                 |                                                                                       |
 | Detect Region Pitch         | Automatically detect the pitch of newly created or edited regions                     |
-| Undo Items                  | Set the maximum undo items per file (5-100)                                           |
+| Undo Items                  | Set the maximum undo items per file (5-100) *                                       |
 | Waveform Scroll Sensitivity | Set the mouse scroll sensitivity (horizontal = X, vertical = Y)                       |
-| X (Position)                | Horizontal mouse scroll sensitivity                                           |
-| Y (Zoom)                    | Vertical mouse scroll sensitivity                                             |
+| X (Position)                | Horizontal mouse scroll sensitivity                                                   |
+| Inverse                     | Inverse horizontal scrolling                                                          |
+| Y (Zoom)                    | Vertical mouse scroll sensitivity                                                     |
+| Inverse                     | Inverse vertical scrolling                                                            |
 | **RECORDING**               |                                                                                       |
 | Split Recording by Channels | Split each input channel into separate tracks/regions when recording                  |
-| Bit Depth                   | Set the recording bit depth (16-bit or 24-bit)                                        |
+| Bit Depth                   | Set the recording bit depth (16 / 24 / 32 bits)                                       |
 | **PLAYBACK**                |                                                                                       |
 | Polyphonic Playback         | Allow overlapping playback of multiple regions/voices (polyphonic playback)           |
+
 
 ## User Interface
 
 ![User Interface Settings](../assets/images/settings-userinterface.png)
 
-| Name                   | Description                                                                     |
-|------------------------|----------------------------------------------------------------------------------|
-| Show Regions           | Default: show region in waveform view                                            |
-| Show Transients        | Default: show transient markers in waveform view                                 |
-| Show Zoom              | Default: show zoom controls in the waveform view                                 |
-| Show Waveform Controls | Default: show waveform control elements (play/pause/other controls)              |
+| Name                   | Description                                                                            |
+|------------------------|----------------------------------------------------------------------------------------|
+| Show Regions           | Default: show region in waveform view                                                  |
+| Show Transients        | Default: show transient markers in waveform view                                       |
+| Show Zoom              | Default: show zoom controls in the waveform view                                       |
+| Show Waveform Controls | Default: show waveform control elements (play/pause/other controls)                    |
 | Show Region Controls   | Default: show region control elements (play/pause/other controls) in the Regions panel |
-| Waveform Mode          | Choose waveform display mode (Bars or Line)                                      |
+| Waveform Mode          | Choose waveform display mode (Bars or Line)                                            |
+| Waveform Glow          | Toggle the background glow for the waveform (Bar mode)                                 |
 
 ## Theme Editor
 

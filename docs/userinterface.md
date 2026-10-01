@@ -311,13 +311,14 @@ The selected regions determine which audio will be exported when an export actio
 
 The center panel contains a table where each row defines one export configuration with the following columns:
 
-| Column | Control | Description |
-|--------|---------|-------------|
-| **#** | Auto-numbered | Row index |
-| **Format** | Drop-down selector | Choose between **WAV** and **AIFF** |
-| **Sample Rate** | Drag value input | Set sample rate from 1 to 192,000 Hz |
-| **Bit Depth** | Drag value input | Set bit depth from 1 to 24 bits |
-| **Suffix** | Text input | File name suffix appended before the extension (default hint: `_{bitDepth}_{sampleRate/1000}`) |
+| Column          | Control            | Description                                                                                    |
+|-----------------|--------------------|------------------------------------------------------------------------------------------------|
+| **#**           | Auto-numbered      | Row index                                                                                      |
+| **Format**      | Drop-down selector | Choose between **WAV** and **AIFF**                                                            |
+| **Sample Rate** | Drag value input   | Set sample rate from 1 to 192,000 Hz                                                           |
+| **Bit Depth**   | Drag value input   | Set bit depth from 1 to 24 bits                                                                |
+| **Float**       | Checkbox           | Export as floating-point audio file                                                            |
+| **Suffix**      | Text input         | File name suffix appended before the extension (default hint: `_{bitDepth}_{sampleRate/1000}`) |
 
 Each row can be removed individually using the remove button (:phosphor-x:) on the right.
 
